@@ -33,7 +33,7 @@ ifdef CONFIG_SPL_BUILD
 COBJS  += mmc_boot.o
 endif
 
-SOBJS	:= lowlevel_init.o mem_setup.o
+SOBJS	:= lowlevel_init.o mem_setup.o buzzer.o
 
 SRCS    := $(SOBJS:.o=.S) $(COBJS:.o=.c)
 OBJS    := $(addprefix $(obj),$(COBJS) $(SOBJS))

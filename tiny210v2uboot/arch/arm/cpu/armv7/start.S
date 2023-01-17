@@ -202,8 +202,9 @@ call_board_init_f:
 	adr	r4, _start
 	ldr	r5,_TEXT_BASE
 	cmp     r5,r4
+	
+       bl buzzer_on
 	beq	board_init_in_ram
-
 	ldr	r0, =PRO_ID_BASE
     ldr	r1, [r0,#OMR_OFFSET]
     bic	r2, r1, #0xffffffc1

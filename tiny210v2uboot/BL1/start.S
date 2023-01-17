@@ -49,7 +49,7 @@ _start:
 	bl  uart_init             @ 初始化串口 
 	bl  nand_asm_init         @ NandFlash初始化 
 	bl  mem_init              @ dram初始化
-	
+bl buzzer_init	
 //判断启动方式
 #define PRO_ID_BASE			0xE0000000
 #define PRO_ID_OFFSET			0x00
