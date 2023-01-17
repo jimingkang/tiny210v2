@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(LIBS)	Makefile	/^$(LIBS):	depend$/;"	t	language:Make
+$(OBJTREE)/MLO	Makefile	/^$(OBJTREE)\/MLO:	$(obj)u-boot-spl.bin$/;"	t	language:Make
+$(OBJTREE)/MLO.byteswap	Makefile	/^$(OBJTREE)\/MLO.byteswap: $(obj)u-boot-spl.bin$/;"	t	language:Make
+$(START)	Makefile	/^$(START):	depend$/;"	t	language:Make
+$(obj)$(BOARD)-spl.bin	Makefile	/^$(obj)$(BOARD)-spl.bin: $(obj)u-boot-spl.bin$/;"	t	language:Make
+$(obj)u-boot-spl	Makefile	/^$(obj)u-boot-spl:	depend $(START) $(LIBS) $(obj)u-boot-spl.lds$/;"	t	language:Make
+$(obj)u-boot-spl.bin	Makefile	/^$(obj)u-boot-spl.bin:	$(obj)u-boot-spl$/;"	t	language:Make
+$(obj)u-boot-spl.lds	Makefile	/^$(obj)u-boot-spl.lds: $(LDSCRIPT) $(obj)u-boot.lst depend$/;"	t	language:Make
+.data	u-boot-spl.lds	/^ .data : {$/;"	S	language:LdScript
+.dynsym	u-boot-spl.lds	/^ .dynsym : {$/;"	S	language:LdScript
+.mmutable	u-boot-spl.lds	/^ .mmutable : {$/;"	S	language:LdScript
+.rel.dyn	u-boot-spl.lds	/^ .rel.dyn : {$/;"	S	language:LdScript
+.rodata	u-boot-spl.lds	/^ .rodata : { *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.rodata*))) }$/;"	S	language:LdScript
+.text	u-boot-spl.lds	/^ .text :$/;"	S	language:LdScript
+.u_boot_list	u-boot-spl.lds	/^ .u_boot_list : {$/;"	S	language:LdScript
+CONFIG_SPL_BUILD	Makefile	/^CONFIG_SPL_BUILD := y$/;"	m	language:Make
+GEN_UBOOT	Makefile	/^GEN_UBOOT = \\$/;"	m	language:Make
+HAVE_VENDOR_COMMON_LIB	Makefile	/^HAVE_VENDOR_COMMON_LIB = $(if $(wildcard $(SRCTREE)\/board\/$(VENDOR)\/common\/Makefile),y,n)$/;"	m	language:Make
+LDSCRIPT	Makefile	/^	LDSCRIPT := $(TOPDIR)\/$(CPUDIR)\/u-boot-spl.lds$/;"	m	language:Make
+LDSCRIPT	Makefile	/^	LDSCRIPT := $(TOPDIR)\/arch\/$(ARCH)\/cpu\/u-boot.lds$/;"	m	language:Make
+LDSCRIPT	Makefile	/^	LDSCRIPT := $(TOPDIR)\/board\/$(BOARDDIR)\/u-boot-spl.lds$/;"	m	language:Make
+LDSCRIPT	Makefile	/^LDSCRIPT := $(addprefix $(SRCTREE)\/,$(subst ",,$(CONFIG_SPL_LDSCRIPT)))$/;"	m	language:Make
+LIBS	Makefile	/^LIBS := $(addprefix $(SPLTREE)\/,$(sort $(LIBS-y)))$/;"	m	language:Make
+PLATFORM_LIBGCC	Makefile	/^PLATFORM_LIBGCC = $(SPLTREE)\/arch\/$(ARCH)\/lib\/libgcc.o$/;"	m	language:Make
+PLATFORM_LIBS	Makefile	/^PLATFORM_LIBS := $(filter-out %\/libgcc.o, $(filter-out -lgcc, $(PLATFORM_LIBS))) $(PLATFORM_LIB/;"	m	language:Make
+START	Makefile	/^START := $(START_PATH)\/start.o$/;"	m	language:Make
+START	Makefile	/^START := $(addprefix $(SPLTREE)\/,$(START))$/;"	m	language:Make
+START_PATH	Makefile	/^START_PATH := $(CPUDIR)$/;"	m	language:Make
+START_PATH	Makefile	/^START_PATH := $(subst ",,$(CONFIG_SPL_START_S_PATH))$/;"	m	language:Make
+__LIBS	Makefile	/^__LIBS := $(subst $(obj),,$(LIBS))$/;"	m	language:Make
+__START	Makefile	/^__START := $(subst $(obj),,$(START))$/;"	m	language:Make
+__bss_end__	u-boot-spl.lds	/^  __bss_end__ = .;$/;"	s	language:LdScript
+__bss_start	u-boot-spl.lds	/^  __bss_start = .;$/;"	s	language:LdScript
+__dynsym_start	u-boot-spl.lds	/^  __dynsym_start = .;$/;"	s	language:LdScript	section:.dynsym
+__image_copy_end	u-boot-spl.lds	/^ __image_copy_end = .;$/;"	s	language:LdScript
+__image_copy_start	u-boot-spl.lds	/^  __image_copy_start = .;$/;"	s	language:LdScript	section:.text
+__rel_dyn_end	u-boot-spl.lds	/^  __rel_dyn_end = .;$/;"	s	language:LdScript	section:.rel.dyn
+__rel_dyn_start	u-boot-spl.lds	/^  __rel_dyn_start = .;$/;"	s	language:LdScript	section:.rel.dyn
+_end	u-boot-spl.lds	/^ _end = .;$/;"	s	language:LdScript
+all	Makefile	/^all:	$(ALL-y)$/;"	t	language:Make
+depend	Makefile	/^depend:	$(obj).depend$/;"	t	language:Make
+obj	Makefile	/^obj := $(OBJTREE)\/spl\/$/;"	m	language:Make

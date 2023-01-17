@@ -1,0 +1,1757 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(LOGO_DATA_H)	Makefile	/^$(LOGO_DATA_H):	$(obj)bmp_logo $(LOGO_BMP)$/;"	t	language:Make
+$(LOGO_H)	Makefile	/^$(LOGO_H):	$(obj)bmp_logo $(LOGO_BMP)$/;"	t	language:Make
+$(obj)%.o	Makefile	/^$(obj)%.o: $(SRCTREE)\/common\/%.c$/;"	t	language:Make
+$(obj)%.o	Makefile	/^$(obj)%.o: $(SRCTREE)\/lib\/%.c$/;"	t	language:Make
+$(obj)%.o	Makefile	/^$(obj)%.o: $(SRCTREE)\/lib\/libfdt\/%.c$/;"	t	language:Make
+$(obj)%.o	imls/Makefile	/^$(obj)%.o: $(SRCTREE)\/common\/%.c$/;"	t	language:Make
+$(obj)%.o	imls/Makefile	/^$(obj)%.o: $(SRCTREE)\/lib\/%.c$/;"	t	language:Make
+$(obj)%.o	imls/Makefile	/^$(obj)%.o: $(SRCTREE)\/lib\/libfdt\/%.c$/;"	t	language:Make
+$(obj)%.o	updater/Makefile	/^$(obj)%.o: %.S$/;"	t	language:Make
+$(obj)%.o	updater/Makefile	/^$(obj)%.o: %.c$/;"	t	language:Make
+$(obj)%.srec	updater/Makefile	/^$(obj)%.srec:	%.o $(LIB)$/;"	t	language:Make
+$(obj).depend	gdb/Makefile	/^$(obj).depend:$/;"	t	language:Make
+$(obj)bin2header$(SFX)	Makefile	/^$(obj)bin2header$(SFX): $(obj)bin2header.o$/;"	t	language:Make
+$(obj)bmp_logo$(SFX)	Makefile	/^$(obj)bmp_logo$(SFX):	$(obj)bmp_logo.o$/;"	t	language:Make
+$(obj)docproc	kernel-doc/Makefile	/^$(obj)docproc:	docproc.c$/;"	t	language:Make
+$(obj)easylogo	easylogo/Makefile	/^$(obj)easylogo: $(SRCTREE)\/tools\/easylogo\/easylogo.c$/;"	t	language:Make
+$(obj)envcrc$(SFX)	Makefile	/^$(obj)envcrc$(SFX):	$(obj)crc32.o $(obj)env_embedded.o $(obj)envcrc.o $(obj)sha1.o$/;"	t	language:Make
+$(obj)fw_printenv	env/Makefile	/^$(obj)fw_printenv:	$(HOSTSRCS) $(HEADERS)$/;"	t	language:Make
+$(obj)gdbcont	gdb/Makefile	/^$(obj)gdbcont:	$(obj)gdbcont.o $(obj)error.o $(obj)remote.o $(obj)serial.o$/;"	t	language:Make
+$(obj)gdbsend	gdb/Makefile	/^$(obj)gdbsend:	$(obj)gdbsend.o $(obj)error.o $(obj)remote.o $(obj)serial.o$/;"	t	language:Make
+$(obj)gen_eth_addr$(SFX)	Makefile	/^$(obj)gen_eth_addr$(SFX):	$(obj)gen_eth_addr.o$/;"	t	language:Make
+$(obj)image.o	imls/Makefile	/^$(obj)image.o: $(SRCTREE)\/common\/image.c$/;"	t	language:Make
+$(obj)img2srec$(SFX)	Makefile	/^$(obj)img2srec$(SFX):	$(obj)img2srec.o$/;"	t	language:Make
+$(obj)imls	imls/Makefile	/^$(obj)imls:	$(obj)imls.o $(obj)crc32.o $(obj)image.o $(obj)md5.o \\$/;"	t	language:Make
+$(obj)imls.o	imls/Makefile	/^$(obj)imls.o: $(SRCTREE)\/tools\/imls\/imls.c$/;"	t	language:Make
+$(obj)kwboot$(SFX)	Makefile	/^$(obj)kwboot$(SFX): $(obj)kwboot.o$/;"	t	language:Make
+$(obj)memio.S	updater/Makefile	/^$(obj)memio.S:$/;"	t	language:Make
+$(obj)memio.o	updater/Makefile	/^$(obj)memio.o: $(obj)memio.S$/;"	t	language:Make
+$(obj)mk$(SOC)spl$(SFX)	Makefile	/^$(obj)mk$(SOC)spl$(SFX):	$(obj)mk$(SOC)spl.o$/;"	t	language:Make
+$(obj)mkenvimage$(SFX)	Makefile	/^$(obj)mkenvimage$(SFX):	$(obj)crc32.o $(obj)mkenvimage.o \\$/;"	t	language:Make
+$(obj)mkimage$(SFX)	Makefile	/^$(obj)mkimage$(SFX):	$(obj)aisimage.o \\$/;"	t	language:Make
+$(obj)mpc86x_clk$(SFX)	Makefile	/^$(obj)mpc86x_clk$(SFX):	$(obj)mpc86x_clk.o$/;"	t	language:Make
+$(obj)mxsboot$(SFX)	Makefile	/^$(obj)mxsboot$(SFX):	$(obj)mxsboot.o$/;"	t	language:Make
+$(obj)ncb$(SFX)	Makefile	/^$(obj)ncb$(SFX):	$(obj)ncb.o$/;"	t	language:Make
+$(obj)stubs.c	updater/Makefile	/^$(obj)stubs.c:$/;"	t	language:Make
+$(obj)stubs.o	updater/Makefile	/^$(obj)stubs.o: $(obj)stubs.c$/;"	t	language:Make
+$(obj)ubsha1$(SFX)	Makefile	/^$(obj)ubsha1$(SFX):	$(obj)os_support.o $(obj)sha1.o $(obj)ubsha1.o$/;"	t	language:Make
+$(obj)updater	updater/Makefile	/^$(obj)updater: $(OBJS)$/;"	t	language:Make
+$(obj)updater.image	updater/Makefile	/^$(obj)updater.image: $(obj)updater $(OBJTREE)\/u-boot.bin$/;"	t	language:Make
+$(obj)xway-swap-bytes$(SFX)	Makefile	/^$(obj)xway-swap-bytes$(SFX):	$(obj)xway-swap-bytes.o$/;"	t	language:Make
+(obj)updater.image2	updater/Makefile	/^(obj)updater.image2: $(obj)updater $(OBJTREE)\/u-boot.bin$/;"	t	language:Make
+.Banner	bddb/bddb.css	/^.Banner	{$/;"	c	language:CSS
+.Button	bddb/bddb.css	/^.Button {$/;"	c	language:CSS
+.Drop	bddb/bddb.css	/^.Drop {$/;"	c	language:CSS
+.HL	bddb/bddb.css	/^.HL {$/;"	c	language:CSS
+.Name	bddb/bddb.css	/^.Name {$/;"	c	language:CSS
+.Type	bddb/bddb.css	/^.Type {$/;"	c	language:CSS
+.Value	bddb/bddb.css	/^.Value {$/;"	c	language:CSS
+A.Button	bddb/bddb.css	/^A.Button {$/;"	c	language:CSS
+A.Button:hover	bddb/bddb.css	/^A.Button:hover {$/;"	c	language:CSS
+A.HoMe	bddb/bddb.css	/^A.HoMe {$/;"	c	language:CSS
+A.HoMe:hover	bddb/bddb.css	/^A.HoMe:hover {$/;"	c	language:CSS
+A.HoMe:visited	bddb/bddb.css	/^A.HoMe:visited {$/;"	c	language:CSS
+A.Menu	bddb/bddb.css	/^A.Menu {$/;"	c	language:CSS
+A.Menu:hover	bddb/bddb.css	/^A.Menu:hover {$/;"	c	language:CSS
+A.Menu:visited	bddb/bddb.css	/^A.Menu:visited {$/;"	c	language:CSS
+A:hover	bddb/bddb.css	/^A:hover	{$/;"	s	language:CSS
+ACK	kwboot.c	/^#define ACK	/;"	d	language:C	file:
+AIS_CMD_BOOTTBL	aisimage.h	/^	AIS_CMD_BOOTTBL	= 0x58535907,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_DISCRC	aisimage.h	/^	AIS_CMD_DISCRC	= 0x58535904,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_ENCRC	aisimage.h	/^	AIS_CMD_ENCRC	= 0x58535903,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_FILL	aisimage.h	/^	AIS_CMD_FILL	= 0x5853590A,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_FNLOAD	aisimage.h	/^	AIS_CMD_FNLOAD	= 0x5853590D,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_JMP	aisimage.h	/^	AIS_CMD_JMP	= 0x58535905,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_JMPCLOSE	aisimage.h	/^	AIS_CMD_JMPCLOSE = 0x58535906,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_LOAD	aisimage.h	/^	AIS_CMD_LOAD	= 0x58535901,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_SEQREAD	aisimage.h	/^	AIS_CMD_SEQREAD	= 0x58535963,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_CMD_VALCRC	aisimage.h	/^	AIS_CMD_VALCRC	= 0x58535902,$/;"	e	language:C++	enum:__anon3e4686db0103
+AIS_FCN_MAX	aisimage.h	/^#define AIS_FCN_MAX	/;"	d	language:C++
+AIS_MAGIC_WORD	aisimage.h	/^#define AIS_MAGIC_WORD	/;"	d	language:C++
+AIS_cmd	aisimage.c	/^	uint32_t AIS_cmd;$/;"	m	language:C	struct:cmd_table_t	typeref:typename:uint32_t	file:
+AOBJS	updater/Makefile	/^AOBJS		= ppcstring.o$/;"	m	language:Make
+AOBJS_LINKS	updater/Makefile	/^AOBJS_LINKS	= memio.o$/;"	m	language:Make
+APP_CODE_BARKER	imximage.h	/^#define APP_CODE_BARKER	/;"	d	language:C++
+ARRAY_SIZE	aisimage.c	/^#define ARRAY_SIZE(/;"	d	language:C	file:	signature:(a)
+AddCc	patman/commit.py	/^    def AddCc(self, cc_list):$/;"	m	language:Python	class:Commit	signature:(self, cc_list)
+AddChange	patman/commit.py	/^    def AddChange(self, version, info):$/;"	m	language:Python	class:Commit	signature:(self, version, info)
+AddChange	patman/series.py	/^    def AddChange(self, version, commit, info):$/;"	m	language:Python	class:Series	signature:(self, version, commit, info)
+AddCommit	patman/series.py	/^    def AddCommit(self, commit):$/;"	m	language:Python	class:Series	signature:(self, commit)
+AddTag	patman/series.py	/^    def AddTag(self, commit, line, name, value):$/;"	m	language:Python	class:Series	signature:(self, commit, line, name, value)
+AddToSeries	patman/patchstream.py	/^    def AddToSeries(self, line, name, value):$/;"	m	language:Python	class:PatchStream	signature:(self, line, name, value)
+ApplyPatch	patman/gitutil.py	/^def ApplyPatch(verbose, fname):$/;"	f	language:Python	signature:(verbose, fname)
+ApplyPatches	patman/gitutil.py	/^def ApplyPatches(verbose, args, start_point):$/;"	f	language:Python	signature:(verbose, args, start_point)
+BINS	Makefile	/^BINS	:= $(addprefix $(obj),$(sort $(BIN_FILES-y)))$/;"	m	language:Make
+BINS	gdb/Makefile	/^BINS	:= $(addprefix $(obj),$(BINS))$/;"	m	language:Make
+BINS	gdb/Makefile	/^BINS	= gdbsend gdbcont$/;"	m	language:Make
+BINS	imls/Makefile	/^BINS	:= $(addprefix $(obj),$(sort $(BIN_FILES-y)))$/;"	m	language:Make
+BLACK	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+BLUE	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+BODY	bddb/bddb.css	/^BODY {$/;"	s	language:CSS
+BOLD	patman/terminal.py	/^  BOLD = -1$/;"	v	language:Python	class:Color
+BOLD_START	patman/terminal.py	/^  BOLD_START = '\\033[1m'$/;"	v	language:Python	class:Color
+BUFSIZ	xway-swap-bytes.c	/^# define BUFSIZ /;"	d	language:C	file:
+BUFSIZE	mkexynosspl.c	/^#define BUFSIZE	/;"	d	language:C	file:
+BUFSIZE	mks5pc1xxspl.c	/^#define BUFSIZE /;"	d	language:C	file:
+Body.Nova	bddb/bddb.css	/^TD.Nova, Body.Nova {$/;"	c	language:CSS
+Body.Nova A	bddb/bddb.css	/^Body.Nova A {$/;"	s	language:CSS
+Body.Nova A.Abstract	bddb/bddb.css	/^Body.Nova A.Abstract {$/;"	c	language:CSS
+Body.Nova A.Banner	bddb/bddb.css	/^Body.Nova A.Banner {$/;"	c	language:CSS
+Body.Nova A.Button	bddb/bddb.css	/^Body.Nova A.Button {$/;"	c	language:CSS
+Body.Nova Div.Abstract	bddb/bddb.css	/^Body.Nova Div.Abstract {$/;"	c	language:CSS
+Body.Nova H1	bddb/bddb.css	/^Body.Nova H1, Body.Nova H2, Body.Nova H3, Body.Nova H4 {$/;"	s	language:CSS
+Body.Nova H2	bddb/bddb.css	/^Body.Nova H1, Body.Nova H2, Body.Nova H3, Body.Nova H4 {$/;"	s	language:CSS
+Body.Nova H3	bddb/bddb.css	/^Body.Nova H1, Body.Nova H2, Body.Nova H3, Body.Nova H4 {$/;"	s	language:CSS
+Body.Nova H4	bddb/bddb.css	/^Body.Nova H1, Body.Nova H2, Body.Nova H3, Body.Nova H4 {$/;"	s	language:CSS
+Body.Nova TD.LuT	bddb/bddb.css	/^Body.Nova TD.LuT {$/;"	c	language:CSS
+Body.Nova TH.LuT	bddb/bddb.css	/^Body.Nova TH.LuT {$/;"	c	language:CSS
+Body.Plain Div.Abstract	bddb/bddb.css	/^Body.Plain Div.Abstract, Body.Plain P.Abstract {$/;"	c	language:CSS
+Body.Plain P.Abstract	bddb/bddb.css	/^Body.Plain Div.Abstract, Body.Plain P.Abstract {$/;"	c	language:CSS
+BuildEmailList	patman/gitutil.py	/^def BuildEmailList(in_list, tag=None, alias=None):$/;"	f	language:Python	signature:(in_list, tag=None, alias=None)
+BuildSRecord	img2srec.c	/^static char* BuildSRecord(char* pa, uint16_t sType, uint32_t addr,$/;"	f	language:C	typeref:typename:char *	file:	signature:(char * pa,uint16_t sType,uint32_t addr,const uint8_t * data,int nCount)
+CAN	kwboot.c	/^#define CAN	/;"	d	language:C	file:
+CFG_COMMAND	aisimage.h	/^	CFG_COMMAND,$/;"	e	language:C++	enum:aisimage_fld_types
+CFG_COMMAND	imximage.h	/^	CFG_COMMAND,$/;"	e	language:C++	enum:imximage_fld_types
+CFG_COMMAND	kwbimage.h	/^	CFG_COMMAND,$/;"	e	language:C++	enum:kwbimage_cmd_types
+CFG_COMMAND	ublimage.h	/^	CFG_COMMAND,$/;"	e	language:C++	enum:ublimage_fld_types
+CFG_DATA0	kwbimage.h	/^	CFG_DATA0,$/;"	e	language:C++	enum:kwbimage_cmd_types
+CFG_DATA1	kwbimage.h	/^	CFG_DATA1$/;"	e	language:C++	enum:kwbimage_cmd_types
+CFG_INVALID	aisimage.h	/^	CFG_INVALID = -1,$/;"	e	language:C++	enum:aisimage_fld_types
+CFG_INVALID	imximage.h	/^	CFG_INVALID = -1,$/;"	e	language:C++	enum:imximage_fld_types
+CFG_INVALID	kwbimage.h	/^	CFG_INVALID = -1,$/;"	e	language:C++	enum:kwbimage_cmd_types
+CFG_INVALID	ublimage.h	/^	CFG_INVALID = -1,$/;"	e	language:C++	enum:ublimage_fld_types
+CFG_REG_ADDRESS	imximage.h	/^	CFG_REG_ADDRESS,$/;"	e	language:C++	enum:imximage_fld_types
+CFG_REG_SIZE	imximage.h	/^	CFG_REG_SIZE,$/;"	e	language:C++	enum:imximage_fld_types
+CFG_REG_VALUE	imximage.h	/^	CFG_REG_VALUE$/;"	e	language:C++	enum:imximage_fld_types
+CFG_REG_VALUE	ublimage.h	/^	CFG_REG_VALUE$/;"	e	language:C++	enum:ublimage_fld_types
+CFG_VALUE	aisimage.h	/^	CFG_VALUE,$/;"	e	language:C++	enum:aisimage_fld_types
+CHECKSUM_OFFSET	mkexynosspl.c	/^#define CHECKSUM_OFFSET	/;"	d	language:C	file:
+CHK	checkpatch.pl	/^sub CHK {$/;"	s	language:Perl
+CMD_BOOTTABLE	aisimage.h	/^	CMD_BOOTTABLE$/;"	e	language:C++	enum:ais_file_cmd
+CMD_BOOT_FROM	imximage.h	/^	CMD_BOOT_FROM,$/;"	e	language:C++	enum:imximage_cmd
+CMD_BOOT_FROM	kwbimage.h	/^	CMD_BOOT_FROM,$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_BOOT_MODE	ublimage.h	/^	CMD_BOOT_MODE,$/;"	e	language:C++	enum:ublimage_cmd
+CMD_CLK	aisimage.h	/^	CMD_CLK,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_CRCCHECK	aisimage.h	/^	CMD_CRCCHECK,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_CRCOFF	aisimage.h	/^	CMD_CRCOFF,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_CRCON	aisimage.h	/^	CMD_CRCON,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_DATA	aisimage.h	/^	CMD_DATA,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_DATA	imximage.h	/^	CMD_DATA$/;"	e	language:C++	enum:imximage_cmd
+CMD_DATA	kwbimage.h	/^	CMD_DATA$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_DATA_STR	aisimage.h	/^#define CMD_DATA_STR	/;"	d	language:C++
+CMD_DATA_STR	imximage.h	/^#define CMD_DATA_STR	/;"	d	language:C++
+CMD_DDR2	aisimage.h	/^	CMD_DDR2,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_DDR_INIT_DELAY	kwbimage.h	/^	CMD_DDR_INIT_DELAY,$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_EMIFA	aisimage.h	/^	CMD_EMIFA,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_EMIFA_ASYNC	aisimage.h	/^	CMD_EMIFA_ASYNC,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_ENTRY	ublimage.h	/^	CMD_ENTRY,$/;"	e	language:C++	enum:ublimage_cmd
+CMD_FILL	aisimage.h	/^	CMD_FILL,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_IMAGE_VERSION	imximage.h	/^	CMD_IMAGE_VERSION,$/;"	e	language:C++	enum:imximage_cmd
+CMD_INVALID	aisimage.h	/^	CMD_INVALID,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_INVALID	imximage.h	/^	CMD_INVALID,$/;"	e	language:C++	enum:imximage_cmd
+CMD_INVALID	kwbimage.h	/^	CMD_INVALID,$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_INVALID	ublimage.h	/^	CMD_INVALID,$/;"	e	language:C++	enum:ublimage_cmd
+CMD_JMP	aisimage.h	/^	CMD_JMP,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_JMPCLOSE	aisimage.h	/^	CMD_JMPCLOSE,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_LD_ADDR	ublimage.h	/^	CMD_LD_ADDR$/;"	e	language:C++	enum:ublimage_cmd
+CMD_NAND_ECC_MODE	kwbimage.h	/^	CMD_NAND_ECC_MODE,$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_NAND_PAGE_SIZE	kwbimage.h	/^	CMD_NAND_PAGE_SIZE,$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_PAGE	ublimage.h	/^	CMD_PAGE,$/;"	e	language:C++	enum:ublimage_cmd
+CMD_PINMUX	aisimage.h	/^	CMD_PINMUX,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_PLL	aisimage.h	/^	CMD_PLL,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_PLL0	aisimage.h	/^	CMD_PLL0,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_PLL1	aisimage.h	/^	CMD_PLL1,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_PRINTENV	env/fw_env_main.c	/^#define	CMD_PRINTENV	/;"	d	language:C	file:
+CMD_PSC	aisimage.h	/^	CMD_PSC,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_SATA_PIO_MODE	kwbimage.h	/^	CMD_SATA_PIO_MODE,$/;"	e	language:C++	enum:kwbimage_cmd
+CMD_SEQREAD	aisimage.h	/^	CMD_SEQREAD,$/;"	e	language:C++	enum:ais_file_cmd
+CMD_SETENV	env/fw_env_main.c	/^#define CMD_SETENV	/;"	d	language:C	file:
+CMD_ST_BLOCK	ublimage.h	/^	CMD_ST_BLOCK,$/;"	e	language:C++	enum:ublimage_cmd
+CMD_ST_PAGE	ublimage.h	/^	CMD_ST_PAGE,$/;"	e	language:C++	enum:ublimage_cmd
+COBJS	gdb/Makefile	/^COBJS	= gdbsend.o gdbcont.o error.o remote.o serial.o$/;"	m	language:Make
+COBJS	updater/Makefile	/^COBJS		= update.o flash.o flash_hw.o utils.o cmd_flash.o string.o ctype.o dummy.o$/;"	m	language:Make
+COBJS_LINKS	updater/Makefile	/^COBJS_LINKS	= stubs.o$/;"	m	language:Make
+COLOR_START	patman/terminal.py	/^  COLOR_START = '\\033[1;%dm'$/;"	v	language:Python	class:Color
+COMP_GZIP	easylogo/easylogo.c	/^	COMP_GZIP,$/;"	e	language:C	enum:comp_t	file:
+COMP_LZMA	easylogo/easylogo.c	/^	COMP_LZMA,$/;"	e	language:C	enum:comp_t	file:
+COMP_NONE	easylogo/easylogo.c	/^	COMP_NONE,$/;"	e	language:C	enum:comp_t	file:
+CONFIG_BAUDRATE	env/fw_env.h	/^#define CONFIG_BAUDRATE	/;"	d	language:C++
+CONFIG_BOOTCOMMAND	env/fw_env.h	/^#define CONFIG_BOOTCOMMAND	/;"	d	language:C++
+CONFIG_BOOTDELAY	env/fw_env.h	/^#define CONFIG_BOOTDELAY	/;"	d	language:C++
+CONFIG_BUILD_ENVCRC	Makefile	/^CONFIG_BUILD_ENVCRC ?= $(ENVCRC-y)$/;"	m	language:Make
+CONFIG_BUILD_ENVCRC	envcrc.c	/^# define CONFIG_BUILD_ENVCRC$/;"	d	language:C	file:
+CONFIG_CMD_LOADS	Makefile	/^CONFIG_CMD_LOADS = y$/;"	m	language:Make
+CONFIG_CMD_NET	Makefile	/^CONFIG_CMD_NET = y$/;"	m	language:Make
+CONFIG_ENV_ADDR	envcrc.c	/^#  define CONFIG_ENV_ADDR	/;"	d	language:C	file:
+CONFIG_ENV_ADDR_REDUND	envcrc.c	/^#  define CONFIG_ENV_ADDR_REDUND	/;"	d	language:C	file:
+CONFIG_ENV_OFFSET	envcrc.c	/^#  define CONFIG_ENV_OFFSET /;"	d	language:C	file:
+CONFIG_ENV_SIZE	envcrc.c	/^#  define CONFIG_ENV_SIZE	/;"	d	language:C	file:
+CONFIG_ENV_SIZE_REDUND	envcrc.c	/^#  define CONFIG_ENV_SIZE_REDUND	/;"	d	language:C	file:
+CONFIG_FILE	env/fw_env.h	/^#define CONFIG_FILE /;"	d	language:C++
+CONFIG_LCD_LOGO	Makefile	/^CONFIG_LCD_LOGO = y$/;"	m	language:Make
+CONFIG_NETCONSOLE	Makefile	/^CONFIG_NETCONSOLE = y$/;"	m	language:Make
+CONFIG_SHA1_CHECK_UB_IMG	Makefile	/^CONFIG_SHA1_CHECK_UB_IMG = y$/;"	m	language:Make
+CONFIG_SYS_REDUNDAND_ENVIRONMENT	envcrc.c	/^#  define CONFIG_SYS_REDUNDAND_ENVIRONMENT$/;"	d	language:C	file:
+CONFIG_XWAY_SWAP_BYTES	Makefile	/^CONFIG_XWAY_SWAP_BYTES = y$/;"	m	language:Make
+CORE_ADDR	gdb/remote.c	/^#define CORE_ADDR /;"	d	language:C	file:
+CRC_SIZE	mkenvimage.c	/^#define CRC_SIZE /;"	d	language:C	file:
+CUR_ENVSIZE	env/fw_env.c	/^#define CUR_ENVSIZE /;"	d	language:C	file:
+CYAN	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+Cb	easylogo/easylogo.c	/^	unsigned char Cb, y1, Cr, y2;$/;"	m	language:C	struct:__anon680cfb0b0408	typeref:typename:unsigned char	file:
+Cc	checkpatch.pl	/^	Cc:$/;"	l	language:Perl
+CheckPatch	patman/checkpatch.py	/^def CheckPatch(fname, verbose=False):$/;"	f	language:Python	signature:(fname, verbose=False)
+CheckPatches	patman/checkpatch.py	/^def CheckPatches(verbose, args):$/;"	f	language:Python	signature:(verbose, args)
+CheckTags	patman/commit.py	/^    def CheckTags(self):$/;"	m	language:Python	class:Commit	signature:(self)
+CloseCommit	patman/patchstream.py	/^    def CloseCommit(self):$/;"	m	language:Python	class:PatchStream	signature:(self)
+Color	patman/terminal.py	/^  def Color(self, color, text):$/;"	m	language:Python	class:Color	signature:(self, color, text)
+Color	patman/terminal.py	/^class Color(object):$/;"	c	language:Python
+ColorMapEntrySize	easylogo/easylogo.c	/^	unsigned char ColorMapEntrySize;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned char	file:
+ColorMapLenght	easylogo/easylogo.c	/^	unsigned short ColorMapLenght;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned short	file:
+ColorMapOrigin	easylogo/easylogo.c	/^	unsigned short ColorMapOrigin;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned short	file:
+ColorMapType	easylogo/easylogo.c	/^	unsigned char ColorMapType;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned char	file:
+Commit	patman/commit.py	/^class Commit:$/;"	c	language:Python
+ConvertELF	img2srec.c	/^static void ConvertELF(char* fileName, uint32_t loadOffset)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * fileName,uint32_t loadOffset)
+CountCommitsToBranch	patman/gitutil.py	/^def CountCommitsToBranch():$/;"	f	language:Python	signature:()
+Cr	easylogo/easylogo.c	/^	unsigned char Cb, y1, Cr, y2;$/;"	m	language:C	struct:__anon680cfb0b0408	typeref:typename:unsigned char	file:
+CreatePatches	patman/gitutil.py	/^def CreatePatches(start, count, series):$/;"	f	language:Python	signature:(start, count, series)
+CreatePatmanConfigFile	patman/settings.py	/^def CreatePatmanConfigFile(config_fname):$/;"	f	language:Python	signature:(config_fname)
+DCD_BARKER	imximage.h	/^#define DCD_BARKER	/;"	d	language:C++
+DCD_COMMAND_PARAM	imximage.h	/^#define DCD_COMMAND_PARAM /;"	d	language:C++
+DCD_COMMAND_TAG	imximage.h	/^#define DCD_COMMAND_TAG /;"	d	language:C++
+DCD_HEADER_TAG	imximage.h	/^#define DCD_HEADER_TAG /;"	d	language:C++
+DCD_VERSION	imximage.h	/^#define DCD_VERSION /;"	d	language:C++
+DEBUGF	updater/flash_hw.c	/^#define DEBUGF(/;"	d	language:C	file:	signature:(fmt,args...)
+DEFAULT_CMAP_SIZE	bmp_logo.c	/^#define DEFAULT_CMAP_SIZE	/;"	d	language:C	file:
+DEFAULT_ENV_INSTANCE_STATIC	env/fw_env.c	/^#define DEFAULT_ENV_INSTANCE_STATIC$/;"	d	language:C	file:
+DEF_FILELEN	easylogo/easylogo.c	/^#define DEF_FILELEN	/;"	d	language:C	file:
+DEPS	updater/Makefile	/^DEPS = $(OBJTREE)\/u-boot.bin $(OBJTREE)\/tools\/mkimage$/;"	m	language:Make
+DEVESIZE	env/fw_env.c	/^#define DEVESIZE(/;"	d	language:C	file:	signature:(i)
+DEVICE1_ENVSECTORS	env/fw_env.h	/^#define DEVICE1_ENVSECTORS /;"	d	language:C++
+DEVICE1_ESIZE	env/fw_env.h	/^#define DEVICE1_ESIZE /;"	d	language:C++
+DEVICE1_NAME	env/fw_env.h	/^#define DEVICE1_NAME /;"	d	language:C++
+DEVICE1_OFFSET	env/fw_env.h	/^#define DEVICE1_OFFSET /;"	d	language:C++
+DEVICE2_ENVSECTORS	env/fw_env.h	/^#define DEVICE2_ENVSECTORS /;"	d	language:C++
+DEVICE2_ESIZE	env/fw_env.h	/^#define DEVICE2_ESIZE /;"	d	language:C++
+DEVICE2_NAME	env/fw_env.h	/^#define DEVICE2_NAME /;"	d	language:C++
+DEVICE2_OFFSET	env/fw_env.h	/^#define DEVICE2_OFFSET /;"	d	language:C++
+DEVNAME	env/fw_env.c	/^#define DEVNAME(/;"	d	language:C	file:	signature:(i)
+DEVOFFSET	env/fw_env.c	/^#define DEVOFFSET(/;"	d	language:C	file:	signature:(i)
+DEVTYPE	env/fw_env.c	/^#define DEVTYPE(/;"	d	language:C	file:	signature:(i)
+DOCBOOK	kernel-doc/docproc.c	/^#define DOCBOOK /;"	d	language:C	file:
+DPGDCK_MAX	mpc86x_clk.c	/^#define DPGDCK_MAX	/;"	d	language:C	file:
+DPGDCK_MIN	mpc86x_clk.c	/^#define DPGDCK_MIN	/;"	d	language:C	file:
+DPREF_MAX	mpc86x_clk.c	/^#define DPREF_MAX	/;"	d	language:C	file:
+DPREF_MIN	mpc86x_clk.c	/^#define DPREF_MIN	/;"	d	language:C	file:
+Div.Info	bddb/bddb.css	/^Div.Info, P.Info {$/;"	c	language:CSS
+Div.Info A	bddb/bddb.css	/^Div.Info A {$/;"	s	language:CSS
+Div.Margins	bddb/bddb.css	/^Div.Margins {$/;"	c	language:CSS
+DoChecks	patman/series.py	/^    def DoChecks(self):$/;"	m	language:Python	class:Series	signature:(self)
+ENDIANNESS	pblimage.c	/^#define ENDIANNESS /;"	d	language:C	file:
+ENV1_SIZE	env/fw_env.h	/^#define ENV1_SIZE /;"	d	language:C++
+ENV2_SIZE	env/fw_env.h	/^#define ENV2_SIZE /;"	d	language:C++
+ENVCRC-$(CONFIG_ENV_IS_EMBEDDED)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_EMBEDDED) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_DATAFLASH)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_DATAFLASH) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_EEPROM)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_EEPROM) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_FLASH)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_FLASH) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_NAND)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_NAND) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_NVRAM)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_NVRAM) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_ONENAND)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_ONENAND) = y$/;"	m	language:Make
+ENVCRC-$(CONFIG_ENV_IS_IN_SPI_FLASH)	Makefile	/^ENVCRC-$(CONFIG_ENV_IS_IN_SPI_FLASH) = y$/;"	m	language:Make
+ENVSECTORS	env/fw_env.c	/^#define ENVSECTORS(/;"	d	language:C	file:	signature:(i)
+ENVSIZE	env/fw_env.c	/^#define ENVSIZE(/;"	d	language:C	file:	signature:(i)
+ENV_HEADER_SIZE	envcrc.c	/^# define ENV_HEADER_SIZE	/;"	d	language:C	file:
+ENV_IS_EMBEDDED	envcrc.c	/^#  define ENV_IS_EMBEDDED$/;"	d	language:C	file:
+ENV_SIZE	env/fw_env.c	/^#define ENV_SIZE /;"	d	language:C	file:
+ENV_SIZE	envcrc.c	/^#define ENV_SIZE /;"	d	language:C	file:
+EOT	kwboot.c	/^#define EOT	/;"	d	language:C	file:
+ERROR	checkpatch.pl	/^sub ERROR {$/;"	s	language:Perl
+EmailPatches	patman/gitutil.py	/^def EmailPatches(series, cover_fname, args, dry_run, cc_fname,$/;"	f	language:Python	signature:(series, cover_fname, args, dry_run, cc_fname, self_only=False, alias=None)
+Error	gdb/error.c	/^Error(char *fmt, ...)$/;"	f	language:C	typeref:typename:void	signature:(char * fmt,...)
+ExtractBlock	img2srec.c	/^static uint8_t* ExtractBlock(uint16_t count, uint8_t* data, uint8_t* buffer)$/;"	f	language:C	typeref:typename:uint8_t *	file:	signature:(uint16_t count,uint8_t * data,uint8_t * buffer)
+ExtractDecimal	img2srec.c	/^static char* ExtractDecimal (uint32_t* value,  char* getPtr)$/;"	f	language:C	typeref:typename:char *	file:	signature:(uint32_t * value,char * getPtr)
+ExtractHex	img2srec.c	/^static char* ExtractHex (uint32_t* value,  char* getPtr)$/;"	f	language:C	typeref:typename:char *	file:	signature:(uint32_t * value,char * getPtr)
+ExtractLong	img2srec.c	/^static uint8_t* ExtractLong(uint32_t* value, uint8_t* buffer)$/;"	f	language:C	typeref:typename:uint8_t *	file:	signature:(uint32_t * value,uint8_t * buffer)
+ExtractNumber	img2srec.c	/^static void ExtractNumber (uint32_t* value,  char* getPtr)$/;"	f	language:C	typeref:typename:void	file:	signature:(uint32_t * value,char * getPtr)
+ExtractWord	img2srec.c	/^static uint8_t* ExtractWord(uint16_t* value, uint8_t* buffer)$/;"	f	language:C	typeref:typename:uint8_t *	file:	signature:(uint16_t * value,uint8_t * buffer)
+FILE_PERM	mkexynosspl.c	/^#define FILE_PERM	/;"	d	language:C	file:
+FLAG_BOOLEAN	env/fw_env.c	/^	FLAG_BOOLEAN,$/;"	e	language:C	enum:flag_scheme	file:
+FLAG_INCREMENTAL	env/fw_env.c	/^	FLAG_INCREMENTAL,$/;"	e	language:C	enum:flag_scheme	file:
+FLAG_NONE	env/fw_env.c	/^	FLAG_NONE,$/;"	e	language:C	enum:flag_scheme	file:
+FLASH_OFFSET_NAND	imximage.h	/^#define FLASH_OFFSET_NAND	/;"	d	language:C++
+FLASH_OFFSET_NOR	imximage.h	/^#define FLASH_OFFSET_NOR	/;"	d	language:C++
+FLASH_OFFSET_ONENAND	imximage.h	/^#define FLASH_OFFSET_ONENAND	/;"	d	language:C++
+FLASH_OFFSET_SATA	imximage.h	/^#define FLASH_OFFSET_SATA	/;"	d	language:C++
+FLASH_OFFSET_SD	imximage.h	/^#define FLASH_OFFSET_SD	/;"	d	language:C++
+FLASH_OFFSET_SPI	imximage.h	/^#define FLASH_OFFSET_SPI	/;"	d	language:C++
+FLASH_OFFSET_STANDARD	imximage.h	/^#define FLASH_OFFSET_STANDARD	/;"	d	language:C++
+FLASH_OFFSET_UNDEFINED	imximage.h	/^#define FLASH_OFFSET_UNDEFINED	/;"	d	language:C++
+FUNCTION	kernel-doc/docproc.c	/^#define FUNCTION /;"	d	language:C	file:
+Finalize	patman/patchstream.py	/^    def Finalize(self):$/;"	m	language:Python	class:PatchStream	signature:(self)
+FindCheckPatch	patman/checkpatch.py	/^def FindCheckPatch():$/;"	f	language:Python	signature:()
+FixPatch	patman/patchstream.py	/^def FixPatch(backup_dir, fname, series, commit):$/;"	f	language:Python	signature:(backup_dir, fname, series, commit)
+FixPatches	patman/patchstream.py	/^def FixPatches(series, fnames):$/;"	f	language:Python	signature:(series, fnames)
+FormatTags	patman/patchstream.py	/^    def FormatTags(self, tags):$/;"	m	language:Python	class:PatchStream	signature:(self, tags)
+GCLK2_MAX	mpc86x_clk.c	/^#define GCLK2_MAX	/;"	d	language:C	file:
+GREEN	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+GetAliasFile	patman/gitutil.py	/^def GetAliasFile():$/;"	f	language:Python	signature:()
+GetData	patman/test.py	/^    def GetData(self, data_type):$/;"	m	language:Python	class:TestPatch	signature:(self, data_type)
+GetDefaultUserEmail	patman/gitutil.py	/^def GetDefaultUserEmail():$/;"	f	language:Python	signature:()
+GetDefaultUserName	patman/gitutil.py	/^def GetDefaultUserName():$/;"	f	language:Python	signature:()
+GetMetaData	patman/patchstream.py	/^def GetMetaData(start, count):$/;"	f	language:Python	signature:(start, count)
+GetPatchPrefix	patman/series.py	/^    def GetPatchPrefix(self):$/;"	m	language:Python	class:Series	signature:(self)
+GetTopLevel	patman/gitutil.py	/^def GetTopLevel():$/;"	f	language:Python	signature:()
+GetWarningMsg	patman/checkpatch.py	/^def GetWarningMsg(col, msg_type, fname, line, msg):$/;"	f	language:Python	signature:(col, msg_type, fname, line, msg)
+H1	bddb/bddb.css	/^H1 {$/;"	s	language:CSS
+H2	bddb/bddb.css	/^H2, H3, H4, H5 {$/;"	s	language:CSS
+H3	bddb/bddb.css	/^H2, H3, H4, H5 {$/;"	s	language:CSS
+H4	bddb/bddb.css	/^H2, H3, H4, H5 {$/;"	s	language:CSS
+H5	bddb/bddb.css	/^H2, H3, H4, H5 {$/;"	s	language:CSS
+HAVE_REDUND	env/fw_env.h	/^#define HAVE_REDUND /;"	d	language:C++
+HEADERS	env/Makefile	/^HEADERS	:= fw_env.h $(OBJTREE)\/include\/config.h$/;"	m	language:Make
+HEADER_OFFSET	imximage.h	/^#define HEADER_OFFSET	/;"	d	language:C++
+HIDWORD	mingw_support.h	/^#define HIDWORD(/;"	d	language:C++	signature:(x)
+HOSTCPPFLAGS	Makefile	/^HOSTCPPFLAGS =	-idirafter $(SRCTREE)\/include \\$/;"	m	language:Make
+HOSTCPPFLAGS	env/Makefile	/^HOSTCPPFLAGS  = -idirafter $(SRCTREE)\/include \\$/;"	m	language:Make
+HOSTCPPFLAGS	gdb/Makefile	/^HOSTCPPFLAGS = -I$(BFD_ROOT_DIR)\/include$/;"	m	language:Make
+HOSTCPPFLAGS	imls/Makefile	/^HOSTCPPFLAGS  = -idirafter $(SRCTREE)\/include \\$/;"	m	language:Make
+HOSTOBJS	Makefile	/^HOSTOBJS := $(addprefix $(obj),$(OBJ_FILES-y))$/;"	m	language:Make
+HOSTOBJS	gdb/Makefile	/^HOSTOBJS := $(addprefix $(obj),$(COBJS))$/;"	m	language:Make
+HOSTOS	gdb/Makefile	/^HOSTOS := $(shell uname -s | sed -e 's\/\\([Cc][Yy][Gg][Ww][Ii][Nn]\\).*\/cygwin\/')$/;"	m	language:Make
+HOSTSRCS	env/Makefile	/^HOSTSRCS := $(SRCTREE)\/lib\/crc32.c  fw_env.c  fw_env_main.c$/;"	m	language:Make
+HOSTSRCS	gdb/Makefile	/^HOSTSRCS := $(COBJS:.o=.c)$/;"	m	language:Make
+HaveRedundEnv	env/fw_env.c	/^static int HaveRedundEnv = 0;$/;"	v	language:C	typeref:typename:int	file:
+IBR_DEF_ATTRIB	kwbimage.h	/^#define IBR_DEF_ATTRIB	/;"	d	language:C++
+IBR_HDR_ECC_DEFAULT	kwbimage.h	/^#define IBR_HDR_ECC_DEFAULT	/;"	d	language:C++
+IBR_HDR_ECC_DISABLED	kwbimage.h	/^#define IBR_HDR_ECC_DISABLED /;"	d	language:C++
+IBR_HDR_ECC_FORCED_HAMMING	kwbimage.h	/^#define IBR_HDR_ECC_FORCED_HAMMING	/;"	d	language:C++
+IBR_HDR_ECC_FORCED_RS	kwbimage.h	/^#define IBR_HDR_ECC_FORCED_RS /;"	d	language:C++
+IBR_HDR_I2C_ID	kwbimage.h	/^#define IBR_HDR_I2C_ID	/;"	d	language:C++
+IBR_HDR_NAND_ID	kwbimage.h	/^#define IBR_HDR_NAND_ID	/;"	d	language:C++
+IBR_HDR_PEX_ID	kwbimage.h	/^#define IBR_HDR_PEX_ID	/;"	d	language:C++
+IBR_HDR_SATA_ID	kwbimage.h	/^#define IBR_HDR_SATA_ID	/;"	d	language:C++
+IBR_HDR_SPI_ID	kwbimage.h	/^#define IBR_HDR_SPI_ID	/;"	d	language:C++
+IBR_HDR_UART_ID	kwbimage.h	/^#define IBR_HDR_UART_ID	/;"	d	language:C++
+IMAGE	updater/Makefile	/^IMAGE		= $(obj)updater.image$/;"	m	language:Make
+IMG_SIZE	mks5pc1xxspl.c	/^#define IMG_SIZE /;"	d	language:C	file:
+IMXIMAGE_V1	imximage.h	/^	IMXIMAGE_V1 = 1,$/;"	e	language:C++	enum:imximage_version
+IMXIMAGE_V2	imximage.h	/^	IMXIMAGE_V2$/;"	e	language:C++	enum:imximage_version
+IMXIMAGE_VER_INVALID	imximage.h	/^	IMXIMAGE_VER_INVALID = -1,$/;"	e	language:C++	enum:imximage_version
+IS_FNC_EXEC	aisimage.c	/^#define IS_FNC_EXEC(/;"	d	language:C	file:	signature:(c)
+IVT_HEADER_TAG	imximage.h	/^#define IVT_HEADER_TAG /;"	d	language:C++
+IVT_VERSION	imximage.h	/^#define IVT_VERSION /;"	d	language:C++
+ImageDescriptorByte	easylogo/easylogo.c	/^	unsigned char ImageDescriptorByte;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned char	file:
+ImageHeight	easylogo/easylogo.c	/^	unsigned short ImageHeight;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned short	file:
+ImagePixelSize	easylogo/easylogo.c	/^	unsigned char ImagePixelSize;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned char	file:
+ImageTypeCode	easylogo/easylogo.c	/^	unsigned char ImageTypeCode;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned char	file:
+ImageWidth	easylogo/easylogo.c	/^	unsigned short ImageWidth;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned short	file:
+ImageXOrigin	easylogo/easylogo.c	/^	unsigned short ImageXOrigin;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned short	file:
+ImageYOrigin	easylogo/easylogo.c	/^	unsigned short ImageYOrigin;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned short	file:
+InsertCoverLetter	patman/patchstream.py	/^def InsertCoverLetter(fname, series, count):$/;"	f	language:Python	signature:(fname, series, count)
+KERNELDOC	kernel-doc/docproc.c	/^#define KERNELDOC /;"	d	language:C	file:
+KERNELDOCPATH	kernel-doc/docproc.c	/^#define KERNELDOCPATH /;"	d	language:C	file:
+KEY	bddb/create_tables.sql	/^   KEY logno (logno, serno, date),$/;"	E	language:SQL	table:log
+KEY	bddb/create_tables.sql	/^   KEY serno (serno),$/;"	E	language:SQL	table:boards
+KEY_CHSETTINGS	omapimage.h	/^#define KEY_CHSETTINGS /;"	d	language:C++
+KWBIMAGE_MAX_CONFIG	kwbimage.h	/^#define KWBIMAGE_MAX_CONFIG	/;"	d	language:C++
+KWBOOT_BLK_RSP_TIMEO	kwboot.c	/^#define KWBOOT_BLK_RSP_TIMEO /;"	d	language:C	file:
+KWBOOT_MSG_REQ_DELAY	kwboot.c	/^#define KWBOOT_MSG_REQ_DELAY	/;"	d	language:C	file:
+KWBOOT_MSG_RSP_TIMEO	kwboot.c	/^#define KWBOOT_MSG_RSP_TIMEO	/;"	d	language:C	file:
+LIBFDT_OBJS	Makefile	/^LIBFDT_OBJS	:= $(addprefix $(obj),$(LIBFDT_OBJ_FILES-y))$/;"	m	language:Make
+LIBFDT_OBJS	imls/Makefile	/^LIBFDT_OBJS	:= $(addprefix $(obj),$(LIBFDT_OBJ_FILES-y))$/;"	m	language:Make
+LIST	kernel-doc/docproc.c	/^#define LIST /;"	d	language:C	file:
+LOAD_ADDR	updater/Makefile	/^LOAD_ADDR = 0x40000$/;"	m	language:Make
+LODWORD	mingw_support.h	/^#define LODWORD(/;"	d	language:C++	signature:(x)
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/atmel.bmp$/;"	m	language:Make
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/denx.bmp$/;"	m	language:Make
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/esd.bmp$/;"	m	language:Make
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/freescale.bmp$/;"	m	language:Make
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/intercontrol.bmp$/;"	m	language:Make
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/ronetix.bmp$/;"	m	language:Make
+LOGO_BMP	Makefile	/^LOGO_BMP= logos\/syteco.bmp$/;"	m	language:Make
+LOGO_DATA_H	Makefile	/^LOGO_DATA_H = $(OBJTREE)\/include\/bmp_logo_data.h$/;"	m	language:Make
+LOGO_H	Makefile	/^LOGO_H = $(OBJTREE)\/include\/bmp_logo.h$/;"	m	language:Make
+LookupEmail	patman/gitutil.py	/^def LookupEmail(lookup_name, alias=None, level=0):$/;"	f	language:Python	signature:(lookup_name, alias=None, level=0)
+MAGENTA	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+MAP_PRIVATE	mingw_support.h	/^#define MAP_PRIVATE	/;"	d	language:C++
+MAP_SHARED	mingw_support.h	/^#define MAP_SHARED	/;"	d	language:C++
+MAXBUFBYTES	gdb/remote.c	/^#define MAXBUFBYTES(/;"	d	language:C	file:	signature:(N)
+MAXFILES	kernel-doc/docproc.c	/^#define MAXFILES /;"	d	language:C	file:
+MAXLINESZ	kernel-doc/docproc.c	/^#define MAXLINESZ /;"	d	language:C	file:
+MAX_BOOTSTREAM_SIZE	mxsboot.c	/^#define	MAX_BOOTSTREAM_SIZE	/;"	d	language:C	file:
+MAX_CMD_BUFFER	aisimage.c	/^#define MAX_CMD_BUFFER	/;"	d	language:C	file:
+MAX_HW_CFG_SIZE_V1	imximage.h	/^#define MAX_HW_CFG_SIZE_V1 /;"	d	language:C++
+MAX_HW_CFG_SIZE_V2	imximage.h	/^#define MAX_HW_CFG_SIZE_V2 /;"	d	language:C++
+MAX_N	omap/clocks_get_m_n.c	/^#define MAX_N	/;"	d	language:C	file:
+MAX_TEMPBUF_LEN	kwbimage.h	/^#define MAX_TEMPBUF_LEN	/;"	d	language:C++
+MAX_TRIES	gdb/remote.c	/^#define MAX_TRIES /;"	d	language:C	file:
+MFD_MAX	mpc86x_clk.c	/^#define MFD_MAX	/;"	d	language:C	file:
+MFD_MIN	mpc86x_clk.c	/^#define MFD_MIN	/;"	d	language:C	file:
+MFI_MAX	mpc86x_clk.c	/^#define MFI_MAX	/;"	d	language:C	file:
+MFI_MIN	mpc86x_clk.c	/^#define MFI_MIN	/;"	d	language:C	file:
+MFN_MAX	mpc86x_clk.c	/^#define MFN_MAX	/;"	d	language:C	file:
+MFN_MIN	mpc86x_clk.c	/^#define MFN_MIN	/;"	d	language:C	file:
+MF_MAX	mpc86x_clk.c	/^#define MF_MAX	/;"	d	language:C	file:
+MF_MIN	mpc86x_clk.c	/^#define MF_MIN	/;"	d	language:C	file:
+MIN	imls/imls.c	/^#define MIN(/;"	d	language:C	file:	signature:(a,b)
+MIN_CHUNK	getline.c	/^#define MIN_CHUNK /;"	d	language:C	file:
+MKIMAGE_DEFAULT_DTC_OPTIONS	mkimage.h	/^#define MKIMAGE_DEFAULT_DTC_OPTIONS	/;"	d	language:C++
+MKIMAGE_DTC	mkimage.h	/^#define MKIMAGE_DTC	/;"	d	language:C++
+MKIMAGE_MAX_DTC_CMDLINE_LEN	mkimage.h	/^#define MKIMAGE_MAX_DTC_CMDLINE_LEN	/;"	d	language:C++
+MKIMAGE_MAX_TMPFILE_LEN	mkimage.h	/^#define MKIMAGE_MAX_TMPFILE_LEN	/;"	d	language:C++
+MKIMAGE_TMPFILE_SUFFIX	mkimage.h	/^#define MKIMAGE_TMPFILE_SUFFIX	/;"	d	language:C++
+MODE_GEN_DATA	bmp_logo.c	/^	MODE_GEN_DATA$/;"	e	language:C	enum:__anon4c5f56c50103	file:
+MODE_GEN_INFO	bmp_logo.c	/^	MODE_GEN_INFO,$/;"	e	language:C	enum:__anon4c5f56c50103	file:
+MXS_NAND_CHUNK_DATA_CHUNK_SIZE	mxsboot.c	/^#define	MXS_NAND_CHUNK_DATA_CHUNK_SIZE	/;"	d	language:C	file:
+MXS_NAND_COMMAND_BUFFER_SIZE	mxsboot.c	/^#define	MXS_NAND_COMMAND_BUFFER_SIZE	/;"	d	language:C	file:
+MXS_NAND_DMA_DESCRIPTOR_COUNT	mxsboot.c	/^#define	MXS_NAND_DMA_DESCRIPTOR_COUNT	/;"	d	language:C	file:
+MXS_NAND_METADATA_SIZE	mxsboot.c	/^#define	MXS_NAND_METADATA_SIZE	/;"	d	language:C	file:
+MakeCcFile	patman/series.py	/^    def MakeCcFile(self, process_tags):$/;"	m	language:Python	class:Series	signature:(self, process_tags)
+MakeChangeLog	patman/series.py	/^    def MakeChangeLog(self, commit):$/;"	m	language:Python	class:Series	signature:(self, commit)
+NAK	kwboot.c	/^#define NAK	/;"	d	language:C	file:
+NODOCSECTIONS	kernel-doc/docproc.c	/^#define NODOCSECTIONS /;"	d	language:C	file:
+NOFUNCTION	kernel-doc/docproc.c	/^#define NOFUNCTION /;"	d	language:C	file:
+NOPEDOBJS	Makefile	/^NOPEDOBJS := $(addprefix $(obj),$(NOPED_OBJ_FILES-y))$/;"	m	language:Make
+OBJS	updater/Makefile	/^OBJS	:= $(addprefix $(obj),$(COBJS) $(COBJS_LINKS) $(AOBJS) $(AOBJS_LINKS))$/;"	m	language:Make
+OMAP_CH_HDR_SIZE	omapimage.c	/^#define OMAP_CH_HDR_SIZE /;"	d	language:C	file:
+OMAP_FILE_HDR_SIZE	omapimage.c	/^#define OMAP_FILE_HDR_SIZE /;"	d	language:C	file:
+OMAP_GP_HDR_SIZE	omapimage.c	/^#define OMAP_GP_HDR_SIZE /;"	d	language:C	file:
+Options	checkpatch.pl	/^Options:$/;"	l	language:Perl
+Output	patman/command.py	/^def Output(*cmd):$/;"	f	language:Python	signature:(*cmd)
+OutputOneLine	patman/command.py	/^def OutputOneLine(*cmd):$/;"	f	language:Python	signature:(*cmd)
+P.Info	bddb/bddb.css	/^Div.Info, P.Info {$/;"	c	language:CSS
+PACKED	kwboot.c	/^#define PACKED /;"	d	language:C	file:
+PACKED	kwboot.c	/^#define PACKED$/;"	d	language:C	file:
+PACKED	kwboot.c	/^} PACKED;$/;"	v	language:C	typeref:struct:kwboot_block
+PARAM_ERASE	mxsboot.c	/^		PARAM_ERASE,$/;"	e	language:C	enum:parse_ops::param	file:
+PARAM_NAND	mxsboot.c	/^		PARAM_NAND$/;"	e	language:C	enum:parse_ops::param	file:
+PARAM_OOB	mxsboot.c	/^		PARAM_OOB,$/;"	e	language:C	enum:parse_ops::param	file:
+PARAM_PART	mxsboot.c	/^		PARAM_PART,$/;"	e	language:C	enum:parse_ops::param	file:
+PARAM_SD	mxsboot.c	/^		PARAM_SD,$/;"	e	language:C	enum:parse_ops::param	file:
+PARAM_WRITE	mxsboot.c	/^		PARAM_WRITE,$/;"	e	language:C	enum:parse_ops::param	file:
+PBLIMAGE_H	pblimage.h	/^#define PBLIMAGE_H$/;"	d	language:C++
+PBUFSIZ	gdb/remote.c	/^#define	PBUFSIZ /;"	d	language:C	file:
+PDF_MAX	mpc86x_clk.c	/^#define PDF_MAX	/;"	d	language:C	file:
+PDF_MIN	mpc86x_clk.c	/^#define PDF_MIN	/;"	d	language:C	file:
+PROG	updater/Makefile	/^PROG		= $(obj)updater$/;"	m	language:Make
+PROT_EXEC	mingw_support.h	/^#define PROT_EXEC	/;"	d	language:C++
+PROT_NONE	mingw_support.h	/^#define PROT_NONE	/;"	d	language:C++
+PROT_READ	mingw_support.h	/^#define PROT_READ	/;"	d	language:C++
+PROT_WRITE	mingw_support.h	/^#define PROT_WRITE	/;"	d	language:C++
+PatchStream	patman/patchstream.py	/^class PatchStream:$/;"	c	language:Python
+Perror	gdb/error.c	/^Perror(char *fmt, ...)$/;"	f	language:C	typeref:typename:void	signature:(char * fmt,...)
+ProcessLine	patman/patchstream.py	/^    def ProcessLine(self, line):$/;"	m	language:Python	class:PatchStream	signature:(self, line)
+ProcessStream	patman/patchstream.py	/^    def ProcessStream(self, infd, outfd):$/;"	m	language:Python	class:PatchStream	signature:(self, infd, outfd)
+RCW_BYTES	pblimage.h	/^#define RCW_BYTES	/;"	d	language:C++
+RCW_HEADER	pblimage.h	/^#define RCW_HEADER	/;"	d	language:C++
+RCW_PREAMBLE	pblimage.h	/^#define RCW_PREAMBLE	/;"	d	language:C++
+RED	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+REGISTER_BYTES	gdb/remote.c	/^#define REGISTER_BYTES /;"	d	language:C	file:
+RESET	patman/terminal.py	/^  RESET = '\\033[0m'$/;"	v	language:Python	class:Color
+ReadGitAliases	patman/settings.py	/^def ReadGitAliases(fname):$/;"	f	language:Python	signature:(fname)
+Run	patman/command.py	/^def Run(*cmd, **kwargs):$/;"	f	language:Python	signature:(*cmd, **kwargs)
+RunList	patman/command.py	/^def RunList(cmd):$/;"	f	language:Python	signature:(cmd)
+RunPipe	patman/command.py	/^def RunPipe(pipeline, infile=None, outfile=None,$/;"	f	language:Python	signature:(pipeline, infile=None, outfile=None, capture=False, oneline=False, hide_stderr=False)
+SERIAL_EOF	gdb/serial.h	/^#define SERIAL_EOF	/;"	d	language:C++
+SERIAL_ERROR	gdb/serial.h	/^#define SERIAL_ERROR	/;"	d	language:C++
+SERIAL_READCHAR	gdb/remote.c	/^#define SERIAL_READCHAR(/;"	d	language:C	file:	signature:(fd,timo)
+SERIAL_TIMEOUT	gdb/serial.h	/^#define SERIAL_TIMEOUT	/;"	d	language:C++
+SERIAL_WRITE	gdb/remote.c	/^#define SERIAL_WRITE(/;"	d	language:C	file:	signature:(fd,addr,len)
+SFX	Makefile	/^SFX = .exe$/;"	m	language:Make
+SFX	Makefile	/^SFX =$/;"	m	language:Make
+SOH	kwboot.c	/^#define SOH	/;"	d	language:C	file:
+SPL_HEADER	mks5pc1xxspl.c	/^#define SPL_HEADER /;"	d	language:C	file:
+SPL_HEADER_SIZE	mks5pc1xxspl.c	/^#define SPL_HEADER_SIZE /;"	d	language:C	file:
+SRCS	updater/Makefile	/^SRCS	:= $(COBJS:.o=.c) $(AOBJS:.o=.S) $(addprefix $(obj), $(COBJS_LINKS:.o:.c) $(AOBJS_LINKS:.o:/;"	m	language:Make
+STATE_DIFFS	patman/patchstream.py	/^STATE_DIFFS = 3             # In the diff part (past --- line)$/;"	v	language:Python
+STATE_MSG_HEADER	patman/patchstream.py	/^STATE_MSG_HEADER = 0        # Still in the message header$/;"	v	language:Python
+STATE_PATCH_HEADER	patman/patchstream.py	/^STATE_PATCH_HEADER = 2      # In patch header (after the subject)$/;"	v	language:Python
+STATE_PATCH_SUBJECT	patman/patchstream.py	/^STATE_PATCH_SUBJECT = 1     # In patch subject (first line of log for a commit)$/;"	v	language:Python
+STRIDE_COUNT	mxsboot.c	/^#define	STRIDE_COUNT	/;"	d	language:C	file:
+STRIDE_PAGES	mxsboot.c	/^#define	STRIDE_PAGES	/;"	d	language:C	file:
+S_IRGRP	mingw_support.h	/^# define S_IRGRP /;"	d	language:C++
+S_IWGRP	mingw_support.h	/^# define S_IWGRP /;"	d	language:C++
+S_MAX	mpc86x_clk.c	/^#define S_MAX	/;"	d	language:C	file:
+S_MIN	mpc86x_clk.c	/^#define S_MIN	/;"	d	language:C	file:
+Series	patman/series.py	/^class Series(dict):$/;"	c	language:Python
+Setup	patman/gitutil.py	/^def Setup():$/;"	f	language:Python	signature:()
+Setup	patman/settings.py	/^def Setup(config_fname=''):$/;"	f	language:Python	signature:(config_fname='')
+SetupData	patman/test.py	/^    def SetupData(self, data_type):$/;"	m	language:Python	class:TestPatch	signature:(self, data_type)
+ShowActions	patman/series.py	/^    def ShowActions(self, args, cmd, process_tags):$/;"	m	language:Python	class:Series	signature:(self, args, cmd, process_tags)
+Start	patman/terminal.py	/^  def Start(self, color):$/;"	m	language:Python	class:Color	signature:(self, color)
+Stop	patman/terminal.py	/^  def Stop(self):$/;"	m	language:Python	class:Color	signature:(self)
+StringLowerCase	easylogo/easylogo.c	/^void StringLowerCase (char *str)$/;"	f	language:C	typeref:typename:void	signature:(char * str)
+StringUpperCase	easylogo/easylogo.c	/^void StringUpperCase (char *str)$/;"	f	language:C	typeref:typename:void	signature:(char * str)
+TD.HL	bddb/bddb.css	/^TD.HL {$/;"	c	language:CSS
+TD.Info	bddb/bddb.css	/^TH.Info, TD.Info {$/;"	c	language:CSS
+TD.LuT	bddb/bddb.css	/^TD.LuT {$/;"	c	language:CSS
+TD.Nova	bddb/bddb.css	/^TD.Nova, Body.Nova {$/;"	c	language:CSS
+TD.Plain	bddb/bddb.css	/^TD.Plain {$/;"	c	language:CSS
+TH.Info	bddb/bddb.css	/^TH.Info, TD.Info {$/;"	c	language:CSS
+TH.LuT	bddb/bddb.css	/^TH.LuT {$/;"	c	language:CSS
+TH.Menu	bddb/bddb.css	/^TH.Menu	{$/;"	c	language:CSS
+TH.Nav	bddb/bddb.css	/^TH.Nav {$/;"	c	language:CSS
+TH.Xmp	bddb/bddb.css	/^TH.Xmp {$/;"	c	language:CSS
+TOOLSUBDIRS	Makefile	/^TOOLSUBDIRS = kernel-doc$/;"	m	language:Make
+TestPatch	patman/test.py	/^class TestPatch(unittest.TestCase):$/;"	c	language:Python
+To	checkpatch.pl	/^	To:|$/;"	l	language:Perl
+UBL_BLOCK_SIZE	ublimage.h	/^#define UBL_BLOCK_SIZE /;"	d	language:C++
+UBL_IMAGE_SIZE	ublimage.h	/^#define UBL_IMAGE_SIZE /;"	d	language:C++
+UBL_MAGIC_BASE	ublimage.h	/^#define UBL_MAGIC_BASE /;"	d	language:C++
+UBL_MAGIC_DMA	ublimage.h	/^#define UBL_MAGIC_DMA /;"	d	language:C++
+UBL_MAGIC_DMA_IC	ublimage.h	/^#define UBL_MAGIC_DMA_IC /;"	d	language:C++
+UBL_MAGIC_DMA_IC_FAST	ublimage.h	/^#define UBL_MAGIC_DMA_IC_FAST /;"	d	language:C++
+UBL_MAGIC_FAST	ublimage.h	/^#define UBL_MAGIC_FAST /;"	d	language:C++
+UBL_MAGIC_IC	ublimage.h	/^#define UBL_MAGIC_IC /;"	d	language:C++
+UBL_MAGIC_SAFE	ublimage.h	/^#define UBL_MAGIC_SAFE /;"	d	language:C++
+ULONGEST	gdb/remote.c	/^#define ULONGEST /;"	d	language:C	file:
+Usage	checkpatch.pl	/^Usage: $P [OPTION]... [FILE]...$/;"	l	language:Perl
+Version	checkpatch.pl	/^Version: $V$/;"	l	language:Perl
+WARN	checkpatch.pl	/^sub WARN {$/;"	s	language:Perl
+WHITE	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+WHITESPACE	env/fw_env.c	/^#define WHITESPACE(/;"	d	language:C	file:	signature:(c)
+WORD_ALIGN	aisimage.c	/^#define WORD_ALIGN(/;"	d	language:C	file:	signature:(len)
+WORD_ALIGN0	aisimage.c	/^#define WORD_ALIGN0	/;"	d	language:C	file:
+Warning	gdb/error.c	/^Warning(char *fmt, ...)$/;"	f	language:C	typeref:typename:void	signature:(char * fmt,...)
+WriteHex	img2srec.c	/^static char* WriteHex(char* pa, uint8_t value, uint16_t* pCheckSum)$/;"	f	language:C	typeref:typename:char *	file:	signature:(char * pa,uint8_t value,uint16_t * pCheckSum)
+YELLOW	patman/terminal.py	/^  BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)$/;"	v	language:Python	class:Color
+_AISIMAGE_H_	aisimage.h	/^#define _AISIMAGE_H_$/;"	d	language:C++
+_GNU_SOURCE	aisimage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	imximage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	kernel-doc/docproc.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	kwbimage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	mkenvimage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	omapimage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	pblimage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_GNU_SOURCE	ublimage.c	/^#define _GNU_SOURCE$/;"	d	language:C	file:
+_IMXIMAGE_H_	imximage.h	/^#define _IMXIMAGE_H_$/;"	d	language:C++
+_KWBIMAGE_H_	kwbimage.h	/^#define _KWBIMAGE_H_$/;"	d	language:C++
+_MKIIMAGE_H_	mkimage.h	/^#define _MKIIMAGE_H_$/;"	d	language:C++
+_OMAPIMAGE_H_	omapimage.h	/^#define _OMAPIMAGE_H_$/;"	d	language:C++
+_UBLIMAGE_H_	ublimage.h	/^#define _UBLIMAGE_H_$/;"	d	language:C++
+__ASM_STUB_PROCESSOR_H__	envcrc.c	/^#define	__ASM_STUB_PROCESSOR_H__	/;"	d	language:C	file:
+__ASSEMBLY__	env/fw_env.h	/^#define __ASSEMBLY__ /;"	d	language:C++
+__ASSEMBLY__	envcrc.c	/^#define	__ASSEMBLY__	/;"	d	language:C	file:
+__FDT_HOST_H__	fdt_host.h	/^#define __FDT_HOST_H__$/;"	d	language:C++
+__HAVE_ARCH_BCOPY	updater/string.c	/^#define __HAVE_ARCH_BCOPY$/;"	d	language:C	file:
+__HAVE_ARCH_MEMCMP	updater/string.c	/^#define __HAVE_ARCH_MEMCMP$/;"	d	language:C	file:
+__HAVE_ARCH_MEMCPY	updater/string.c	/^#define __HAVE_ARCH_MEMCPY$/;"	d	language:C	file:
+__HAVE_ARCH_MEMMOVE	updater/string.c	/^#define __HAVE_ARCH_MEMMOVE$/;"	d	language:C	file:
+__HAVE_ARCH_MEMSET	updater/string.c	/^#define __HAVE_ARCH_MEMSET$/;"	d	language:C	file:
+__HAVE_ARCH_STRCAT	updater/string.c	/^#define __HAVE_ARCH_STRCAT$/;"	d	language:C	file:
+__HAVE_ARCH_STRCMP	updater/string.c	/^#define __HAVE_ARCH_STRCMP$/;"	d	language:C	file:
+__HAVE_ARCH_STRCPY	updater/string.c	/^#define __HAVE_ARCH_STRCPY$/;"	d	language:C	file:
+__HAVE_ARCH_STRLEN	updater/string.c	/^#define __HAVE_ARCH_STRLEN$/;"	d	language:C	file:
+__HAVE_ARCH_STRNCPY	updater/string.c	/^#define __HAVE_ARCH_STRNCPY$/;"	d	language:C	file:
+__INSIDE_MSYS__	mingw_support.h	/^#define __INSIDE_MSYS__	/;"	d	language:C++
+__OS_SUPPORT_H_	os_support.h	/^#define __OS_SUPPORT_H_$/;"	d	language:C++
+__WINGW_SUPPORT_H_	mingw_support.h	/^#define __WINGW_SUPPORT_H_	/;"	d	language:C++
+___strtok	updater/string.c	/^char * ___strtok = NULL;$/;"	v	language:C	typeref:typename:char *
+__anon3e4686db0103	aisimage.h	/^enum {$/;"	g	language:C++
+__anon4c5f56c50103	bmp_logo.c	/^enum {$/;"	g	language:C	file:
+__anon680cfb0b0108	easylogo/easylogo.c	/^typedef struct {$/;"	s	language:C	file:
+__anon680cfb0b0208	easylogo/easylogo.c	/^typedef struct {$/;"	s	language:C	file:
+__anon680cfb0b0308	easylogo/easylogo.c	/^typedef struct {$/;"	s	language:C	file:
+__anon680cfb0b0408	easylogo/easylogo.c	/^typedef struct {$/;"	s	language:C	file:
+__anon680cfb0b0508	easylogo/easylogo.c	/^typedef struct {$/;"	s	language:C	file:
+__anon680cfb0b060a	easylogo/easylogo.c	/^	union {$/;"	u	language:C	function:le16_to_cpu	file:
+__anoncb0ebba20108	mxsboot.c	/^	struct {$/;"	s	language:C	struct:mx28_nand_fcb	file:
+__anoncdd5fc4c0108	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0208	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0308	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0408	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0508	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0608	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0708	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0808	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0908	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0a08	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0b08	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0c08	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0d08	imximage.h	/^typedef struct {$/;"	s	language:C++
+__anoncdd5fc4c0e0a	imximage.h	/^	union {$/;"	u	language:C++	struct:imx_header
+__anond5b11e97010a	pblimage.c	/^{$/;"	u	language:C	file:
+__dummy	updater/dummy.c	/^volatile int __dummy = 0xDEADBEEF;$/;"	v	language:C	typeref:typename:volatile int
+__getattr__	patman/series.py	/^    def __getattr__(self, name):$/;"	m	language:Python	class:Series	signature:(self, name)
+__init__	patman/commit.py	/^    def __init__(self, hash):$/;"	m	language:Python	class:Commit	signature:(self, hash)
+__init__	patman/patchstream.py	/^    def __init__(self, series, name=None, is_log=False):$/;"	m	language:Python	class:PatchStream	signature:(self, series, name=None, is_log=False)
+__init__	patman/series.py	/^    def __init__(self):$/;"	m	language:Python	class:Series	signature:(self)
+__init__	patman/terminal.py	/^  def __init__(self, enabled=True):$/;"	m	language:Python	class:Color	signature:(self, enabled=True)
+__progress	kwboot.c	/^__progress(int pct, char c)$/;"	f	language:C	typeref:typename:void	file:	signature:(int pct,char c)
+__setattr__	patman/series.py	/^    def __setattr__(self, name, value):$/;"	m	language:Python	class:Series	signature:(self, name, value)
+__spinner	kwboot.c	/^__spinner(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+__user	env/fw_env.c	/^# define  __user	/;"	d	language:C	file:
+__user	imls/imls.c	/^#define  __user	/;"	d	language:C	file:
+_ctype	updater/ctype.c	/^unsigned char _ctype[] = {$/;"	v	language:C	typeref:typename:unsigned char[]
+_main	updater/update.c	/^void _main(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+_pnum	kwboot.c	/^	uint8_t _pnum;$/;"	m	language:C	struct:kwboot_block	typeref:typename:uint8_t	file:
+abbrev_spec	updater/cmd_flash.c	/^abbrev_spec(char *str, flash_info_t **pinfo, int *psf, int *psl)$/;"	f	language:C	typeref:typename:int	file:	signature:(char * str,flash_info_t ** pinfo,int * psf,int * psl)
+active_flag	env/fw_env.c	/^static unsigned char active_flag = 1;$/;"	v	language:C	typeref:typename:unsigned char	file:
+add_end_cmd	pblimage.c	/^static void add_end_cmd(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+add_new_file	kernel-doc/docproc.c	/^static struct symfile * add_new_file(char * filename)$/;"	f	language:C	typeref:struct:symfile *	file:	signature:(char * filename)
+add_new_symbol	kernel-doc/docproc.c	/^static void add_new_symbol(struct symfile *sym, char * symname)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct symfile * sym,char * symname)
+adddep	kernel-doc/docproc.c	/^static void adddep(char * file)		   { printf("\\t%s", file); }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * file)
+adddep2	kernel-doc/docproc.c	/^static void adddep2(char * file, char * line)     { line = line; adddep(file); }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * file,char * line)
+addr	aisimage.h	/^	uint32_t addr;$/;"	m	language:C++	struct:ais_cmd_jmpclose	typeref:typename:uint32_t
+addr	aisimage.h	/^	uint32_t addr;$/;"	m	language:C++	struct:ais_cmd_load	typeref:typename:uint32_t
+addr	gdb/gdbsend.c	/^unsigned long addr = 0x10000UL;$/;"	v	language:C	typeref:typename:unsigned long
+addr	imximage.h	/^	uint32_t addr; \/* Address to write to *\/$/;"	m	language:C++	struct:__anoncdd5fc4c0108	typeref:typename:uint32_t
+addr	imximage.h	/^	uint32_t addr;$/;"	m	language:C++	struct:__anoncdd5fc4c0708	typeref:typename:uint32_t
+addr	mkimage.h	/^	unsigned int addr;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:unsigned int
+addr2info	updater/flash.c	/^addr2info (ulong addr)$/;"	f	language:C	typeref:typename:flash_info_t *	signature:(ulong addr)
+addr_data	imximage.h	/^	dcd_addr_data_t addr_data[MAX_HW_CFG_SIZE_V2];$/;"	m	language:C++	struct:__anoncdd5fc4c0a08	typeref:typename:dcd_addr_data_t[]
+addr_data	imximage.h	/^	dcd_type_addr_data_t addr_data[MAX_HW_CFG_SIZE_V1];$/;"	m	language:C++	struct:__anoncdd5fc4c0308	typeref:typename:dcd_type_addr_data_t[]
+address_setup	mxsboot.c	/^		uint8_t			address_setup;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+ais_alloc_buffer	aisimage.c	/^static uint32_t *ais_alloc_buffer(struct mkimage_params *params)$/;"	f	language:C	typeref:typename:uint32_t *	file:	signature:(struct mkimage_params * params)
+ais_cmd_func	aisimage.h	/^struct ais_cmd_func {$/;"	s	language:C++
+ais_cmd_jmpclose	aisimage.h	/^struct ais_cmd_jmpclose {$/;"	s	language:C++
+ais_cmd_load	aisimage.h	/^struct ais_cmd_load {$/;"	s	language:C++
+ais_copy_image	aisimage.c	/^static uint32_t *ais_copy_image(struct mkimage_params *params,$/;"	f	language:C	typeref:typename:uint32_t *	file:	signature:(struct mkimage_params * params,uint32_t * aisptr)
+ais_file_cmd	aisimage.h	/^enum ais_file_cmd {$/;"	g	language:C++
+ais_func_exec	aisimage.c	/^static struct ais_func_exec {$/;"	s	language:C	file:
+ais_func_table	aisimage.c	/^} ais_func_table[] = {$/;"	v	language:C	typeref:struct:ais_func_exec[]
+ais_header	aisimage.h	/^struct ais_header {$/;"	s	language:C++
+ais_img_size	aisimage.c	/^static uint32_t ais_img_size;$/;"	v	language:C	typeref:typename:uint32_t	file:
+ais_insert_cmd_header	aisimage.c	/^static uint32_t *ais_insert_cmd_header(uint32_t cmd, uint32_t nargs,$/;"	f	language:C	typeref:typename:uint32_t *	file:	signature:(uint32_t cmd,uint32_t nargs,uint32_t * parms,struct image_type_params * tparams,uint32_t * ptr)
+aisimage_check_image_types	aisimage.c	/^static int aisimage_check_image_types(uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+aisimage_check_params	aisimage.c	/^int aisimage_check_params(struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	signature:(struct mkimage_params * params)
+aisimage_cmds	aisimage.c	/^static table_entry_t aisimage_cmds[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+aisimage_fld_types	aisimage.h	/^enum aisimage_fld_types {$/;"	g	language:C++
+aisimage_generate	aisimage.c	/^static int aisimage_generate(struct mkimage_params *params,$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mkimage_params * params,struct image_type_params * tparams)
+aisimage_params	aisimage.c	/^static struct image_type_params aisimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+aisimage_print_header	aisimage.c	/^static void aisimage_print_header(const void *hdr)$/;"	f	language:C	typeref:typename:void	file:	signature:(const void * hdr)
+aisimage_set_header	aisimage.c	/^static void aisimage_set_header(void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+aisimage_verify_header	aisimage.c	/^static int aisimage_verify_header(unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+alias	patman/settings.py	/^alias = {}$/;"	v	language:Python
+all	Makefile	/^all:	$(obj).depend $(BINS) $(LOGO-y) subdirs$/;"	t	language:Make
+all	easylogo/Makefile	/^all: $(obj)easylogo$/;"	t	language:Make
+all	env/Makefile	/^all:	$(obj)fw_printenv$/;"	t	language:Make
+all	gdb/Makefile	/^all:	$(obj).depend $(BINS)$/;"	t	language:Make
+all	gdb/Makefile	/^all:$/;"	t	language:Make
+all	imls/Makefile	/^all:	$(BINS)$/;"	t	language:Make
+all	kernel-doc/Makefile	/^all:	$(obj)docproc$/;"	t	language:Make
+all	updater/Makefile	/^all:	$(obj).depend $(PROG) $(IMAGE)$/;"	t	language:Make
+all_list	kernel-doc/docproc.c	/^static char **all_list = NULL;$/;"	v	language:C	typeref:typename:char **	file:
+all_list_len	kernel-doc/docproc.c	/^static int all_list_len = 0;$/;"	v	language:C	typeref:typename:int	file:
+alloca	gdb/remote.c	/^#define alloca /;"	d	language:C	file:
+annotate_reset	checkpatch.pl	/^sub annotate_reset {$/;"	s	language:Perl
+annotate_values	checkpatch.pl	/^sub annotate_values {$/;"	s	language:Perl
+app_code_barker	imximage.h	/^	uint32_t app_code_barker;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+app_code_csf	imximage.h	/^	uint32_t app_code_csf;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+app_code_jump_vector	imximage.h	/^	uint32_t app_code_jump_vector;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+app_dest_ptr	imximage.h	/^	uint32_t app_dest_ptr;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+arch	mkimage.h	/^	int arch;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+argcnt	aisimage.c	/^	uint32_t argcnt;$/;"	m	language:C	struct:ais_func_exec	typeref:typename:uint32_t	file:
+args	patman/patman	/^        cover_fname, args = gitutil.CreatePatches(options.start, options.count,$/;"	v	language:Python
+args	patman/patman.py	/^        cover_fname, args = gitutil.CreatePatches(options.start, options.count,$/;"	v	language:Python
+array_search	bddb/defs.php	/^		function array_search($needle, $haystack, $strict = false) {$/;"	f	language:PHP	signature:($needle, $haystack, $strict = false)
+b	easylogo/easylogo.c	/^	unsigned char b, g, r;$/;"	m	language:C	struct:__anon680cfb0b0308	typeref:typename:unsigned char	file:
+b	easylogo/easylogo.c	/^	unsigned char r, g, b;$/;"	m	language:C	struct:__anon680cfb0b0208	typeref:typename:unsigned char	file:
+backwards_memcpy	updater/ppcstring.S	/^backwards_memcpy:$/;"	l	language:Asm
+badblock	mxsboot.c	/^	uint32_t		badblock[510];$/;"	m	language:C	struct:mx28_nand_bbt	typeref:typename:uint32_t[510]	file:
+badblock_marker_byte	mxsboot.c	/^	uint32_t		badblock_marker_byte;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+badblock_marker_start_bit	mxsboot.c	/^	uint32_t		badblock_marker_start_bit;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+barker	imximage.h	/^	uint32_t barker; \/* Barker for sanity check *\/$/;"	m	language:C++	struct:__anoncdd5fc4c0208	typeref:typename:uint32_t
+batch	bddb/create_tables.sql	/^   batch char(32),$/;"	E	language:SQL	table:boards
+batch	bddb/doedit.php	/^		$batch=$_REQUEST['batch'];$/;"	v	language:PHP
+bb_marker_physical_offset	mxsboot.c	/^	uint32_t		bb_marker_physical_offset;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+bcopy	updater/ppcstring.S	/^bcopy:$/;"	l	language:Asm
+bcopy	updater/string.c	/^char * bcopy(const char * src, char * dest, int count)$/;"	f	language:C	typeref:typename:char *	signature:(const char * src,char * dest,int count)
+bddb_cfgdir	bddb/config.php	/^	$bddb_cfgdir = '\/tftpboot\/bddb';$/;"	v	language:PHP
+bddb_label	bddb/config.php	/^	$bddb_label = 'Hymod Board Database';$/;"	v	language:PHP
+begin_field	bddb/defs.php	/^	function begin_field($name, $span = 0) {$/;"	f	language:PHP	signature:($name, $span = 0)
+begin_table	bddb/defs.php	/^	function begin_table($ncols) {$/;"	f	language:PHP	signature:($ncols)
+bgr_t	easylogo/easylogo.c	/^} bgr_t;$/;"	t	language:C	typeref:struct:__anon680cfb0b0308	file:
+bhr_t	kwbimage.h	/^typedef struct bhr_t {$/;"	s	language:C++
+bhr_t	kwbimage.h	/^} bhr_t, *pbhr_t;$/;"	t	language:C++	typeref:struct:bhr_t
+bitmap_s	bmp_logo.c	/^typedef struct bitmap_s {		\/* bitmap description *\/$/;"	s	language:C	file:
+bitmap_t	bmp_logo.c	/^} bitmap_t;$/;"	t	language:C	typeref:struct:bitmap_s	file:
+block	ublimage.h	/^	uint32_t	block;	\/*$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+blockid	kwbimage.h	/^	uint8_t blockid;		\/*0     *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint8_t
+blocksize	kwbimage.h	/^	uint32_t blocksize;		\/*4-7   *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint32_t
+boards	bddb/create_tables.sql	/^CREATE TABLE boards ($/;"	t	language:SQL
+boot_data	imximage.h	/^	boot_data_t boot_data;$/;"	m	language:C++	struct:__anoncdd5fc4c0d08	typeref:typename:boot_data_t
+boot_data_ptr	imximage.h	/^	uint32_t boot_data_ptr;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+boot_data_t	imximage.h	/^} boot_data_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0b08
+boot_patch	mxsboot.c	/^	uint32_t		boot_patch;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+bpp	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+bss_storage	easylogo/easylogo.c	/^static bool bss_storage = false;$/;"	v	language:C	typeref:typename:bool	file:
+build_types	checkpatch.pl	/^sub build_types {$/;"	s	language:Perl
+busspd	bddb/create_tables.sql	/^   busspd enum('33MHZ','66MHZ','100MHZ','133MHZ','166MHZ','200MHZ','233MHZ','266MHZ','300MHZ','3/;"	E	language:SQL	table:boards
+busspd	bddb/doedit.php	/^		$busspd=$_REQUEST['busspd'];$/;"	v	language:PHP
+c	pblimage.c	/^	char c[4];$/;"	m	language:C	union:__anond5b11e97010a	typeref:typename:char[4]	file:
+calculate	mpc86x_clk.c	/^static int calculate (int xin, int target_clock,$/;"	f	language:C	typeref:typename:int	file:	signature:(int xin,int target_clock,int ppm,int pdf,int mfi,int mfn,int mfd,int s,int * dprefp,int * dpgdckp,int * jdbckp,int * gclk2p,int * dbrmop)
+cat_vet	checkpatch.pl	/^sub cat_vet {$/;"	s	language:Perl
+cc	patman/patman	/^                cc = cc.strip()$/;"	v	language:Python
+cc	patman/patman.py	/^                cc = cc.strip()$/;"	v	language:Python
+cc_file	patman/patman	/^        cc_file = series.MakeCcFile(options.process_tags)$/;"	v	language:Python
+cc_file	patman/patman.py	/^        cc_file = series.MakeCcFile(options.process_tags)$/;"	v	language:Python
+cell_type	mxsboot.c	/^	uint32_t		cell_type;			\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+cflag	imls/imls.c	/^int cflag = 0;$/;"	v	language:C	typeref:typename:int
+ch_settings	omapimage.h	/^struct ch_settings {$/;"	s	language:C++
+ch_toc	omapimage.h	/^struct ch_toc {$/;"	s	language:C++
+checkSum	kwbimage.h	/^	uint8_t checkSum;		\/*31    *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint8_t
+checkSum	kwbimage.h	/^	uint8_t checkSum;$/;"	m	language:C++	struct:extbhr_t	typeref:typename:uint8_t
+check_absolute_file	checkpatch.pl	/^sub check_absolute_file {$/;"	s	language:Perl
+check_binary_download	gdb/remote.c	/^check_binary_download (CORE_ADDR addr)$/;"	f	language:C	typeref:typename:void	file:	signature:(CORE_ADDR addr)
+check_get_hexval	kwbimage.c	/^static uint32_t check_get_hexval (char *token)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(char * token)
+check_get_hexval	pblimage.c	/^static void check_get_hexval(char *token)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * token)
+check_image_type	mkimage.h	/^	int (*check_image_type) (uint8_t);$/;"	m	language:C++	struct:image_type_params	typeref:typename:int (*)(uint8_t)
+check_params	mkimage.h	/^	int (*check_params) (struct mkimage_params *);$/;"	m	language:C++	struct:image_type_params	typeref:typename:int (*)(struct mkimage_params *)
+check_sections	kernel-doc/kernel-doc	/^sub check_sections($$$$$$) {$/;"	s	language:Perl
+checksum	mxsboot.c	/^	uint32_t		checksum;$/;"	m	language:C	struct:mx28_nand_dbbt	typeref:typename:uint32_t	file:
+checksum	mxsboot.c	/^	uint32_t		checksum;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+chip_num	mxsboot.c	/^	uint32_t		chip_num;$/;"	m	language:C	struct:mx28_sd_drive_info	typeref:typename:uint32_t	file:
+clean	easylogo/Makefile	/^clean:$/;"	t	language:Make
+clean	env/Makefile	/^clean:$/;"	t	language:Make
+clean	gdb/Makefile	/^clean:$/;"	t	language:Make
+clean	imls/Makefile	/^clean:$/;"	t	language:Make
+clean	kernel-doc/Makefile	/^clean:$/;"	t	language:Make
+clean_space_tabs	cleanpatch	/^sub clean_space_tabs($)$/;"	s	language:Perl
+clk_vals	bddb/defs.php	/^	$clk_vals = array('','33MHZ','66MHZ','100MHZ','133MHZ','166MHZ','200MHZ','233MHZ','266MHZ','300/;"	v	language:PHP
+cmd	aisimage.h	/^	uint32_t cmd;$/;"	m	language:C++	struct:ais_cmd_func	typeref:typename:uint32_t
+cmd	aisimage.h	/^	uint32_t cmd;$/;"	m	language:C++	struct:ais_cmd_jmpclose	typeref:typename:uint32_t
+cmd	aisimage.h	/^	uint32_t cmd;$/;"	m	language:C++	struct:ais_cmd_load	typeref:typename:uint32_t
+cmd	patman/patman	/^        cmd = gitutil.EmailPatches(series, cover_fname, args,$/;"	v	language:Python
+cmd	patman/patman	/^    cmd = ''$/;"	v	language:Python
+cmd	patman/patman.py	/^        cmd = gitutil.EmailPatches(series, cover_fname, args,$/;"	v	language:Python
+cmd	patman/patman.py	/^    cmd = ''$/;"	v	language:Python
+cmd_table	aisimage.c	/^} cmd_table[] = {$/;"	v	language:C	typeref:struct:cmd_table_t[]
+cmd_table_t	aisimage.c	/^static struct cmd_table_t {$/;"	s	language:C	file:
+cmdname	imls/imls.c	/^char	*cmdname;$/;"	v	language:C	typeref:typename:char *
+cmdname	mkimage.h	/^	char *cmdname;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:char *
+col	patman/patman	/^    col = terminal.Color()$/;"	v	language:Python
+col	patman/patman.py	/^    col = terminal.Color()$/;"	v	language:Python
+collect_files	setlocalversion	/^collect_files()$/;"	f	language:Sh
+columns	bddb/defs.php	/^	$columns = array($/;"	v	language:PHP
+comments	bddb/create_tables.sql	/^   comments text,$/;"	E	language:SQL	table:boards
+comments	bddb/doedit.php	/^		$comments=$_REQUEST['comments'];$/;"	v	language:PHP
+comp	mkimage.h	/^	int comp;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+comp_t	easylogo/easylogo.c	/^enum comp_t {$/;"	g	language:C	file:
+compression	easylogo/easylogo.c	/^static enum comp_t compression = COMP_NONE;$/;"	v	language:C	typeref:enum:comp_t	file:
+conf_clock	mpc86x_clk.c	/^int conf_clock(int xin, int target_clock, int ppm)$/;"	f	language:C	typeref:typename:int	signature:(int xin,int target_clock,int ppm)
+consume_symbol	kernel-doc/docproc.c	/^static void consume_symbol(const char *sym)$/;"	f	language:C	typeref:typename:void	file:	signature:(const char * sym)
+cont_field	bddb/defs.php	/^	function cont_field($span = 1) {$/;"	f	language:PHP	signature:($span = 1)
+copy_file	mkimage.c	/^copy_file (int ifd, const char *datafile, int pad)$/;"	f	language:C	typeref:typename:void	file:	signature:(int ifd,const char * datafile,int pad)
+copy_spacing	checkpatch.pl	/^sub copy_spacing {$/;"	s	language:Perl
+count_enum_multi	bddb/defs.php	/^	function count_enum_multi($base, $cnt) {$/;"	f	language:PHP	signature:($base, $cnt)
+cover_fname	patman/patman	/^        cover_fname, args = gitutil.CreatePatches(options.start, options.count,$/;"	v	language:Python
+cover_fname	patman/patman.py	/^        cover_fname, args = gitutil.CreatePatches(options.start, options.count,$/;"	v	language:Python
+cpmspd	bddb/create_tables.sql	/^   cpmspd enum('33MHZ','66MHZ','100MHZ','133MHZ','166MHZ','200MHZ','233MHZ','266MHZ','300MHZ','3/;"	E	language:SQL	table:boards
+cpmspd	bddb/doedit.php	/^		$cpmspd=$_REQUEST['cpmspd'];$/;"	v	language:PHP
+cpuspd	bddb/create_tables.sql	/^   cpuspd enum('33MHZ','66MHZ','100MHZ','133MHZ','166MHZ','200MHZ','233MHZ','266MHZ','300MHZ','3/;"	E	language:SQL	table:boards
+cpuspd	bddb/doedit.php	/^		$cpuspd=$_REQUEST['cpuspd'];$/;"	v	language:PHP
+cputyp	bddb/create_tables.sql	/^   cputyp enum('MPC8260(HIP3)','MPC8260A(HIP4)','MPC8280(HIP7)','MPC8560'),$/;"	E	language:SQL	table:boards
+cputyp	bddb/doedit.php	/^		$cputyp=$_REQUEST['cputyp'];$/;"	v	language:PHP
+cputyp_vals	bddb/defs.php	/^	$cputyp_vals = array('','MPC8260(HIP3)','MPC8260A(HIP4)','MPC8280(HIP7)','MPC8560');$/;"	v	language:PHP
+crc	env/fw_env.c	/^	uint32_t		*crc;$/;"	m	language:C	struct:environment	typeref:typename:uint32_t *	file:
+crc	env/fw_env.c	/^	uint32_t	crc;	\/* CRC32 over data bytes    *\/$/;"	m	language:C	struct:env_image_redundant	typeref:typename:uint32_t	file:
+crc	env/fw_env.c	/^	uint32_t	crc;	\/* CRC32 over data bytes    *\/$/;"	m	language:C	struct:env_image_single	typeref:typename:uint32_t	file:
+crc_table	pblimage.c	/^static uint32_t crc_table[256];$/;"	v	language:C	typeref:typename:uint32_t[256]	file:
+create_parameterlist	kernel-doc/kernel-doc	/^sub create_parameterlist($$$) {$/;"	s	language:Perl
+csf	imximage.h	/^	uint32_t csf;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+csum	kwboot.c	/^	uint8_t csum;$/;"	m	language:C	struct:kwboot_block	typeref:typename:uint8_t	file:
+ctx_block	checkpatch.pl	/^sub ctx_block {$/;"	s	language:Perl
+ctx_block_get	checkpatch.pl	/^sub ctx_block_get {$/;"	s	language:Perl
+ctx_block_level	checkpatch.pl	/^sub ctx_block_level {$/;"	s	language:Perl
+ctx_block_outer	checkpatch.pl	/^sub ctx_block_outer {$/;"	s	language:Perl
+ctx_has_comment	checkpatch.pl	/^sub ctx_has_comment {$/;"	s	language:Perl
+ctx_locate_comment	checkpatch.pl	/^sub ctx_locate_comment {$/;"	s	language:Perl
+ctx_statement	checkpatch.pl	/^sub ctx_statement {$/;"	s	language:Perl
+ctx_statement_block	checkpatch.pl	/^sub ctx_statement_block {$/;"	s	language:Perl
+ctx_statement_full	checkpatch.pl	/^sub ctx_statement_full {$/;"	s	language:Perl
+ctx_statement_level	checkpatch.pl	/^sub ctx_statement_level {$/;"	s	language:Perl
+cvtspeed	gdb/serial.c	/^cvtspeed(char *str)$/;"	f	language:C	typeref:typename:speed_t	signature:(char * str)
+data	aisimage.h	/^	char data[1];$/;"	m	language:C++	struct:ais_header	typeref:typename:char[1]
+data	aisimage.h	/^	uint32_t data[1];$/;"	m	language:C++	struct:ais_cmd_load	typeref:typename:uint32_t[1]
+data	bmp_logo.c	/^	uint8_t	*data;$/;"	m	language:C	struct:bitmap_s	typeref:typename:uint8_t *	file:
+data	easylogo/easylogo.c	/^	void *data, *palette;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:void *	file:
+data	env/fw_env.c	/^	char			*data;$/;"	m	language:C	struct:environment	typeref:typename:char *	file:
+data	env/fw_env.c	/^	char		data[];$/;"	m	language:C	struct:env_image_redundant	typeref:typename:char[]	file:
+data	env/fw_env.c	/^	char		data[];$/;"	m	language:C	struct:env_image_single	typeref:typename:char[]	file:
+data	kwboot.c	/^	uint8_t data[128];$/;"	m	language:C	struct:kwboot_block	typeref:typename:uint8_t[128]	file:
+data_hold	mxsboot.c	/^		uint8_t			data_hold;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+data_setup	mxsboot.c	/^		uint8_t			data_setup;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+datacmd_cnt	kwbimage.c	/^static int datacmd_cnt = 0;$/;"	v	language:C	typeref:typename:int	file:
+datafile	mkimage.h	/^	char *datafile;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:char *
+date	bddb/create_tables.sql	/^   date date NOT NULL,$/;"	E	language:SQL	table:boards
+date	bddb/create_tables.sql	/^   date date NOT NULL,$/;"	E	language:SQL	table:log
+date	bddb/doedit.php	/^		$date=$_REQUEST['date'];$/;"	v	language:PHP
+date	bddb/doedlog.php	/^		$date=$_REQUEST['date'];$/;"	v	language:PHP
+dbbt_search_area_start_address	mxsboot.c	/^	uint32_t		dbbt_search_area_start_address;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+dcd_addr_data_t	imximage.h	/^} dcd_addr_data_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0708
+dcd_preamble_t	imximage.h	/^} dcd_preamble_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0208
+dcd_ptr	imximage.h	/^	uint32_t dcd_ptr;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+dcd_ptr	imximage.h	/^	uint32_t dcd_ptr;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+dcd_ptr_ptr	imximage.h	/^	uint32_t dcd_ptr_ptr;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+dcd_table	imximage.h	/^	dcd_v1_t dcd_table;$/;"	m	language:C++	struct:__anoncdd5fc4c0608	typeref:typename:dcd_v1_t
+dcd_table	imximage.h	/^	dcd_v2_t dcd_table;$/;"	m	language:C++	struct:__anoncdd5fc4c0d08	typeref:typename:dcd_v2_t
+dcd_type_addr_data_t	imximage.h	/^} dcd_type_addr_data_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0108
+dcd_v1_t	imximage.h	/^} dcd_v1_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0308
+dcd_v2_t	imximage.h	/^} dcd_v2_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0a08
+ddrinitdelay	kwbimage.h	/^	uint16_t ddrinitdelay;		\/*26-27 *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint16_t
+debug	mkimage.h	/^#define debug(/;"	d	language:C++	signature:(fmt,args...)
+defaultline	kernel-doc/docproc.c	/^DFL *defaultline;$/;"	v	language:C	typeref:typename:DFL *
+defimage_params	default_image.c	/^static struct image_type_params defimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+deparenthesize	checkpatch.pl	/^sub deparenthesize {$/;"	s	language:Perl
+destaddr	kwbimage.h	/^	uint32_t destaddr;		\/*16-19 *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint32_t
+details	bddb/create_tables.sql	/^   details text NOT NULL,$/;"	E	language:SQL	table:log
+details	bddb/doedlog.php	/^		$details=$_REQUEST['details'];$/;"	v	language:PHP
+details	bddb/donewlog.php	/^		$details=$_REQUEST['details'];$/;"	v	language:PHP
+detect_imximage_version	imximage.c	/^static uint32_t detect_imximage_version(struct imx_header *imx_hdr)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(struct imx_header * imx_hdr)
+dev_current	env/fw_env.c	/^static int dev_current;$/;"	v	language:C	typeref:typename:int	file:
+devicefile	imls/imls.c	/^char	*devicefile;$/;"	v	language:C	typeref:typename:char *
+devname	env/fw_env.c	/^	char devname[16];		\/* Device name *\/$/;"	m	language:C	struct:envdev_s	typeref:typename:char[16]	file:
+devoff	env/fw_env.c	/^	ulong devoff;			\/* Device offset *\/$/;"	m	language:C	struct:envdev_s	typeref:typename:ulong	file:
+dflag	mkimage.h	/^	int dflag;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+disable_interrupts	updater/utils.c	/^disable_interrupts(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+distclean	gdb/Makefile	/^distclean:	clean$/;"	t	language:Make
+do_flerase	updater/cmd_flash.c	/^int do_flerase(cmd_tbl_t *cmdtp, bd_t *bd, int flag, int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(cmd_tbl_t * cmdtp,bd_t * bd,int flag,int argc,char * argv[])
+do_flinfo	updater/cmd_flash.c	/^int do_flinfo (cmd_tbl_t *cmdtp, bd_t *bd, int flag, int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(cmd_tbl_t * cmdtp,bd_t * bd,int flag,int argc,char * argv[])
+do_protect	updater/cmd_flash.c	/^int do_protect(cmd_tbl_t *cmdtp, bd_t *bd, int flag, int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(cmd_tbl_t * cmdtp,bd_t * bd,int flag,int argc,char * argv[])
+do_reset	updater/utils.c	/^do_reset (void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+do_swap32	omapimage.c	/^static int do_swap32 = 0;$/;"	v	language:C	typeref:typename:int	file:
+do_updater	updater/update.c	/^void do_updater(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+docfunctions	kernel-doc/docproc.c	/^static void docfunctions(char * filename, char * type)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename,char * type)
+docont	gdb/gdbsend.c	/^int verbose = 0, docont = 0;$/;"	v	language:C	typeref:typename:int
+docsect	kernel-doc/docproc.c	/^static void docsect(char *filename, char *line)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename,char * line)
+docsection	kernel-doc/docproc.c	/^FILELINE * docsection;$/;"	v	language:C	typeref:typename:FILELINE *
+dramregsoffs	kwbimage.h	/^	uint32_t dramregsoffs;$/;"	m	language:C++	struct:extbhr_t	typeref:typename:uint32_t
+drive_type	mxsboot.c	/^	uint32_t		drive_type;$/;"	m	language:C	struct:mx28_sd_drive_info	typeref:typename:uint32_t	file:
+drv_info	mxsboot.c	/^	struct mx28_sd_drive_info	drv_info[1];$/;"	m	language:C	struct:mx28_sd_config_block	typeref:struct:mx28_sd_drive_info[1]	file:
+dsample_time	mxsboot.c	/^		uint8_t			dsample_time;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+dtc	mkimage.h	/^	char *dtc;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:char *
+dump_declaration	kernel-doc/kernel-doc	/^sub dump_declaration($$) {$/;"	s	language:Perl
+dump_doc_section	kernel-doc/kernel-doc	/^sub dump_doc_section {$/;"	s	language:Perl
+dump_enum	kernel-doc/kernel-doc	/^sub dump_enum($$) {$/;"	s	language:Perl
+dump_function	kernel-doc/kernel-doc	/^sub dump_function($$) {$/;"	s	language:Perl
+dump_section	kernel-doc/kernel-doc	/^sub dump_section {$/;"	s	language:Perl
+dump_struct	kernel-doc/kernel-doc	/^sub dump_struct($$) {$/;"	s	language:Perl
+dump_typedef	kernel-doc/kernel-doc	/^sub dump_typedef($$) {$/;"	s	language:Perl
+dump_union	kernel-doc/kernel-doc	/^sub dump_union($$) {$/;"	s	language:Perl
+ecc_block_0_ecc_level_sdk	mxsboot.c	/^	uint32_t		ecc_block_0_ecc_level_sdk;	\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_0_ecc_type	mxsboot.c	/^	uint32_t		ecc_block_0_ecc_type;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_0_size	mxsboot.c	/^	uint32_t		ecc_block_0_size;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_0_size_sdk	mxsboot.c	/^	uint32_t		ecc_block_0_size_sdk;		\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_n_ecc_level_sdk	mxsboot.c	/^	uint32_t		ecc_block_n_ecc_level_sdk;	\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_n_ecc_type	mxsboot.c	/^	uint32_t		ecc_block_n_ecc_type;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_n_size	mxsboot.c	/^	uint32_t		ecc_block_n_size;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+ecc_block_n_size_sdk	mxsboot.c	/^	uint32_t		ecc_block_n_size_sdk;		\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+eflag	mkimage.h	/^	int eflag;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+emif	ublimage.h	/^	uint32_t	emif;	\/*$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+enable_interrupts	updater/utils.c	/^enable_interrupts(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+end_field	bddb/defs.php	/^	function end_field() {$/;"	f	language:PHP	signature:()
+end_table	bddb/defs.php	/^	function end_table() {$/;"	f	language:PHP	signature:()
+endian_test	pblimage.c	/^} endian_test = { {'l', '?', '?', 'b'} };$/;"	v	language:C	typeref:union:__anond5b11e97010a
+entity_system	kernel-doc/docproc.c	/^FILELINE * entity_system;$/;"	v	language:C	typeref:typename:FILELINE *
+entry	imximage.h	/^	uint32_t entry;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+entry	ublimage.h	/^	uint32_t	entry;	\/* entry point address for bootloader *\/$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+enum_to_index	bddb/defs.php	/^	function enum_to_index($name, $vals) {$/;"	f	language:PHP	signature:($name, $vals)
+env_image_redundant	env/fw_env.c	/^struct env_image_redundant {$/;"	s	language:C	file:
+env_image_single	env/fw_env.c	/^struct env_image_single {$/;"	s	language:C	file:
+env_sectors	env/fw_env.c	/^	ulong env_sectors;		\/* number of environment sectors *\/$/;"	m	language:C	struct:envdev_s	typeref:typename:ulong	file:
+env_size	env/fw_env.c	/^	ulong env_size;			\/* environment size *\/$/;"	m	language:C	struct:envdev_s	typeref:typename:ulong	file:
+envdev_s	env/fw_env.c	/^struct envdev_s {$/;"	s	language:C	file:
+envdevices	env/fw_env.c	/^static struct envdev_s envdevices[2] =$/;"	v	language:C	typeref:struct:envdev_s[2]	file:
+environment	env/fw_env.c	/^static struct environment environment = {$/;"	v	language:C	typeref:struct:environment	file:
+environment	env/fw_env.c	/^struct environment {$/;"	s	language:C	file:
+envmatch	env/fw_env.c	/^static char *envmatch (char * s1, char * s2)$/;"	f	language:C	typeref:typename:char *	file:	signature:(char * s1,char * s2)
+ep	mkimage.h	/^	unsigned int ep;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:unsigned int
+erase_size	env/fw_env.c	/^	ulong erase_size;		\/* device erase size *\/$/;"	m	language:C	struct:envdev_s	typeref:typename:ulong	file:
+erase_threshold	mxsboot.c	/^	uint32_t		erase_threshold;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+err_imximage_version	imximage.c	/^static void err_imximage_version(int version)$/;"	f	language:C	typeref:typename:void	file:	signature:(int version)
+error	bmp_logo.c	/^int error (char * msg, FILE *fp)$/;"	f	language:C	typeref:typename:int	signature:(char * msg,FILE * fp)
+error	gdb/remote.c	/^#define error /;"	d	language:C	file:
+errstr	bddb/dodelete.php	/^			$errstr = mysql_error();$/;"	v	language:PHP
+errstr	bddb/dodelete.php	/^		$errstr = mysql_error();$/;"	v	language:PHP
+errstr	bddb/dodellog.php	/^		$errstr = mysql_error();$/;"	v	language:PHP
+errstr	bddb/doedit.php	/^			$errstr = $cfgerrs[0];$/;"	v	language:PHP
+errstr	bddb/doedit.php	/^		$errstr = mysql_error();$/;"	v	language:PHP
+errstr	bddb/doedlog.php	/^		$errstr = mysql_error();$/;"	v	language:PHP
+errstr	bddb/donew.php	/^					$errstr = '&nbsp;';$/;"	v	language:PHP
+errstr	bddb/donew.php	/^				if (($errstr = $cfgerrs[$i]) == '')$/;"	v	language:PHP
+eth_addr_is_valid	bddb/defs.php	/^	function eth_addr_is_valid($ethaddr) {$/;"	f	language:PHP	signature:($ethaddr)
+ethaddr	bddb/create_tables.sql	/^   ethaddr char(17),$/;"	E	language:SQL	table:boards
+ethaddr	bddb/doedit.php	/^		$ethaddr=$_REQUEST['ethaddr'];$/;"	v	language:PHP
+ethaddr	bddb/donew.php	/^			$ethaddr = gen_eth_addr($serno);$/;"	v	language:PHP
+ethaddrs	bddb/donew.php	/^		$ethaddrs = array();$/;"	v	language:PHP
+exec_kernel_doc	kernel-doc/docproc.c	/^static void exec_kernel_doc(char **svec)$/;"	f	language:C	typeref:typename:void	file:	signature:(char ** svec)
+execaddr	kwbimage.h	/^	uint32_t execaddr;		\/*20-23 *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint32_t
+exitstatus	kernel-doc/docproc.c	/^int exitstatus = 0;$/;"	v	language:C	typeref:typename:int
+expand_tabs	checkpatch.pl	/^sub expand_tabs {$/;"	s	language:Perl
+ext	kwbimage.h	/^	uint8_t ext;			\/*30    *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint8_t
+ext_header	imximage.h	/^	flash_cfg_parms_t ext_header;$/;"	m	language:C++	struct:__anoncdd5fc4c0608	typeref:typename:flash_cfg_parms_t
+extbhr_t	kwbimage.h	/^typedef struct extbhr_t {$/;"	s	language:C++
+extbhr_t	kwbimage.h	/^} extbhr_t, *pextbhr_t;$/;"	t	language:C++	typeref:struct:extbhr_t
+externalfunctions	kernel-doc/docproc.c	/^FILEONLY *externalfunctions;$/;"	v	language:C	typeref:typename:FILEONLY *
+extfunc	kernel-doc/docproc.c	/^static void extfunc(char * filename) { docfunctions(filename, FUNCTION);   }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename)
+fd	patman/patman	/^    fd = open(options.cc_cmd, 'r')$/;"	v	language:Python
+fd	patman/patman.py	/^    fd = open(options.cc_cmd, 'r')$/;"	v	language:Python
+fflag	mkimage.h	/^	int fflag;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+fflag_handle	mkimage.h	/^	int (*fflag_handle) (struct mkimage_params *);$/;"	m	language:C++	struct:image_type_params	typeref:typename:int (*)(struct mkimage_params *)
+fhdr	imximage.h	/^	flash_header_v1_t fhdr;$/;"	m	language:C++	struct:__anoncdd5fc4c0608	typeref:typename:flash_header_v1_t
+fhdr	imximage.h	/^	flash_header_v2_t fhdr;$/;"	m	language:C++	struct:__anoncdd5fc4c0d08	typeref:typename:flash_header_v2_t
+file	kernel-doc/docproc.c	/^typedef void FILEONLY(char * file);$/;"	t	language:C	typeref:typename:void FILEONLY (char *)	file:
+filename	kernel-doc/docproc.c	/^	char *filename;$/;"	m	language:C	struct:symfile	typeref:typename:char *	file:
+filename_exist	kernel-doc/docproc.c	/^static struct symfile * filename_exist(char * filename)$/;"	f	language:C	typeref:struct:symfile *	file:	signature:(char * filename)
+find_all_symbols	kernel-doc/docproc.c	/^static void find_all_symbols(char *filename)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename)
+find_export_symbols	kernel-doc/docproc.c	/^static void find_export_symbols(char * filename)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename)
+findall	kernel-doc/docproc.c	/^FILEONLY *findall;$/;"	v	language:C	typeref:typename:FILEONLY *
+fingerprint	mxsboot.c	/^	uint32_t		fingerprint;$/;"	m	language:C	struct:mx28_nand_dbbt	typeref:typename:uint32_t	file:
+fingerprint	mxsboot.c	/^	uint32_t		fingerprint;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+firmware1_starting_sector	mxsboot.c	/^	uint32_t		firmware1_starting_sector;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+firmware2_starting_sector	mxsboot.c	/^	uint32_t		firmware2_starting_sector;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+first_sector_number	mxsboot.c	/^	uint32_t		first_sector_number;$/;"	m	language:C	struct:mx28_sd_drive_info	typeref:typename:uint32_t	file:
+fit_check_image_types	fit_image.c	/^static int fit_check_image_types (uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+fit_check_params	fit_image.c	/^static int fit_check_params (struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mkimage_params * params)
+fit_handle_file	fit_image.c	/^static int fit_handle_file (struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mkimage_params * params)
+fit_verify_header	fit_image.c	/^static int fit_verify_header (unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+fitimage_params	fit_image.c	/^static struct image_type_params fitimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+flag_scheme	env/fw_env.c	/^	enum flag_scheme	flag_scheme;$/;"	m	language:C	struct:environment	typeref:enum:flag_scheme	file:
+flag_scheme	env/fw_env.c	/^enum flag_scheme {$/;"	g	language:C	file:
+flags	env/fw_env.c	/^	unsigned char		*flags;$/;"	m	language:C	struct:environment	typeref:typename:unsigned char *	file:
+flags	env/fw_env.c	/^	unsigned char	flags;	\/* active or obsolete *\/$/;"	m	language:C	struct:env_image_redundant	typeref:typename:unsigned char	file:
+flags	omapimage.h	/^	uint32_t flags;$/;"	m	language:C++	struct:ch_settings	typeref:typename:uint32_t
+flash0	bddb/create_tables.sql	/^   flash0 enum('4M','8M','16M','32M','64M','128M','256M','512M','1G'),$/;"	E	language:SQL	table:boards
+flash1	bddb/create_tables.sql	/^   flash1 enum('4M','8M','16M','32M','64M','128M','256M','512M','1G'),$/;"	E	language:SQL	table:boards
+flash2	bddb/create_tables.sql	/^   flash2 enum('4M','8M','16M','32M','64M','128M','256M','512M','1G'),$/;"	E	language:SQL	table:boards
+flash3	bddb/create_tables.sql	/^   flash3 enum('4M','8M','16M','32M','64M','128M','256M','512M','1G'),$/;"	E	language:SQL	table:boards
+flash_bad_block	env/fw_env.c	/^static int flash_bad_block (int fd, uint8_t mtd_type, loff_t *blockstart)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd,uint8_t mtd_type,loff_t * blockstart)
+flash_bad_block	imls/imls.c	/^static int flash_bad_block(int fd, uint8_t mtd_type, loff_t start)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd,uint8_t mtd_type,loff_t start)
+flash_cfg_parms_t	imximage.h	/^} flash_cfg_parms_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0508
+flash_erase	updater/flash_hw.c	/^int flash_erase (flash_info_t *info, int s_first, int s_last)$/;"	f	language:C	typeref:typename:int	signature:(flash_info_t * info,int s_first,int s_last)
+flash_flag_obsolete	env/fw_env.c	/^static int flash_flag_obsolete (int dev, int fd, off_t offset)$/;"	f	language:C	typeref:typename:int	file:	signature:(int dev,int fd,off_t offset)
+flash_get_offsets	updater/flash_hw.c	/^static int flash_get_offsets (ulong base, flash_info_t *info)$/;"	f	language:C	typeref:typename:int	file:	signature:(ulong base,flash_info_t * info)
+flash_get_size	updater/flash_hw.c	/^static ulong flash_get_size (ulong addr, flash_info_t *info)$/;"	f	language:C	typeref:typename:ulong	file:	signature:(ulong addr,flash_info_t * info)
+flash_header_v1_t	imximage.h	/^} flash_header_v1_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0408
+flash_header_v2_t	imximage.h	/^} flash_header_v2_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0c08
+flash_info	updater/flash_hw.c	/^flash_info_t	flash_info[];$/;"	v	language:C	typeref:typename:flash_info_t[]
+flash_init	updater/flash_hw.c	/^unsigned long flash_init (void)$/;"	f	language:C	typeref:typename:unsigned long	signature:(void)
+flash_init_old	updater/flash_hw.c	/^unsigned long flash_init_old(void)$/;"	f	language:C	typeref:typename:unsigned long	signature:(void)
+flash_io	env/fw_env.c	/^static int flash_io (int mode)$/;"	f	language:C	typeref:typename:int	file:	signature:(int mode)
+flash_nbits	bddb/defs.php	/^	$flash_nbits = array(0,22,23,24,25,26,27,28,29,30);$/;"	v	language:PHP
+flash_offset	imximage.h	/^	uint32_t flash_offset;$/;"	m	language:C++	struct:imx_header	typeref:typename:uint32_t
+flash_print_info	updater/flash_hw.c	/^void flash_print_info (flash_info_t *info)$/;"	f	language:C	typeref:typename:void	signature:(flash_info_t * info)
+flash_protect	updater/flash.c	/^flash_protect (int flag, ulong from, ulong to, flash_info_t *info)$/;"	f	language:C	typeref:typename:void	signature:(int flag,ulong from,ulong to,flash_info_t * info)
+flash_read	env/fw_env.c	/^static int flash_read (int fd)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd)
+flash_read_buf	env/fw_env.c	/^static int flash_read_buf (int dev, int fd, void *buf, size_t count,$/;"	f	language:C	typeref:typename:int	file:	signature:(int dev,int fd,void * buf,size_t count,off_t offset,uint8_t mtd_type)
+flash_reset	updater/flash_hw.c	/^static void flash_reset (ulong addr)$/;"	f	language:C	typeref:typename:void	file:	signature:(ulong addr)
+flash_sect_erase	updater/cmd_flash.c	/^int flash_sect_erase (ulong addr_first, ulong addr_last)$/;"	f	language:C	typeref:typename:int	signature:(ulong addr_first,ulong addr_last)
+flash_sect_protect	updater/cmd_flash.c	/^int flash_sect_protect (int p, ulong addr_first, ulong addr_last)$/;"	f	language:C	typeref:typename:int	signature:(int p,ulong addr_first,ulong addr_last)
+flash_to_mem	updater/flash_hw.c	/^static void flash_to_mem(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+flash_to_xd	updater/flash_hw.c	/^static void flash_to_xd(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+flash_vals	bddb/defs.php	/^	$flash_vals = array('','4M','8M','16M','32M','64M','128M','256M','512M','1G');$/;"	v	language:PHP
+flash_write	env/fw_env.c	/^static int flash_write (int fd_current, int fd_target, int dev_target)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd_current,int fd_target,int dev_target)
+flash_write	updater/flash.c	/^flash_write (char *src, ulong addr, ulong cnt)$/;"	f	language:C	typeref:typename:int	signature:(char * src,ulong addr,ulong cnt)
+flash_write_buf	env/fw_env.c	/^static int flash_write_buf (int dev, int fd, void *buf, size_t count,$/;"	f	language:C	typeref:typename:int	file:	signature:(int dev,int fd,void * buf,size_t count,off_t offset,uint8_t mtd_type)
+flash_xd_nest	updater/flash_hw.c	/^int flash_xd_nest;$/;"	v	language:C	typeref:typename:int
+fname	kwbimage.c	/^static char * fname = "Unknown";$/;"	v	language:C	typeref:typename:char *	file:
+fname	patman/patman	/^    fname = os.path.join(os.path.dirname(sys.argv[0]), 'README')$/;"	v	language:Python
+fname	patman/patman.py	/^    fname = os.path.join(os.path.dirname(sys.argv[0]), 'README')$/;"	v	language:Python
+fname	pblimage.c	/^static char *fname = "Unknown";$/;"	v	language:C	typeref:typename:char *	file:
+format_email	checkpatch.pl	/^sub format_email {$/;"	s	language:Perl
+fprintf	bddb/defs.php	/^	function fprintf() {$/;"	f	language:PHP	signature:()
+fprintf_filtered	gdb/remote.c	/^#define fprintf_filtered /;"	d	language:C	file:
+fprintf_unfiltered	gdb/remote.c	/^#define fprintf_unfiltered /;"	d	language:C	file:
+fputc_filtered	gdb/remote.c	/^#define fputc_filtered /;"	d	language:C	file:
+fputc_unfiltered	gdb/remote.c	/^#define fputc_unfiltered /;"	d	language:C	file:
+fputs_filtered	gdb/remote.c	/^#define fputs_filtered /;"	d	language:C	file:
+fputs_unfiltered	gdb/remote.c	/^#define fputs_unfiltered /;"	d	language:C	file:
+fputstr_unfiltered	gdb/remote.c	/^#define fputstr_unfiltered(/;"	d	language:C	file:	signature:(a,b,c)
+fputstrn_unfiltered	gdb/remote.c	/^fputstrn_unfiltered(char *s, int n, int x, FILE *fp)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * s,int n,int x,FILE * fp)
+fromhex	gdb/remote.c	/^fromhex (int a)$/;"	f	language:C	typeref:typename:int	file:	signature:(int a)
+fsync	mingw_support.c	/^int fsync(int fd)$/;"	f	language:C	typeref:typename:int	signature:(int fd)
+func_args	aisimage.h	/^	uint32_t func_args;$/;"	m	language:C++	struct:ais_cmd_func	typeref:typename:uint32_t
+fw_env_close	env/fw_env.c	/^int fw_env_close(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+fw_env_open	env/fw_env.c	/^int fw_env_open(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+fw_env_write	env/fw_env.c	/^int fw_env_write(char *name, char *value)$/;"	f	language:C	typeref:typename:int	signature:(char * name,char * value)
+fw_getdefenv	env/fw_env.c	/^char *fw_getdefenv(char *name)$/;"	f	language:C	typeref:typename:char *	signature:(char * name)
+fw_getenv	env/fw_env.c	/^char *fw_getenv (char *name)$/;"	f	language:C	typeref:typename:char *	signature:(char * name)
+fw_parse_script	env/fw_env.c	/^int fw_parse_script(char *fname)$/;"	f	language:C	typeref:typename:int	signature:(char * fname)
+fw_printenv	env/fw_env.c	/^int fw_printenv (int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+fw_setenv	env/fw_env.c	/^int fw_setenv(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+fw_string_blank	env/fw_env.c	/^static char *fw_string_blank(char *s, int noblank)$/;"	f	language:C	typeref:typename:char *	file:	signature:(char * s,int noblank)
+g	easylogo/easylogo.c	/^	unsigned char b, g, r;$/;"	m	language:C	struct:__anon680cfb0b0308	typeref:typename:unsigned char	file:
+g	easylogo/easylogo.c	/^	unsigned char r, g, b;$/;"	m	language:C	struct:__anon680cfb0b0208	typeref:typename:unsigned char	file:
+gather_enum_multi_print	bddb/defs.php	/^	function gather_enum_multi_print($base, $cnt, $array) {$/;"	f	language:PHP	signature:($base, $cnt, $array)
+gather_enum_multi_query	bddb/defs.php	/^	function gather_enum_multi_query($base, $cnt) {$/;"	f	language:PHP	signature:($base, $cnt)
+gather_enum_multi_write	bddb/defs.php	/^	function gather_enum_multi_write($base, $cnt, $vals, $xfrm = array()) {$/;"	f	language:PHP	signature:($base, $cnt, $vals, $xfrm = array())
+gdb_flush	gdb/remote.c	/^#define gdb_flush /;"	d	language:C	file:
+gdb_stdlog	gdb/remote.c	/^#define gdb_stdlog /;"	d	language:C	file:
+gen_eth_addr	bddb/defs.php	/^	function gen_eth_addr($serno) {$/;"	f	language:PHP	signature:($serno)
+gen_info	bmp_logo.c	/^void gen_info(bitmap_t *b, uint16_t n_colors)$/;"	f	language:C	typeref:typename:void	signature:(bitmap_t * b,uint16_t n_colors)
+generate_pbl_cmd	pblimage.c	/^static void generate_pbl_cmd(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+get_ais_table_id	aisimage.c	/^static int get_ais_table_id(uint32_t *ptr)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint32_t * ptr)
+get_cfg_value	aisimage.c	/^static uint32_t get_cfg_value(char *token, char *name,  int linenr)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(char * token,char * name,int linenr)
+get_cfg_value	imximage.c	/^static uint32_t get_cfg_value(char *token, char *name,  int linenr)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(char * token,char * name,int linenr)
+get_cfg_value	ublimage.c	/^static uint32_t get_cfg_value(char *token, char *name,  int linenr)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(char * token,char * name,int linenr)
+get_config	env/fw_env.c	/^static int get_config (char *fname)$/;"	f	language:C	typeref:typename:int	file:	signature:(char * fname)
+get_dec	updater/utils.c	/^get_dec(void)$/;"	f	language:C	typeref:typename:unsigned long	file:	signature:(void)
+get_kernel_version	kernel-doc/kernel-doc	/^sub get_kernel_version() {$/;"	s	language:Perl
+get_key_value	bddb/defs.php	/^	function get_key_value($key, $array) {$/;"	f	language:PHP	signature:($key, $array)
+get_m_n_optimized	omap/clocks_get_m_n.c	/^int get_m_n_optimized(u32 target_freq_khz, u32 ref_freq_khz, u32 *M, u32 *N)$/;"	f	language:C	typeref:typename:int	signature:(u32 target_freq_khz,u32 ref_freq_khz,u32 * M,u32 * N)
+get_msr	updater/utils.c	/^get_msr(void)$/;"	f	language:C	typeref:typename:unsigned long	file:	signature:(void)
+getenvsize	env/fw_env.c	/^static inline ulong getenvsize (void)$/;"	f	language:C	typeref:typename:ulong	file:	signature:(void)
+getline	getline.c	/^int getline (char **lineptr, size_t *n, FILE *stream)$/;"	f	language:C	typeref:typename:int	signature:(char ** lineptr,size_t * n,FILE * stream)
+getpkt	gdb/remote.c	/^getpkt (buf, forever)$/;"	f	language:C	file:	signature:(buf,forever)
+getstr	getline.c	/^static int getstr(char **lineptr, size_t *n, FILE *stream,$/;"	f	language:C	typeref:typename:int	file:	signature:(char ** lineptr,size_t * n,FILE * stream,char terminator,size_t offset)
+gp_header	omapimage.h	/^struct gp_header {$/;"	s	language:C++
+hdr	mkimage.h	/^	void *hdr;$/;"	m	language:C++	struct:image_type_params	typeref:typename:void *
+hdr_v1	imximage.h	/^		imx_header_v1_t hdr_v1;$/;"	m	language:C++	union:imx_header::__anoncdd5fc4c0e0a	typeref:typename:imx_header_v1_t
+hdr_v2	imximage.h	/^		imx_header_v2_t hdr_v2;$/;"	m	language:C++	union:imx_header::__anoncdd5fc4c0e0a	typeref:typename:imx_header_v2_t
+header	default_image.c	/^static image_header_t header;$/;"	v	language:C	typeref:typename:image_header_t	file:
+header	fit_image.c	/^static image_header_t header;$/;"	v	language:C	typeref:typename:image_header_t	file:
+header	imximage.h	/^	ivt_header_t header;$/;"	m	language:C++	struct:__anoncdd5fc4c0a08	typeref:typename:ivt_header_t
+header	imximage.h	/^	ivt_header_t header;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:ivt_header_t
+header	imximage.h	/^	} header;$/;"	m	language:C++	struct:imx_header	typeref:union:imx_header::__anoncdd5fc4c0e0a
+header_size	mkimage.h	/^	uint32_t header_size;$/;"	m	language:C++	struct:image_type_params	typeref:typename:uint32_t
+header_size_ptr	imximage.c	/^static uint32_t *header_size_ptr;$/;"	v	language:C	typeref:typename:uint32_t *	file:
+height	bmp_logo.c	/^	uint16_t height;$/;"	m	language:C	struct:bitmap_s	typeref:typename:uint16_t	file:
+height	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+help	checkpatch.pl	/^sub help {$/;"	s	language:Perl
+hexnumlen	gdb/remote.c	/^hexnumlen (ULONGEST num)$/;"	f	language:C	typeref:typename:int	file:	signature:(ULONGEST num)
+hexnumstr	gdb/remote.c	/^hexnumstr (char *buf, ULONGEST num)$/;"	f	language:C	typeref:typename:int	file:	signature:(char * buf,ULONGEST num)
+hschin	bddb/create_tables.sql	/^   hschin enum('0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16'),$/;"	E	language:SQL	table:boards
+hschin	bddb/doedit.php	/^		$hschin = 0;$/;"	v	language:PHP
+hschin	bddb/doedit.php	/^		$hschin=$_REQUEST['hschin'];$/;"	v	language:PHP
+hschin	bddb/doedit.php	/^		if (($hschin = intval($hschin)) < 0 || $hschin > 4)$/;"	v	language:PHP
+hschin	bddb/donew.php	/^	if (($hschin = intval($hschin)) < 0 || $hschin > 4)$/;"	v	language:PHP
+hschin_vals	bddb/defs.php	/^	$hschin_vals = array('0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16'/;"	v	language:PHP
+hschout	bddb/create_tables.sql	/^   hschout enum('0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16'),$/;"	E	language:SQL	table:boards
+hschout	bddb/doedit.php	/^		$hschout = 0;$/;"	v	language:PHP
+hschout	bddb/doedit.php	/^		$hschout=$_REQUEST['hschout'];$/;"	v	language:PHP
+hschout	bddb/doedit.php	/^		if (($hschout = intval($hschout)) < 0 || $hschout > 4)$/;"	v	language:PHP
+hschout	bddb/donew.php	/^	if (($hschout = intval($hschout)) < 0 || $hschout > 4)$/;"	v	language:PHP
+hschout_vals	bddb/defs.php	/^	$hschout_vals = array('0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16/;"	v	language:PHP
+hstype	bddb/create_tables.sql	/^   hstype enum('AMCC-S2064A','Xilinx-Rockets'),$/;"	E	language:SQL	table:boards
+hstype	bddb/doedit.php	/^		$hstype=$_REQUEST['hstype'];$/;"	v	language:PHP
+hstype_vals	bddb/defs.php	/^	$hstype_vals = array('','AMCC-S2064A','Xilinx-Rockets');$/;"	v	language:PHP
+i	bddb/donew.php	/^		for ($i = 0; $i < $nsernos; $i++) {$/;"	v	language:PHP
+id	easylogo/easylogo.c	/^	unsigned char id;$/;"	m	language:C	struct:__anon680cfb0b0108	typeref:typename:unsigned char	file:
+image	env/fw_env.c	/^	void			*image;$/;"	m	language:C	struct:environment	typeref:typename:void *	file:
+image_check_image_types	default_image.c	/^static int image_check_image_types(uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+image_check_params	default_image.c	/^static int image_check_params(struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mkimage_params * params)
+image_free	easylogo/easylogo.c	/^void image_free (image_t * image)$/;"	f	language:C	typeref:typename:void	signature:(image_t * image)
+image_load_tga	easylogo/easylogo.c	/^int image_load_tga (image_t * image, char *filename)$/;"	f	language:C	typeref:typename:int	signature:(image_t * image,char * filename)
+image_rgb888_to_rgb565	easylogo/easylogo.c	/^int image_rgb888_to_rgb565(image_t *rgb888_image, image_t *rgb565_image)$/;"	f	language:C	typeref:typename:int	signature:(image_t * rgb888_image,image_t * rgb565_image)
+image_rgb_to_yuyv	easylogo/easylogo.c	/^int image_rgb_to_yuyv (image_t * rgb_image, image_t * yuyv_image)$/;"	f	language:C	typeref:typename:int	signature:(image_t * rgb_image,image_t * yuyv_image)
+image_save_header	easylogo/easylogo.c	/^int image_save_header (image_t * image, char *filename, char *varname)$/;"	f	language:C	typeref:typename:int	signature:(image_t * image,char * filename,char * varname)
+image_set_header	default_image.c	/^static void image_set_header(void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+image_t	easylogo/easylogo.c	/^} image_t;$/;"	t	language:C	typeref:struct:__anon680cfb0b0508	file:
+image_type_params	mkimage.h	/^struct image_type_params {$/;"	s	language:C++
+image_verify_header	default_image.c	/^static int image_verify_header(unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+image_verify_header	imls/imls.c	/^static int image_verify_header(char *ptr, int fd)$/;"	f	language:C	typeref:typename:int	file:	signature:(char * ptr,int fd)
+imagefile	mkimage.h	/^	char *imagefile;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:char *
+imagename	mkimage.h	/^	char *imagename;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:char *
+imagename2	mkimage.h	/^	char *imagename2;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:char *
+imx_header	imximage.h	/^struct imx_header {$/;"	s	language:C++
+imx_header_v1_t	imximage.h	/^} imx_header_v1_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0608
+imx_header_v2_t	imximage.h	/^} imx_header_v2_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0d08
+imximage_bootops	imximage.c	/^static table_entry_t imximage_bootops[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+imximage_check_image_types	imximage.c	/^static int imximage_check_image_types(uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+imximage_check_params	imximage.c	/^int imximage_check_params(struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	signature:(struct mkimage_params * params)
+imximage_cmd	imximage.h	/^enum imximage_cmd {$/;"	g	language:C++
+imximage_cmds	imximage.c	/^static table_entry_t imximage_cmds[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+imximage_fld_types	imximage.h	/^enum imximage_fld_types {$/;"	g	language:C++
+imximage_header	imximage.c	/^static struct imx_header imximage_header;$/;"	v	language:C	typeref:struct:imx_header	file:
+imximage_params	imximage.c	/^static struct image_type_params imximage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+imximage_print_header	imximage.c	/^static void imximage_print_header(const void *ptr)$/;"	f	language:C	typeref:typename:void	file:	signature:(const void * ptr)
+imximage_set_header	imximage.c	/^static void imximage_set_header(void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+imximage_verify_header	imximage.c	/^static int imximage_verify_header(unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+imximage_version	imximage.c	/^static uint32_t imximage_version;$/;"	v	language:C	typeref:typename:uint32_t	file:
+imximage_version	imximage.h	/^enum imximage_version {$/;"	g	language:C++
+imximage_versions	imximage.c	/^static table_entry_t imximage_versions[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+in32	updater/utils.c	/^unsigned long in32(u32 port)$/;"	f	language:C	typeref:typename:unsigned long	signature:(u32 port)
+in8	updater/utils.c	/^u8 in8(u32 port)$/;"	f	language:C	typeref:typename:u8	signature:(u32 port)
+in_array	bddb/defs.php	/^		function in_array($needle, $haystack, $strict = false) {$/;"	f	language:PHP	signature:($needle, $haystack, $strict = false)
+index	aisimage.c	/^	uint32_t index;$/;"	m	language:C	struct:ais_func_exec	typeref:typename:uint32_t	file:
+init_ais_image_type	aisimage.c	/^void init_ais_image_type(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_default_image_type	default_image.c	/^void init_default_image_type(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_fit_image_type	fit_image.c	/^void init_fit_image_type (void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_imx_image_type	imximage.c	/^void init_imx_image_type(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_kwb_image_type	kwbimage.c	/^void init_kwb_image_type (void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_omap_image_type	omapimage.c	/^void init_omap_image_type(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_pbl_image_type	pblimage.c	/^void init_pbl_image_type(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+init_ubl_image_type	ublimage.c	/^void init_ubl_image_type(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+internalfunctions	kernel-doc/docproc.c	/^FILEONLY *internalfunctions;$/;"	v	language:C	typeref:typename:FILEONLY *
+intfunc	kernel-doc/docproc.c	/^static void intfunc(char * filename) {	docfunctions(filename, NOFUNCTION); }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename)
+ivt_header_t	imximage.h	/^} __attribute__((packed)) ivt_header_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0808
+kernsrctree	kernel-doc/docproc.c	/^static char *srctree, *kernsrctree;$/;"	v	language:C	typeref:typename:char **	file:
+key_in_array	bddb/defs.php	/^	function key_in_array($key, $array) {$/;"	f	language:PHP	signature:($key, $array)
+kwb_exthdr	kwbimage.h	/^	extbhr_t kwb_exthdr;$/;"	m	language:C++	struct:kwb_header	typeref:typename:extbhr_t
+kwb_hdr	kwbimage.h	/^	bhr_t kwb_hdr;$/;"	m	language:C++	struct:kwb_header	typeref:typename:bhr_t
+kwb_header	kwbimage.h	/^struct kwb_header {$/;"	s	language:C++
+kwbimage_bootops	kwbimage.c	/^static table_entry_t kwbimage_bootops[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+kwbimage_check_cfgdata	kwbimage.c	/^static void kwbimage_check_cfgdata (char *token, enum kwbimage_cmd cmdsw,$/;"	f	language:C	typeref:typename:void	file:	signature:(char * token,enum kwbimage_cmd cmdsw,struct kwb_header * kwbhdr)
+kwbimage_check_image_types	kwbimage.c	/^static int kwbimage_check_image_types (uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+kwbimage_check_params	kwbimage.c	/^static int kwbimage_check_params (struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mkimage_params * params)
+kwbimage_checksum32	kwbimage.c	/^static uint32_t kwbimage_checksum32 (uint32_t *start, uint32_t len, uint32_t csum)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint32_t * start,uint32_t len,uint32_t csum)
+kwbimage_checksum8	kwbimage.c	/^static uint8_t kwbimage_checksum8 (void *start, uint32_t len, uint8_t csum)$/;"	f	language:C	typeref:typename:uint8_t	file:	signature:(void * start,uint32_t len,uint8_t csum)
+kwbimage_cmd	kwbimage.h	/^enum kwbimage_cmd {$/;"	g	language:C++
+kwbimage_cmd_types	kwbimage.h	/^enum kwbimage_cmd_types {$/;"	g	language:C++
+kwbimage_cmds	kwbimage.c	/^static table_entry_t kwbimage_cmds[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+kwbimage_eccmodes	kwbimage.c	/^static table_entry_t kwbimage_eccmodes[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+kwbimage_header	kwbimage.c	/^static struct kwb_header kwbimage_header;$/;"	v	language:C	typeref:struct:kwb_header	file:
+kwbimage_params	kwbimage.c	/^static struct image_type_params kwbimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+kwbimage_print_header	kwbimage.c	/^static void kwbimage_print_header (const void *ptr)$/;"	f	language:C	typeref:typename:void	file:	signature:(const void * ptr)
+kwbimage_set_header	kwbimage.c	/^static void kwbimage_set_header (void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+kwbimage_verify_header	kwbimage.c	/^static int kwbimage_verify_header (unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+kwboot_block	kwboot.c	/^struct kwboot_block {$/;"	s	language:C	file:
+kwboot_bootmsg	kwboot.c	/^kwboot_bootmsg(int tty, void *msg)$/;"	f	language:C	typeref:typename:int	file:	signature:(int tty,void * msg)
+kwboot_img_csum8	kwboot.c	/^kwboot_img_csum8(void *_data, size_t size)$/;"	f	language:C	typeref:typename:uint8_t	file:	signature:(void * _data,size_t size)
+kwboot_img_patch_hdr	kwboot.c	/^kwboot_img_patch_hdr(void *img, size_t size)$/;"	f	language:C	typeref:typename:int	file:	signature:(void * img,size_t size)
+kwboot_mmap_image	kwboot.c	/^kwboot_mmap_image(const char *path, size_t *size, int prot)$/;"	f	language:C	typeref:typename:void *	file:	signature:(const char * path,size_t * size,int prot)
+kwboot_msg_boot	kwboot.c	/^static unsigned char kwboot_msg_boot[] = {$/;"	v	language:C	typeref:typename:unsigned char[]	file:
+kwboot_open_tty	kwboot.c	/^kwboot_open_tty(const char *path, speed_t speed)$/;"	f	language:C	typeref:typename:int	file:	signature:(const char * path,speed_t speed)
+kwboot_printv	kwboot.c	/^kwboot_printv(const char *fmt, ...)$/;"	f	language:C	typeref:typename:void	file:	signature:(const char * fmt,...)
+kwboot_progress	kwboot.c	/^kwboot_progress(int _pct, char c)$/;"	f	language:C	typeref:typename:void	file:	signature:(int _pct,char c)
+kwboot_spinner	kwboot.c	/^kwboot_spinner(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+kwboot_term_pipe	kwboot.c	/^kwboot_term_pipe(int in, int out, char *quit, int *s)$/;"	f	language:C	typeref:typename:int	file:	signature:(int in,int out,char * quit,int * s)
+kwboot_terminal	kwboot.c	/^kwboot_terminal(int tty)$/;"	f	language:C	typeref:typename:int	file:	signature:(int tty)
+kwboot_tty_recv	kwboot.c	/^kwboot_tty_recv(int fd, void *buf, size_t len, int timeo)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd,void * buf,size_t len,int timeo)
+kwboot_tty_send	kwboot.c	/^kwboot_tty_send(int fd, const void *buf, size_t len)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd,const void * buf,size_t len)
+kwboot_tty_send_char	kwboot.c	/^kwboot_tty_send_char(int fd, unsigned char c)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd,unsigned char c)
+kwboot_tty_speed	kwboot.c	/^kwboot_tty_speed(int baudrate)$/;"	f	language:C	typeref:typename:speed_t	file:	signature:(int baudrate)
+kwboot_usage	kwboot.c	/^kwboot_usage(FILE *stream, char *progname)$/;"	f	language:C	typeref:typename:void	file:	signature:(FILE * stream,char * progname)
+kwboot_verbose	kwboot.c	/^static int kwboot_verbose;$/;"	v	language:C	typeref:typename:int	file:
+kwboot_xm_makeblock	kwboot.c	/^kwboot_xm_makeblock(struct kwboot_block *block, const void *data,$/;"	f	language:C	typeref:typename:int	file:	signature:(struct kwboot_block * block,const void * data,size_t size,int pnum)
+kwboot_xm_sendblock	kwboot.c	/^kwboot_xm_sendblock(int fd, struct kwboot_block *block)$/;"	f	language:C	typeref:typename:int	file:	signature:(int fd,struct kwboot_block * block)
+kwboot_xmodem	kwboot.c	/^kwboot_xmodem(int tty, const void *_data, size_t size)$/;"	f	language:C	typeref:typename:int	file:	signature:(int tty,const void * _data,size_t size)
+kwdimage_set_ext_header	kwbimage.c	/^static void kwdimage_set_ext_header (struct kwb_header *kwbhdr, char* name) {$/;"	f	language:C	typeref:typename:void	file:	signature:(struct kwb_header * kwbhdr,char * name)
+l	pblimage.c	/^	unsigned char l;$/;"	m	language:C	union:__anond5b11e97010a	typeref:typename:unsigned char	file:
+le16_to_cpu	easylogo/easylogo.c	/^static inline unsigned short le16_to_cpu (unsigned short val)$/;"	f	language:C	typeref:typename:unsigned short	file:	signature:(unsigned short val)
+le_short	bmp_logo.c	/^uint16_t le_short(uint16_t x)$/;"	f	language:C	typeref:typename:uint16_t	signature:(uint16_t x)
+length	imximage.h	/^	uint16_t length;$/;"	m	language:C++	struct:__anoncdd5fc4c0808	typeref:typename:uint16_t
+length	imximage.h	/^	uint16_t length;$/;"	m	language:C++	struct:__anoncdd5fc4c0908	typeref:typename:uint16_t
+length	imximage.h	/^	uint32_t length; 	\/* Length of data to be read from flash *\/$/;"	m	language:C++	struct:__anoncdd5fc4c0508	typeref:typename:uint32_t
+length	imximage.h	/^	uint32_t length; \/* Device configuration length (without preamble) *\/$/;"	m	language:C++	struct:__anoncdd5fc4c0208	typeref:typename:uint32_t
+lflag	mkimage.h	/^	int lflag;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+limit	bddb/brlog.php	/^	$limit=abs(isset($_REQUEST['limit'])?$_REQUEST['limit']:20);$/;"	v	language:PHP
+limit	bddb/browse.php	/^	$limit=isset($_REQUEST['limit'])?abs(intval($_REQUEST['limit'])):20;$/;"	v	language:PHP
+line	kernel-doc/docproc.c	/^typedef void FILELINE(char * file, char * line);$/;"	t	language:C	typeref:typename:void FILELINE (char * file,char *)	file:
+line_stats	checkpatch.pl	/^sub line_stats {$/;"	s	language:Perl
+lineno	kwbimage.c	/^static int lineno = -1;$/;"	v	language:C	typeref:typename:int	file:
+lineno	pblimage.c	/^static int lineno = -1;$/;"	v	language:C	typeref:typename:int	file:
+load_addr	omapimage.h	/^	uint32_t load_addr;$/;"	m	language:C++	struct:gp_header	typeref:typename:uint32_t
+load_uboot	pblimage.c	/^static void load_uboot(FILE *fp_uboot)$/;"	f	language:C	typeref:typename:void	file:	signature:(FILE * fp_uboot)
+local_unescape	kernel-doc/kernel-doc	/^sub local_unescape($) {$/;"	s	language:Perl
+location	bddb/create_tables.sql	/^   location char(64),$/;"	E	language:SQL	table:boards
+location	bddb/doedit.php	/^		$location=$_REQUEST['location'];$/;"	v	language:PHP
+log	bddb/create_tables.sql	/^CREATE TABLE log ($/;"	t	language:SQL
+logno	bddb/create_tables.sql	/^   logno int(10) unsigned zerofill NOT NULL auto_increment,$/;"	E	language:SQL	table:log
+logno	bddb/dodellog.php	/^	$logno=$_REQUEST['logno'];$/;"	v	language:PHP
+logno	bddb/doedlog.php	/^	$logno=intval($_REQUEST['logno']);$/;"	v	language:PHP
+logno	bddb/donewlog.php	/^		$logno = mysql_insert_id();$/;"	v	language:PHP
+logno	bddb/donewlog.php	/^		$logno=$_REQUEST['logno'];$/;"	v	language:PHP
+logno	bddb/edlog.php	/^	$logno=intval($_REQUEST['logno']);$/;"	v	language:PHP
+logno	bddb/newlog.php	/^		$logno=$_REQUEST['logno'];$/;"	v	language:PHP
+long_options	env/fw_env_main.c	/^static struct option long_options[] = {$/;"	v	language:C	typeref:struct:option[]	file:
+lr	bddb/brlog.php	/^	$lr=mysql_query("select count(*) as n from log where serno=$serno");$/;"	v	language:PHP
+lr	bddb/browse.php	/^		$lr=mysql_query("select count(*) as n from boards");$/;"	v	language:PHP
+lrow	bddb/brlog.php	/^	$lrow=mysql_fetch_array($lr);$/;"	v	language:PHP
+lrow	bddb/browse.php	/^		$lrow=mysql_fetch_array($lr);$/;"	v	language:PHP
+m1	bddb/browse.php	/^				$m1 = intval($m[1]); $m2 = intval($m[2]);$/;"	v	language:PHP
+m2	bddb/browse.php	/^				$m1 = intval($m[1]); $m2 = intval($m[2]);$/;"	v	language:PHP
+magic	aisimage.h	/^	uint32_t magic;$/;"	m	language:C++	struct:ais_header	typeref:typename:uint32_t
+magic	ublimage.h	/^	uint32_t	magic;	\/* Magic Number, see UBL_* defines *\/$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+main	bin2header.c	/^int main(int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	bmp_logo.c	/^int main (int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	easylogo/easylogo.c	/^int main (int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	env/fw_env_main.c	/^int main(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	envcrc.c	/^int main (int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	gdb/gdbcont.c	/^main(int ac, char **av)$/;"	f	language:C	typeref:typename:int	signature:(int ac,char ** av)
+main	gdb/gdbsend.c	/^main(int ac, char **av)$/;"	f	language:C	typeref:typename:int	signature:(int ac,char ** av)
+main	gen_eth_addr.c	/^main(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	img2srec.c	/^int main( int argc, char *argv[ ])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	imls/imls.c	/^int main (int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	kernel-doc/docproc.c	/^int main(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	kwboot.c	/^main(int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	mkenvimage.c	/^int main(int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	mkexynosspl.c	/^int main(int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	mkimage.c	/^main (int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	mks5pc1xxspl.c	/^int main (int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	mpc86x_clk.c	/^int main(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	mxsboot.c	/^int main(int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	ncb.c	/^int main (int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	omap/clocks_get_m_n.c	/^void main(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+main	ubsha1.c	/^int main (int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	xway-swap-bytes.c	/^int main (void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+make_crc_table	pblimage.c	/^static void make_crc_table(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+match	patman/patman	/^        match = re_line.match(line)$/;"	v	language:Python
+match	patman/patman.py	/^        match = re_line.match(line)$/;"	v	language:Python
+max	gdb/remote.c	/^#define max(/;"	d	language:C	file:	signature:(a,b)
+max_dcd_entries	imximage.c	/^static uint32_t max_dcd_entries;$/;"	v	language:C	typeref:typename:uint32_t	file:
+mem_buf	pblimage.c	/^static unsigned char mem_buf[600000];$/;"	v	language:C	typeref:typename:unsigned char[600000]	file:
+memchr	updater/ppcstring.S	/^memchr:$/;"	l	language:Asm
+memcmp	updater/ppcstring.S	/^memcmp:$/;"	l	language:Asm
+memcmp	updater/string.c	/^int memcmp(const void * cs,const void * ct,size_t count)$/;"	f	language:C	typeref:typename:int	signature:(const void * cs,const void * ct,size_t count)
+memcpy	updater/ppcstring.S	/^memcpy:$/;"	l	language:Asm
+memcpy	updater/string.c	/^void * memcpy(void * dest,const void *src,size_t count)$/;"	f	language:C	typeref:typename:void *	signature:(void * dest,const void * src,size_t count)
+memmove	updater/ppcstring.S	/^memmove:$/;"	l	language:Asm
+memmove	updater/string.c	/^void * memmove(void * dest,const void *src,size_t count)$/;"	f	language:C	typeref:typename:void *	signature:(void * dest,const void * src,size_t count)
+memscan	updater/string.c	/^void * memscan(void * addr, int c, size_t size)$/;"	f	language:C	typeref:typename:void *	signature:(void * addr,int c,size_t size)
+memset	updater/ppcstring.S	/^memset:$/;"	l	language:Asm
+memset	updater/string.c	/^void * memset(void * s,char c,size_t count)$/;"	f	language:C	typeref:typename:void *	signature:(void * s,char c,size_t count)
+metadata_bytes	mxsboot.c	/^	uint32_t		metadata_bytes;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+metadata_bytes_sdk	mxsboot.c	/^	uint32_t		metadata_bytes_sdk;		\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+min	env/fw_env.c	/^#define min(/;"	d	language:C	file:	signature:(x,y)
+min	gdb/remote.c	/^#define min(/;"	d	language:C	file:	signature:(a,b)
+mkimage_get_type	mkimage.c	/^struct image_type_params *mkimage_get_type(int type)$/;"	f	language:C	typeref:struct:image_type_params *	signature:(int type)
+mkimage_params	mkimage.h	/^struct mkimage_params {$/;"	s	language:C++
+mkimage_register	mkimage.c	/^void mkimage_register (struct image_type_params *tparams)$/;"	f	language:C	typeref:typename:void	signature:(struct image_type_params * tparams)
+mkimage_tparams	mkimage.c	/^struct image_type_params *mkimage_tparams = NULL;$/;"	v	language:C	typeref:struct:image_type_params *
+mkimage_verify_print_header	mkimage.c	/^int mkimage_verify_print_header (void *ptr, struct stat *sbuf)$/;"	f	language:C	typeref:typename:int	signature:(void * ptr,struct stat * sbuf)
+mmap	mingw_support.c	/^void *mmap(void *addr, size_t len, int prot, int flags, int fd, int offset)$/;"	f	language:C	typeref:typename:void *	signature:(void * addr,size_t len,int prot,int flags,int fd,int offset)
+mtd_type	env/fw_env.c	/^	uint8_t mtd_type;		\/* type of the MTD device *\/$/;"	m	language:C	struct:envdev_s	typeref:typename:uint8_t	file:
+munmap	mingw_support.c	/^int munmap(void *addr, size_t len)$/;"	f	language:C	typeref:typename:int	signature:(void * addr,size_t len)
+mx28_create_nand_image	mxsboot.c	/^static int mx28_create_nand_image(int infd, int outfd)$/;"	f	language:C	typeref:typename:int	file:	signature:(int infd,int outfd)
+mx28_create_sd_image	mxsboot.c	/^static int mx28_create_sd_image(int infd, int outfd)$/;"	f	language:C	typeref:typename:int	file:	signature:(int infd,int outfd)
+mx28_nand_bbt	mxsboot.c	/^struct mx28_nand_bbt {$/;"	s	language:C	file:
+mx28_nand_block_csum	mxsboot.c	/^static uint32_t mx28_nand_block_csum(uint8_t *block, uint32_t size)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint8_t * block,uint32_t size)
+mx28_nand_dbbt	mxsboot.c	/^struct mx28_nand_dbbt {$/;"	s	language:C	file:
+mx28_nand_ecc_size_in_bits	mxsboot.c	/^static inline uint32_t mx28_nand_ecc_size_in_bits(uint32_t ecc_strength)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint32_t ecc_strength)
+mx28_nand_fcb	mxsboot.c	/^struct mx28_nand_fcb {$/;"	s	language:C	file:
+mx28_nand_fcb_block	mxsboot.c	/^static uint8_t *mx28_nand_fcb_block(struct mx28_nand_fcb *fcb)$/;"	f	language:C	typeref:typename:uint8_t *	file:	signature:(struct mx28_nand_fcb * fcb)
+mx28_nand_get_dbbt	mxsboot.c	/^static struct mx28_nand_dbbt *mx28_nand_get_dbbt(void)$/;"	f	language:C	typeref:struct:mx28_nand_dbbt *	file:	signature:(void)
+mx28_nand_get_ecc_strength	mxsboot.c	/^static inline uint32_t mx28_nand_get_ecc_strength(uint32_t page_data_size,$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint32_t page_data_size,uint32_t page_oob_size)
+mx28_nand_get_fcb	mxsboot.c	/^static struct mx28_nand_fcb *mx28_nand_get_fcb(uint32_t size)$/;"	f	language:C	typeref:struct:mx28_nand_fcb *	file:	signature:(uint32_t size)
+mx28_nand_get_mark_offset	mxsboot.c	/^static inline uint32_t mx28_nand_get_mark_offset(uint32_t page_data_size,$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint32_t page_data_size,uint32_t ecc_strength)
+mx28_nand_mark_bit_offset	mxsboot.c	/^static inline uint32_t mx28_nand_mark_bit_offset(void)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(void)
+mx28_nand_mark_byte_offset	mxsboot.c	/^static inline uint32_t mx28_nand_mark_byte_offset(void)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(void)
+mx28_nand_parity_13_8	mxsboot.c	/^static inline uint8_t mx28_nand_parity_13_8(const uint8_t b)$/;"	f	language:C	typeref:typename:uint8_t	file:	signature:(const uint8_t b)
+mx28_nand_write_dbbt	mxsboot.c	/^static int mx28_nand_write_dbbt(struct mx28_nand_dbbt *dbbt, char *buf)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mx28_nand_dbbt * dbbt,char * buf)
+mx28_nand_write_fcb	mxsboot.c	/^static int mx28_nand_write_fcb(struct mx28_nand_fcb *fcb, char *buf)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mx28_nand_fcb * fcb,char * buf)
+mx28_nand_write_firmware	mxsboot.c	/^static int mx28_nand_write_firmware(struct mx28_nand_fcb *fcb, int infd,$/;"	f	language:C	typeref:typename:int	file:	signature:(struct mx28_nand_fcb * fcb,int infd,char * buf)
+mx28_sd_config_block	mxsboot.c	/^struct mx28_sd_config_block {$/;"	s	language:C	file:
+mx28_sd_drive_info	mxsboot.c	/^struct mx28_sd_drive_info {$/;"	s	language:C	file:
+mysql_db	bddb/config.php	/^	$mysql_db="mydbname";$/;"	v	language:PHP
+mysql_pw	bddb/config.php	/^	$mysql_pw="apassword";$/;"	v	language:PHP
+mysql_user	bddb/config.php	/^	$mysql_user="fred";$/;"	v	language:PHP
+name	kernel-doc/docproc.c	/^	char *name;$/;"	m	language:C	struct:symbols	typeref:typename:char *	file:
+name	mkimage.h	/^	char *name;$/;"	m	language:C++	struct:image_type_params	typeref:typename:char *
+nand	mxsboot.c	/^	uint32_t		nand;$/;"	m	language:C	struct:mx28_nand_bbt	typeref:typename:uint32_t	file:
+nand_erasesize	mxsboot.c	/^uint32_t nand_erasesize = 128 * 1024;$/;"	v	language:C	typeref:typename:uint32_t
+nand_oobsize	mxsboot.c	/^uint32_t nand_oobsize = 64;$/;"	v	language:C	typeref:typename:uint32_t
+nand_timing_state	mxsboot.c	/^		uint8_t			nand_timing_state;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+nand_writesize	mxsboot.c	/^uint32_t nand_writesize = 2048;$/;"	v	language:C	typeref:typename:uint32_t
+nandeccmode	kwbimage.h	/^	uint8_t nandeccmode;		\/*1     *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint8_t
+nandpagesize	kwbimage.h	/^	uint16_t nandpagesize;		\/*2-3   *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint16_t
+nargs	aisimage.c	/^	uint32_t nargs;$/;"	m	language:C	struct:cmd_table_t	typeref:typename:uint32_t	file:
+next	mkimage.h	/^	struct image_type_params *next;$/;"	m	language:C++	struct:image_type_params	typeref:struct:image_type_params *
+next_pbl_cmd	pblimage.c	/^static uint32_t next_pbl_cmd = 0x81F80000;$/;"	v	language:C	typeref:typename:uint32_t	file:
+noaction	kernel-doc/docproc.c	/^static void noaction(char * line)		   { line = line; }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * line)
+noaction2	kernel-doc/docproc.c	/^static void noaction2(char * file, char * line)   { file = file; line = line; }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * file,char * line)
+nsernos	bddb/doedit.php	/^		$nsernos = 1;$/;"	v	language:PHP
+nsernos	bddb/donew.php	/^	$nsernos = count($sernos);$/;"	v	language:PHP
+nspeeds	gdb/serial.c	/^static int nspeeds = sizeof speedmap \/ sizeof speedmap[0];$/;"	v	language:C	typeref:typename:int	file:
+num_copies	mxsboot.c	/^	uint32_t			num_copies;$/;"	m	language:C	struct:mx28_sd_config_block	typeref:typename:uint32_t	file:
+num_ecc_blocks_per_page	mxsboot.c	/^	uint32_t		num_ecc_blocks_per_page;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+num_ecc_blocks_per_page_sdk	mxsboot.c	/^	uint32_t		num_ecc_blocks_per_page_sdk;	\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+number_2k_pages_bb	mxsboot.c	/^	uint32_t		number_2k_pages_bb;$/;"	m	language:C	struct:mx28_nand_dbbt	typeref:typename:uint32_t	file:
+number_bb	mxsboot.c	/^	uint32_t		number_bb;$/;"	m	language:C	struct:mx28_nand_bbt	typeref:typename:uint32_t	file:
+number_bb	mxsboot.c	/^	uint32_t		number_bb;$/;"	m	language:C	struct:mx28_nand_dbbt	typeref:typename:uint32_t	file:
+number_of_nands	mxsboot.c	/^	uint32_t		number_of_nands;		\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+nxlx	bddb/doedit.php	/^	$nxlx = count_enum_multi("xlxtyp", 4);$/;"	v	language:PHP
+nxlx	bddb/donew.php	/^	$nxlx = count_enum_multi("xlxtyp", 4);$/;"	v	language:PHP
+obsolete_flag	env/fw_env.c	/^static unsigned char obsolete_flag = 0;$/;"	v	language:C	typeref:typename:unsigned char	file:
+offset	bddb/brlog.php	/^	$offset=abs(isset($_REQUEST['offset'])?$_REQUEST['offset']:0);$/;"	v	language:PHP
+offset	bddb/browse.php	/^	$offset=isset($_REQUEST['offset'])?abs(intval($_REQUEST['offset'])):0;$/;"	v	language:PHP
+ok	patman/patman	/^        ok = False$/;"	v	language:Python
+ok	patman/patman	/^    ok = checkpatch.CheckPatches(options.verbose, args)$/;"	v	language:Python
+ok	patman/patman.py	/^        ok = False$/;"	v	language:Python
+ok	patman/patman.py	/^    ok = checkpatch.CheckPatches(options.verbose, args)$/;"	v	language:Python
+omapimage_check_image_types	omapimage.c	/^static int omapimage_check_image_types(uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+omapimage_check_params	omapimage.c	/^int omapimage_check_params(struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	signature:(struct mkimage_params * params)
+omapimage_header	omapimage.c	/^static uint8_t omapimage_header[OMAP_FILE_HDR_SIZE];$/;"	v	language:C	typeref:typename:uint8_t[]	file:
+omapimage_params	omapimage.c	/^static struct image_type_params omapimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+omapimage_print_header	omapimage.c	/^static void omapimage_print_header(const void *ptr)$/;"	f	language:C	typeref:typename:void	file:	signature:(const void * ptr)
+omapimage_print_section	omapimage.c	/^static void omapimage_print_section(struct ch_settings *chs)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct ch_settings * chs)
+omapimage_set_header	omapimage.c	/^static void omapimage_set_header(void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+omapimage_swap32	omapimage.c	/^static uint32_t omapimage_swap32(uint32_t data)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint32_t data)
+omapimage_verify_header	omapimage.c	/^static int omapimage_verify_header(unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+os	mkimage.h	/^	int os;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+out8	updater/utils.c	/^void out8(u32 port, u8 val)$/;"	f	language:C	typeref:typename:void	signature:(u32 port,u8 val)
+output_blockhead	kernel-doc/kernel-doc	/^sub output_blockhead {$/;"	s	language:Perl
+output_blockhead_html	kernel-doc/kernel-doc	/^sub output_blockhead_html(%) {$/;"	s	language:Perl
+output_blockhead_html5	kernel-doc/kernel-doc	/^sub output_blockhead_html5(%) {$/;"	s	language:Perl
+output_blockhead_list	kernel-doc/kernel-doc	/^sub output_blockhead_list(%) {$/;"	s	language:Perl
+output_blockhead_man	kernel-doc/kernel-doc	/^sub output_blockhead_man(%) {$/;"	s	language:Perl
+output_blockhead_text	kernel-doc/kernel-doc	/^sub output_blockhead_text(%) {$/;"	s	language:Perl
+output_blockhead_xml	kernel-doc/kernel-doc	/^sub output_blockhead_xml(%) {$/;"	s	language:Perl
+output_declaration	kernel-doc/kernel-doc	/^sub output_declaration {$/;"	s	language:Perl
+output_enum_html	kernel-doc/kernel-doc	/^sub output_enum_html(%) {$/;"	s	language:Perl
+output_enum_html5	kernel-doc/kernel-doc	/^sub output_enum_html5(%) {$/;"	s	language:Perl
+output_enum_list	kernel-doc/kernel-doc	/^sub output_enum_list(%) {$/;"	s	language:Perl
+output_enum_man	kernel-doc/kernel-doc	/^sub output_enum_man(%) {$/;"	s	language:Perl
+output_enum_text	kernel-doc/kernel-doc	/^sub output_enum_text(%) {$/;"	s	language:Perl
+output_enum_xml	kernel-doc/kernel-doc	/^sub output_enum_xml(%) {$/;"	s	language:Perl
+output_flashprog	img2brec.sh	/^output_flashprog()$/;"	f	language:Sh
+output_function_gnome	kernel-doc/kernel-doc	/^sub output_function_gnome {$/;"	s	language:Perl
+output_function_html	kernel-doc/kernel-doc	/^sub output_function_html(%) {$/;"	s	language:Perl
+output_function_html5	kernel-doc/kernel-doc	/^sub output_function_html5(%) {$/;"	s	language:Perl
+output_function_list	kernel-doc/kernel-doc	/^sub output_function_list(%) {$/;"	s	language:Perl
+output_function_man	kernel-doc/kernel-doc	/^sub output_function_man(%) {$/;"	s	language:Perl
+output_function_text	kernel-doc/kernel-doc	/^sub output_function_text(%) {$/;"	s	language:Perl
+output_function_xml	kernel-doc/kernel-doc	/^sub output_function_xml(%) {$/;"	s	language:Perl
+output_highlight	kernel-doc/kernel-doc	/^sub output_highlight {$/;"	s	language:Perl
+output_init	img2brec.sh	/^output_init()$/;"	f	language:Sh
+output_section_html	kernel-doc/kernel-doc	/^sub output_section_html(%) {$/;"	s	language:Perl
+output_section_html5	kernel-doc/kernel-doc	/^sub output_section_html5(%) {$/;"	s	language:Perl
+output_section_text	kernel-doc/kernel-doc	/^sub output_section_text(%) {$/;"	s	language:Perl
+output_section_xml	kernel-doc/kernel-doc	/^sub output_section_xml(%) {$/;"	s	language:Perl
+output_struct_html	kernel-doc/kernel-doc	/^sub output_struct_html(%) {$/;"	s	language:Perl
+output_struct_html5	kernel-doc/kernel-doc	/^sub output_struct_html5(%) {$/;"	s	language:Perl
+output_struct_list	kernel-doc/kernel-doc	/^sub output_struct_list(%) {$/;"	s	language:Perl
+output_struct_man	kernel-doc/kernel-doc	/^sub output_struct_man(%) {$/;"	s	language:Perl
+output_struct_text	kernel-doc/kernel-doc	/^sub output_struct_text(%) {$/;"	s	language:Perl
+output_struct_xml	kernel-doc/kernel-doc	/^sub output_struct_xml(%) {$/;"	s	language:Perl
+output_typedef_html	kernel-doc/kernel-doc	/^sub output_typedef_html(%) {$/;"	s	language:Perl
+output_typedef_html5	kernel-doc/kernel-doc	/^sub output_typedef_html5(%) {$/;"	s	language:Perl
+output_typedef_list	kernel-doc/kernel-doc	/^sub output_typedef_list(%) {$/;"	s	language:Perl
+output_typedef_man	kernel-doc/kernel-doc	/^sub output_typedef_man(%) {$/;"	s	language:Perl
+output_typedef_text	kernel-doc/kernel-doc	/^sub output_typedef_text(%) {$/;"	s	language:Perl
+output_typedef_xml	kernel-doc/kernel-doc	/^sub output_typedef_xml(%) {$/;"	s	language:Perl
+output_uboot	img2brec.sh	/^output_uboot()$/;"	f	language:Sh
+page	ublimage.h	/^	uint32_t	page;	\/*$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+page_data_size	mxsboot.c	/^	uint32_t		page_data_size;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+pager	patman/patman	/^        pager = 'more'$/;"	v	language:Python
+pager	patman/patman	/^    pager = os.getenv('PAGER')$/;"	v	language:Python
+pager	patman/patman.py	/^        pager = 'more'$/;"	v	language:Python
+pager	patman/patman.py	/^    pager = os.getenv('PAGER')$/;"	v	language:Python
+pages	ublimage.h	/^	uint32_t	pages;	\/* number of pages (size of bootloader) *\/$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+palette	bmp_logo.c	/^	uint8_t	palette[256*3];$/;"	m	language:C	struct:bitmap_s	typeref:typename:uint8_t[]	file:
+palette	easylogo/easylogo.c	/^	void *data, *palette;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:void **	file:
+palette_size	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+param	imximage.h	/^	uint8_t param;$/;"	m	language:C++	struct:__anoncdd5fc4c0908	typeref:typename:uint8_t
+param	mxsboot.c	/^	enum param {$/;"	g	language:C	function:parse_ops	file:
+params	mkimage.c	/^struct mkimage_params params = {$/;"	v	language:C	typeref:struct:mkimage_params
+parms	aisimage.h	/^	uint32_t parms[AIS_FCN_MAX];$/;"	m	language:C++	struct:ais_cmd_func	typeref:typename:uint32_t[]
+parse_cfg_cmd	imximage.c	/^static void parse_cfg_cmd(struct imx_header *imxhdr, int32_t cmd, char *token,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,int32_t cmd,char * token,char * name,int lineno,int fld,int dcd_len)
+parse_cfg_cmd	ublimage.c	/^static void parse_cfg_cmd(struct ubl_header *ublhdr, int32_t cmd, char *token,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct ubl_header * ublhdr,int32_t cmd,char * token,char * name,int lineno,int fld,int dcd_len)
+parse_cfg_file	imximage.c	/^static uint32_t parse_cfg_file(struct imx_header *imxhdr, char *name)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(struct imx_header * imxhdr,char * name)
+parse_cfg_file	ublimage.c	/^static uint32_t parse_cfg_file(struct ubl_header *ublhdr, char *name)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(struct ubl_header * ublhdr,char * name)
+parse_cfg_fld	imximage.c	/^static void parse_cfg_fld(struct imx_header *imxhdr, int32_t *cmd,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,int32_t * cmd,char * token,char * name,int lineno,int fld,int * dcd_len)
+parse_cfg_fld	ublimage.c	/^static void parse_cfg_fld(struct ubl_header *ublhdr, int32_t *cmd,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct ubl_header * ublhdr,int32_t * cmd,char * token,char * name,int lineno,int fld,int * dcd_len)
+parse_config	env/fw_env.c	/^static int parse_config ()$/;"	f	language:C	typeref:typename:int	file:	signature:()
+parse_email	checkpatch.pl	/^sub parse_email {$/;"	s	language:Perl
+parse_file	kernel-doc/docproc.c	/^static void parse_file(FILE *infile)$/;"	f	language:C	typeref:typename:void	file:	signature:(FILE * infile)
+parse_ops	mxsboot.c	/^int parse_ops(int argc, char **argv)$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+parser	patman/patman	/^parser = OptionParser()$/;"	v	language:Python
+parser	patman/patman.py	/^parser = OptionParser()$/;"	v	language:Python
+patch_sectors	mxsboot.c	/^	uint32_t		patch_sectors;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+pbhr_t	kwbimage.h	/^} bhr_t, *pbhr_t;$/;"	t	language:C++	typeref:struct:bhr_t *
+pbl_crc32	pblimage.c	/^unsigned long pbl_crc32(unsigned long crc, const char *buf, uint32_t len)$/;"	f	language:C	typeref:typename:unsigned long	signature:(unsigned long crc,const char * buf,uint32_t len)
+pbl_fget	pblimage.c	/^static void pbl_fget(size_t size, FILE *stream)$/;"	f	language:C	typeref:typename:void	file:	signature:(size_t size,FILE * stream)
+pbl_header	pblimage.h	/^struct pbl_header {$/;"	s	language:C++
+pbl_load_uboot	pblimage.c	/^void pbl_load_uboot(int ifd, struct mkimage_params *params)$/;"	f	language:C	typeref:typename:void	signature:(int ifd,struct mkimage_params * params)
+pbl_parser	pblimage.c	/^static void pbl_parser(char *name)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * name)
+pbl_size	pblimage.c	/^static int pbl_size;$/;"	v	language:C	typeref:typename:int	file:
+pblimage_check_image_types	pblimage.c	/^static int pblimage_check_image_types(uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+pblimage_header	pblimage.c	/^static struct pbl_header pblimage_header;$/;"	v	language:C	typeref:struct:pbl_header	file:
+pblimage_params	pblimage.c	/^static struct image_type_params pblimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+pblimage_print_header	pblimage.c	/^static void pblimage_print_header(const void *ptr)$/;"	f	language:C	typeref:typename:void	file:	signature:(const void * ptr)
+pblimage_set_header	pblimage.c	/^static void pblimage_set_header(void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+pblimage_verify_header	pblimage.c	/^static int pblimage_verify_header(unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+perror_with_name	gdb/remote.c	/^#define perror_with_name /;"	d	language:C	file:
+pextbhr_t	kwbimage.h	/^} extbhr_t, *pextbhr_t;$/;"	t	language:C++	typeref:struct:extbhr_t *
+pg_foot	bddb/defs.php	/^	function pg_foot()$/;"	f	language:PHP	signature:()
+pg_head	bddb/defs.php	/^	function pg_head($title)$/;"	f	language:PHP	signature:($title)
+pixel_rgb_to_yuyv	easylogo/easylogo.c	/^void pixel_rgb_to_yuyv (rgb_t * rgb_pixel, yuyv_t * yuyv_pixel)$/;"	f	language:C	typeref:typename:void	signature:(rgb_t * rgb_pixel,yuyv_t * yuyv_pixel)
+pixel_size	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+pixels	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+pll_m	ublimage.h	/^	uint32_t	pll_m;	\/*$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+pll_n	ublimage.h	/^	uint32_t	pll_n;	\/*$/;"	m	language:C++	struct:ubl_header	typeref:typename:uint32_t
+plogno	bddb/edlog.php	/^	$plogno = sprintf("%010d", $logno);$/;"	v	language:PHP
+plugin	imximage.h	/^	uint32_t plugin;$/;"	m	language:C++	struct:__anoncdd5fc4c0b08	typeref:typename:uint32_t
+pmem_buf	pblimage.c	/^static unsigned char *pmem_buf = mem_buf;$/;"	v	language:C	typeref:typename:unsigned char *	file:
+pname	gdb/error.c	/^char *pname;$/;"	v	language:C	typeref:typename:char *
+pnum	kwboot.c	/^	uint8_t pnum;$/;"	m	language:C	struct:kwboot_block	typeref:typename:uint8_t	file:
+possible	checkpatch.pl	/^sub possible {$/;"	s	language:Perl
+postoffset	bddb/brlog.php	/^		$postoffset=$offset+$limit;$/;"	v	language:PHP
+postoffset	bddb/browse.php	/^			$postoffset=$offset+$limit;$/;"	v	language:PHP
+pre	bddb/browse.php	/^			$pre = " or ";$/;"	v	language:PHP
+pre	bddb/browse.php	/^		$pre = " where ";$/;"	v	language:PHP
+preamble	imximage.h	/^	dcd_preamble_t preamble;$/;"	m	language:C++	struct:__anoncdd5fc4c0308	typeref:typename:dcd_preamble_t
+preamble	pblimage.h	/^	uint32_t preamble;$/;"	m	language:C++	struct:pbl_header	typeref:typename:uint32_t
+preoffset	bddb/brlog.php	/^		$preoffset=max(0,$offset-$limit);$/;"	v	language:PHP
+preoffset	bddb/browse.php	/^			$preoffset=max(0,$offset-$limit);$/;"	v	language:PHP
+primary_boot_tag	mxsboot.c	/^	uint32_t			primary_boot_tag;$/;"	m	language:C	struct:mx28_sd_config_block	typeref:typename:uint32_t	file:
+print_cell	bddb/brlog.php	/^	function print_cell($str) {$/;"	f	language:PHP	signature:($str)
+print_cell	bddb/browse.php	/^	function print_cell($str) {$/;"	f	language:PHP	signature:($str)
+print_enum	bddb/defs.php	/^	function print_enum($name, $array, $vals, $def = -1) {$/;"	f	language:PHP	signature:($name, $array, $vals, $def = 1)
+print_enum_multi	bddb/defs.php	/^	function print_enum_multi($base, $array, $vals, $cnt, $defs, $grp = 0) {$/;"	f	language:PHP	signature:($base, $array, $vals, $cnt, $defs, $grp = 0)
+print_enum_select	bddb/defs.php	/^	function print_enum_select($name, $array, $vals, $def = -1) {$/;"	f	language:PHP	signature:($name, $array, $vals, $def = 1)
+print_field	bddb/defs.php	/^	function print_field($name, $array, $size = 0, $filt='') {$/;"	f	language:PHP	signature:($name, $array, $size = 0, $filt = '')
+print_field_multiline	bddb/defs.php	/^	function print_field_multiline($name, $array, $cols, $rows, $filt='') {$/;"	f	language:PHP	signature:($name, $array, $cols, $rows, $filt = '')
+print_hdr	ublimage.c	/^static void print_hdr(struct ubl_header *ubl_hdr)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct ubl_header * ubl_hdr)
+print_hdr_v1	imximage.c	/^static void print_hdr_v1(struct imx_header *imx_hdr)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imx_hdr)
+print_hdr_v2	imximage.c	/^static void print_hdr_v2(struct imx_header *imx_hdr)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imx_hdr)
+print_header	mkimage.h	/^	void (*print_header) (const void *);$/;"	m	language:C++	struct:image_type_params	typeref:typename:void (*)(const void *)
+printf_filtered	gdb/remote.c	/^#define printf_filtered /;"	d	language:C	file:
+printf_unfiltered	gdb/remote.c	/^#define printf_unfiltered /;"	d	language:C	file:
+printline	kernel-doc/docproc.c	/^static void printline(char * line)               { printf("%s", line); }$/;"	f	language:C	typeref:typename:void	file:	signature:(char * line)
+printlogo_rgb	easylogo/easylogo.c	/^void printlogo_rgb (rgb_t * data, int w, int h)$/;"	f	language:C	typeref:typename:void	signature:(rgb_t * data,int w,int h)
+printlogo_yuyv	easylogo/easylogo.c	/^void printlogo_yuyv (unsigned short *data, int w, int h)$/;"	f	language:C	typeref:typename:void	signature:(unsigned short * data,int w,int h)
+process	checkpatch.pl	/^sub process {$/;"	s	language:Perl
+process_file	kernel-doc/kernel-doc	/^sub process_file($) {$/;"	s	language:Perl
+process_state3_function	kernel-doc/kernel-doc	/^sub process_state3_function($$) {$/;"	s	language:Perl
+process_state3_type	kernel-doc/kernel-doc	/^sub process_state3_type($$) {$/;"	s	language:Perl
+pserno	bddb/edit.php	/^	$pserno = sprintf("%010d", $serno);$/;"	v	language:PHP
+pserno	bddb/edlog.php	/^	$pserno = sprintf("%010d", $serno);$/;"	v	language:PHP
+push_parameter	kernel-doc/kernel-doc	/^sub push_parameter($$$) {$/;"	s	language:Perl
+putchar_filtered	gdb/remote.c	/^#define putchar_filtered /;"	d	language:C	file:
+putchar_unfiltered	gdb/remote.c	/^#define putchar_unfiltered /;"	d	language:C	file:
+putpkt	gdb/remote.c	/^putpkt (buf)$/;"	f	language:C	file:	signature:(buf)
+putpkt_binary	gdb/remote.c	/^putpkt_binary (buf, cnt)$/;"	f	language:C	file:	signature:(buf,cnt)
+puts_filtered	gdb/remote.c	/^#define puts_filtered /;"	d	language:C	file:
+puts_unfiltered	gdb/remote.c	/^#define puts_unfiltered /;"	d	language:C	file:
+pval	easylogo/easylogo.c	/^		unsigned char pval[2];$/;"	m	language:C	union:le16_to_cpu::__anon680cfb0b060a	typeref:typename:unsigned char[2]	file:
+quant	bddb/donew.php	/^	$quant = intval($quant);$/;"	v	language:PHP
+quant	bddb/donew.php	/^	if ($quant <= 0) $quant = 1;$/;"	v	language:PHP
+query	bddb/browse.php	/^	$query = "select * from boards";$/;"	v	language:PHP
+query	bddb/doedit.php	/^	$query="update boards set";$/;"	v	language:PHP
+query	bddb/doedlog.php	/^	$query="update log set";$/;"	v	language:PHP
+query	bddb/donew.php	/^	$query="update boards set";$/;"	v	language:PHP
+query	bddb/donewlog.php	/^	$query="update log set serno=$serno";$/;"	v	language:PHP
+r	bddb/brlog.php	/^	$r=mysql_query("select * from boards where serno=$serno");$/;"	v	language:PHP
+r	bddb/brlog.php	/^	$r=mysql_query("select * from log where serno=$serno order by logno limit $offset,$limit");$/;"	v	language:PHP
+r	bddb/browse.php	/^	$r = mysql_query($query);$/;"	v	language:PHP
+r	bddb/edit.php	/^	$r=mysql_query("select * from boards where serno=$serno");$/;"	v	language:PHP
+r	bddb/edlog.php	/^	$r=mysql_query("select * from log where serno=$serno and logno=$logno");$/;"	v	language:PHP
+r	bddb/new.php	/^		$r=mysql_query("select * from boards where serno=$serno");$/;"	v	language:PHP
+r	easylogo/easylogo.c	/^	unsigned char b, g, r;$/;"	m	language:C	struct:__anon680cfb0b0308	typeref:typename:unsigned char	file:
+r	easylogo/easylogo.c	/^	unsigned char r, g, b;$/;"	m	language:C	struct:__anon680cfb0b0208	typeref:typename:unsigned char	file:
+raddr	kwbimage.h	/^	uint32_t raddr;$/;"	m	language:C++	struct:reg_config	typeref:typename:uint32_t
+raw_line	checkpatch.pl	/^sub raw_line {$/;"	s	language:Perl
+rcfg	kwbimage.h	/^	struct reg_config rcfg[KWBIMAGE_MAX_CONFIG];$/;"	m	language:C++	struct:extbhr_t	typeref:struct:reg_config[]
+rcw_data	pblimage.h	/^	uint8_t rcw_data[RCW_BYTES];$/;"	m	language:C++	struct:pbl_header	typeref:typename:uint8_t[]
+rcwheader	pblimage.h	/^	uint32_t rcwheader;$/;"	m	language:C++	struct:pbl_header	typeref:typename:uint32_t
+rdata	kwbimage.h	/^	uint32_t rdata;$/;"	m	language:C++	struct:reg_config	typeref:typename:uint32_t
+re_allowed_after_test	patman/patchstream.py	/^re_allowed_after_test = re.compile('^Signed-off-by:')$/;"	v	language:Python
+re_commit	patman/patchstream.py	/^re_commit = re.compile('^commit (.*)')$/;"	v	language:Python
+re_cover	patman/patchstream.py	/^re_cover = re.compile('^Cover-letter:')$/;"	v	language:Python
+re_line	patman/patman	/^    re_line = re.compile('(\\S*) (.*)')$/;"	v	language:Python
+re_line	patman/patman.py	/^    re_line = re.compile('(\\S*) (.*)')$/;"	v	language:Python
+re_remove	patman/patchstream.py	/^re_remove = re.compile('^BUG=|^TEST=|^BRANCH=|^Change-Id:|^Review URL:'$/;"	v	language:Python
+re_series	patman/patchstream.py	/^re_series = re.compile('^Series-(\\w*): *(.*)')$/;"	v	language:Python
+re_signoff	patman/patchstream.py	/^re_signoff = re.compile('^Signed-off-by:')$/;"	v	language:Python
+re_space_before_tab	patman/patchstream.py	/^re_space_before_tab = re.compile('^[+].* \\t')$/;"	v	language:Python
+re_subject_tag	patman/commit.py	/^re_subject_tag = re.compile('([^:]*):\\s*(.*)')$/;"	v	language:Python
+re_tag	patman/patchstream.py	/^re_tag = re.compile('^(Tested-by|Acked-by|Cc): (.*)')$/;"	v	language:Python
+rea	mxsboot.c	/^		uint8_t			rea;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+read_frame	gdb/remote.c	/^read_frame (char *buf)$/;"	f	language:C	typeref:typename:int	file:	signature:(char * buf)
+readchar	gdb/remote.c	/^readchar (int timeout)$/;"	f	language:C	typeref:typename:int	file:	signature:(int timeout)
+reg_config	kwbimage.h	/^struct reg_config {$/;"	s	language:C++
+remote_address_masked	gdb/remote.c	/^remote_address_masked (CORE_ADDR addr)$/;"	f	language:C	typeref:typename:CORE_ADDR	file:	signature:(CORE_ADDR addr)
+remote_address_size	gdb/remote.c	/^static int remote_address_size;$/;"	v	language:C	typeref:typename:int	file:
+remote_binary_checked	gdb/remote.c	/^static int remote_binary_checked;$/;"	v	language:C	typeref:typename:int	file:
+remote_binary_download	gdb/remote.c	/^static int remote_binary_download = 1;$/;"	v	language:C	typeref:typename:int	file:
+remote_continue	gdb/remote.c	/^remote_continue(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+remote_debug	gdb/remote.c	/^static int remote_debug = 0, remote_register_buf_size = 0, watchdog = 0;$/;"	v	language:C	typeref:typename:int	file:
+remote_desc	gdb/remote.c	/^int remote_desc = -1, remote_timeout = 10;$/;"	v	language:C	typeref:typename:int
+remote_register_buf_size	gdb/remote.c	/^static int remote_debug = 0, remote_register_buf_size = 0, watchdog = 0;$/;"	v	language:C	typeref:typename:int	file:
+remote_reset	gdb/remote.c	/^remote_reset(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+remote_timeout	gdb/remote.c	/^int remote_desc = -1, remote_timeout = 10;$/;"	v	language:C	typeref:typename:int
+remote_write_bytes	gdb/remote.c	/^remote_write_bytes (memaddr, myaddr, len)$/;"	f	language:C	signature:(memaddr,myaddr,len)
+remote_write_size	gdb/remote.c	/^static int remote_write_size = 0x7fffffff;$/;"	v	language:C	typeref:typename:int	file:
+report	checkpatch.pl	/^sub report {$/;"	s	language:Perl
+report_dump	checkpatch.pl	/^sub report_dump {$/;"	s	language:Perl
+res	ublimage.h	/^	unsigned char	res[UBL_BLOCK_SIZE - 8 * 4];$/;"	m	language:C++	struct:ubl_header	typeref:typename:unsigned char[]
+reserved	omapimage.h	/^	uint16_t reserved;$/;"	m	language:C++	struct:ch_settings	typeref:typename:uint16_t
+reserved1	imximage.h	/^	uint32_t reserved1;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+reserved2	imximage.h	/^	uint32_t reserved2;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+reset_state	kernel-doc/kernel-doc	/^sub reset_state {$/;"	s	language:Perl
+result	patman/patman	/^    result = unittest.TestResult()$/;"	v	language:Python
+result	patman/patman.py	/^    result = unittest.TestResult()$/;"	v	language:Python
+rev	bddb/create_tables.sql	/^   rev tinyint(3) unsigned zerofill NOT NULL,$/;"	E	language:SQL	table:boards
+rev	bddb/doedit.php	/^		$rev=$_REQUEST['rev'];$/;"	v	language:PHP
+rev	bddb/doedit.php	/^		if (($rev = intval($rev)) <= 0 || $rev > 255)$/;"	v	language:PHP
+rev	bddb/donew.php	/^	if (($rev = intval($rev)) <= 0 || $rev > 255)$/;"	v	language:PHP
+rev_filter	bddb/defs.php	/^	function rev_filter($num) {$/;"	f	language:PHP	signature:($num)
+reverse_byte	pblimage.c	/^static uint32_t reverse_byte(uint32_t val)$/;"	f	language:C	typeref:typename:uint32_t	file:	signature:(uint32_t val)
+rgb_t	easylogo/easylogo.c	/^} rgb_t;$/;"	t	language:C	typeref:struct:__anon680cfb0b0208	file:
+rhoh	mxsboot.c	/^		uint8_t			rhoh;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+rloh	mxsboot.c	/^		uint8_t			rloh;$/;"	m	language:C	struct:mx28_nand_fcb::__anoncb0ebba20108	typeref:typename:uint8_t	file:
+row	bddb/brlog.php	/^	while($row=mysql_fetch_array($r)){$/;"	v	language:PHP
+row	bddb/browse.php	/^	while($row=mysql_fetch_array($r)){$/;"	v	language:PHP
+row	bddb/edit.php	/^	$row=mysql_fetch_array($r);$/;"	v	language:PHP
+row	bddb/edlog.php	/^	$row=mysql_fetch_array($r);$/;"	v	language:PHP
+row	bddb/new.php	/^		$row = array();$/;"	v	language:PHP
+row	bddb/new.php	/^		$row=mysql_fetch_array($r);$/;"	v	language:PHP
+rsrvd1	kwbimage.h	/^	uint8_t rsrvd1[0x20 - sizeof(uint32_t)];$/;"	m	language:C++	struct:extbhr_t	typeref:typename:uint8_t[]
+rsrvd2	kwbimage.h	/^	uint8_t rsrvd2[7];$/;"	m	language:C++	struct:extbhr_t	typeref:typename:uint8_t[7]
+rsvd1	kwbimage.h	/^	uint32_t rsvd1;			\/*8-11  *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint32_t
+rsvd2	kwbimage.h	/^	uint16_t rsvd2;			\/*28-29 *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint16_t
+rsvd3	kwbimage.h	/^	uint8_t rsvd3;			\/*25    *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint8_t
+sanitise_line	checkpatch.pl	/^sub sanitise_line {$/;"	s	language:Perl
+sanitise_line_reset	checkpatch.pl	/^sub sanitise_line_reset {$/;"	s	language:Perl
+satapiomode	kwbimage.h	/^	uint8_t satapiomode;		\/*24    *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint8_t
+save_struct_actual	kernel-doc/kernel-doc	/^sub save_struct_actual($) {$/;"	s	language:Perl
+scm_version	setlocalversion	/^scm_version()$/;"	f	language:Sh
+sd_sector	mxsboot.c	/^uint32_t sd_sector = 2048;$/;"	v	language:C	typeref:typename:uint32_t
+sdram0	bddb/create_tables.sql	/^   sdram0 enum('32M','64M','128M','256M','512M','1G','2G','4G'),$/;"	E	language:SQL	table:boards
+sdram1	bddb/create_tables.sql	/^   sdram1 enum('32M','64M','128M','256M','512M','1G','2G','4G'),$/;"	E	language:SQL	table:boards
+sdram2	bddb/create_tables.sql	/^   sdram2 enum('32M','64M','128M','256M','512M','1G','2G','4G'),$/;"	E	language:SQL	table:boards
+sdram3	bddb/create_tables.sql	/^   sdram3 enum('32M','64M','128M','256M','512M','1G','2G','4G'),$/;"	E	language:SQL	table:boards
+sdram_nbits	bddb/defs.php	/^	$sdram_nbits = array(0,25,26,27,28,29,30,31,32);$/;"	v	language:PHP
+sdram_vals	bddb/defs.php	/^	$sdram_vals = array('','32M','64M','128M','256M','512M','1G','2G','4G');$/;"	v	language:PHP
+secondary_boot_tag	mxsboot.c	/^	uint32_t			secondary_boot_tag;$/;"	m	language:C	struct:mx28_sd_config_block	typeref:typename:uint32_t	file:
+section_key	omapimage.h	/^	uint32_t section_key;$/;"	m	language:C++	struct:ch_settings	typeref:typename:uint32_t
+section_name	omapimage.h	/^	uint8_t section_name[12];$/;"	m	language:C++	struct:ch_toc	typeref:typename:uint8_t[12]
+section_offset	omapimage.h	/^	uint32_t section_offset;$/;"	m	language:C++	struct:ch_toc	typeref:typename:uint32_t
+section_size	omapimage.h	/^	uint32_t section_size;$/;"	m	language:C++	struct:ch_toc	typeref:typename:uint32_t
+sector_count	mxsboot.c	/^	uint32_t		sector_count;$/;"	m	language:C	struct:mx28_sd_drive_info	typeref:typename:uint32_t	file:
+sectorcount	imls/imls.c	/^unsigned int sectorcount = 0;$/;"	v	language:C	typeref:typename:unsigned int
+sectoroffset	imls/imls.c	/^unsigned int sectoroffset = 0;$/;"	v	language:C	typeref:typename:unsigned int
+sectors_in_firmware1	mxsboot.c	/^	uint32_t		sectors_in_firmware1;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+sectors_in_firmware2	mxsboot.c	/^	uint32_t		sectors_in_firmware2;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+sectors_per_block	mxsboot.c	/^	uint32_t		sectors_per_block;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+sectorsize	imls/imls.c	/^unsigned int sectorsize = 0;$/;"	v	language:C	typeref:typename:unsigned int
+self	imximage.h	/^	uint32_t self;$/;"	m	language:C++	struct:__anoncdd5fc4c0c08	typeref:typename:uint32_t
+serialclose	gdb/serial.c	/^serialclose(int fd)$/;"	f	language:C	typeref:typename:int	signature:(int fd)
+serialdev	gdb/gdbcont.c	/^char *serialdev = "\/dev\/term\/b";$/;"	v	language:C	typeref:typename:char *
+serialdev	gdb/gdbsend.c	/^char *serialdev = "\/dev\/term\/b";$/;"	v	language:C	typeref:typename:char *
+serialopen	gdb/serial.c	/^serialopen(char *device, speed_t speed)$/;"	f	language:C	typeref:typename:int	signature:(char * device,speed_t speed)
+serialreadchar	gdb/serial.c	/^serialreadchar(int fd, int timeout)$/;"	f	language:C	typeref:typename:int	signature:(int fd,int timeout)
+serialwrite	gdb/serial.c	/^serialwrite(int fd, char *buf, int len)$/;"	f	language:C	typeref:typename:int	signature:(int fd,char * buf,int len)
+series	patman/patman	/^        series = patchstream.GetMetaData(options.start, options.count)$/;"	v	language:Python
+series	patman/patman	/^    series = patchstream.FixPatches(series, args)$/;"	v	language:Python
+series	patman/patman.py	/^        series = patchstream.GetMetaData(options.start, options.count)$/;"	v	language:Python
+series	patman/patman.py	/^    series = patchstream.FixPatches(series, args)$/;"	v	language:Python
+serno	bddb/brlog.php	/^	$serno=intval($serno);$/;"	v	language:PHP
+serno	bddb/browse.php	/^	$serno=isset($_REQUEST['serno'])?$_REQUEST['serno']:'';$/;"	v	language:PHP
+serno	bddb/create_tables.sql	/^   serno int(10) unsigned zerofill NOT NULL auto_increment,$/;"	E	language:SQL	table:boards
+serno	bddb/create_tables.sql	/^   serno int(10) unsigned zerofill NOT NULL,$/;"	E	language:SQL	table:log
+serno	bddb/dodelete.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+serno	bddb/dodellog.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+serno	bddb/doedit.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+serno	bddb/doedlog.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+serno	bddb/donew.php	/^			$serno = sprintf("%010d", $sernos[$i]);$/;"	v	language:PHP
+serno	bddb/donew.php	/^		$serno = mysql_insert_id();$/;"	v	language:PHP
+serno	bddb/donew.php	/^		$serno=$_REQUEST['serno'];$/;"	v	language:PHP
+serno	bddb/donewlog.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+serno	bddb/edlog.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+serno	bddb/execute.php	/^	$serno=isset($_REQUEST['serno'])?$_REQUEST['serno']:'';$/;"	v	language:PHP
+serno	bddb/new.php	/^	$serno=intval($serno);$/;"	v	language:PHP
+serno	bddb/newlog.php	/^	$serno=intval($_REQUEST['serno']);$/;"	v	language:PHP
+sernos	bddb/doedit.php	/^		$sernos = array($serno);$/;"	v	language:PHP
+sernos	bddb/donew.php	/^	$sernos = array();$/;"	v	language:PHP
+set_dcd_rst	imximage.c	/^static set_dcd_rst_t set_dcd_rst;$/;"	v	language:C	typeref:typename:set_dcd_rst_t	file:
+set_dcd_rst_t	imximage.h	/^typedef void (*set_dcd_rst_t)(struct imx_header *imxhdr,$/;"	t	language:C++	typeref:typename:void (*)(struct imx_header * imxhdr,uint32_t dcd_len,char * name,int lineno)
+set_dcd_rst_v1	imximage.c	/^static void set_dcd_rst_v1(struct imx_header *imxhdr, uint32_t dcd_len,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,uint32_t dcd_len,char * name,int lineno)
+set_dcd_rst_v2	imximage.c	/^static void set_dcd_rst_v2(struct imx_header *imxhdr, uint32_t dcd_len,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,uint32_t dcd_len,char * name,int lineno)
+set_dcd_val	imximage.c	/^static set_dcd_val_t set_dcd_val;$/;"	v	language:C	typeref:typename:set_dcd_val_t	file:
+set_dcd_val_t	imximage.h	/^typedef void (*set_dcd_val_t)(struct imx_header *imxhdr,$/;"	t	language:C++	typeref:typename:void (*)(struct imx_header * imxhdr,char * name,int lineno,int fld,uint32_t value,uint32_t off)
+set_dcd_val_v1	imximage.c	/^static void set_dcd_val_v1(struct imx_header *imxhdr, char *name, int lineno,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,char * name,int lineno,int fld,uint32_t value,uint32_t off)
+set_dcd_val_v2	imximage.c	/^static void set_dcd_val_v2(struct imx_header *imxhdr, char *name, int lineno,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,char * name,int lineno,int fld,uint32_t value,uint32_t off)
+set_dec	updater/utils.c	/^set_dec(unsigned long val)$/;"	f	language:C	typeref:typename:void	file:	signature:(unsigned long val)
+set_hdr_func	imximage.c	/^static void set_hdr_func(struct imx_header *imxhdr)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr)
+set_header	mkimage.h	/^	void (*set_header) (void *, struct stat *, int,$/;"	m	language:C++	struct:image_type_params	typeref:typename:void (*)(void *,struct stat *,int,struct mkimage_params *)
+set_imx_hdr	imximage.c	/^static set_imx_hdr_t set_imx_hdr;$/;"	v	language:C	typeref:typename:set_imx_hdr_t	file:
+set_imx_hdr_t	imximage.h	/^typedef void (*set_imx_hdr_t)(struct imx_header *imxhdr, uint32_t dcd_len,$/;"	t	language:C++	typeref:typename:void (*)(struct imx_header * imxhdr,uint32_t dcd_len,uint32_t entry_point,uint32_t flash_offset)
+set_imx_hdr_v1	imximage.c	/^static void set_imx_hdr_v1(struct imx_header *imxhdr, uint32_t dcd_len,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,uint32_t dcd_len,uint32_t entry_point,uint32_t flash_offset)
+set_imx_hdr_v2	imximage.c	/^static void set_imx_hdr_v2(struct imx_header *imxhdr, uint32_t dcd_len,$/;"	f	language:C	typeref:typename:void	file:	signature:(struct imx_header * imxhdr,uint32_t dcd_len,uint32_t entry_point,uint32_t flash_offset)
+set_msr	updater/utils.c	/^set_msr(unsigned long msr)$/;"	f	language:C	typeref:typename:void	file:	signature:(unsigned long msr)
+sflag	imls/imls.c	/^int sflag = 0;$/;"	v	language:C	typeref:typename:int
+show_type	checkpatch.pl	/^sub show_type {$/;"	s	language:Perl
+signature	mxsboot.c	/^	uint32_t			signature;$/;"	m	language:C	struct:mx28_sd_config_block	typeref:typename:uint32_t	file:
+simple_strtol	updater/utils.c	/^long simple_strtol(const char *cp,char **endp,unsigned int base)$/;"	f	language:C	typeref:typename:long	signature:(const char * cp,char ** endp,unsigned int base)
+simple_strtoul	updater/utils.c	/^unsigned long simple_strtoul(const char *cp,char **endp,unsigned int base)$/;"	f	language:C	typeref:typename:unsigned long	signature:(const char * cp,char ** endp,unsigned int base)
+singfunc	kernel-doc/docproc.c	/^static void singfunc(char * filename, char * line)$/;"	f	language:C	typeref:typename:void	file:	signature:(char * filename,char * line)
+singlefunctions	kernel-doc/docproc.c	/^FILELINE * singlefunctions;$/;"	v	language:C	typeref:typename:FILELINE *
+size	aisimage.h	/^	uint32_t size;$/;"	m	language:C++	struct:ais_cmd_load	typeref:typename:uint32_t
+size	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+size	imximage.h	/^	uint32_t size;$/;"	m	language:C++	struct:__anoncdd5fc4c0b08	typeref:typename:uint32_t
+size	omapimage.h	/^	uint32_t size;$/;"	m	language:C++	struct:gp_header	typeref:typename:uint32_t
+skip_bytes	bmp_logo.c	/^void skip_bytes (FILE *fp, int n)$/;"	f	language:C	typeref:typename:void	signature:(FILE * fp,int n)
+skipcpy	mkimage.h	/^	int skipcpy;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+soft_restart	updater/utils.c	/^soft_restart(unsigned long addr)$/;"	f	language:C	typeref:typename:void	file:	signature:(unsigned long addr)
+soh	kwboot.c	/^	uint8_t soh;$/;"	m	language:C	struct:kwboot_block	typeref:typename:uint8_t	file:
+speed	gdb/gdbcont.c	/^speed_t speed = B230400;$/;"	v	language:C	typeref:typename:speed_t
+speed	gdb/gdbsend.c	/^speed_t speed = B230400;$/;"	v	language:C	typeref:typename:speed_t
+speedmap	gdb/serial.c	/^static struct speedmap {$/;"	s	language:C	file:
+speedmap	gdb/serial.c	/^} speedmap[] = {$/;"	v	language:C	typeref:struct:speedmap[]
+sqlerr	bddb/donew.php	/^				$sqlerr = mysql_error();$/;"	v	language:PHP
+sqlerr	bddb/donew.php	/^			$sqlerr = "couldn't allocate new serial number";$/;"	v	language:PHP
+sqlerr	bddb/donew.php	/^			$sqlerr = mysql_error();$/;"	v	language:PHP
+sqlerr	bddb/donew.php	/^	$sqlerr = '';$/;"	v	language:PHP
+sqlerr	bddb/donewlog.php	/^				$sqlerr = mysql_error();$/;"	v	language:PHP
+sqlerr	bddb/donewlog.php	/^			$sqlerr = "couldn't allocate new serial number";$/;"	v	language:PHP
+sqlerr	bddb/donewlog.php	/^		$sqlerr = mysql_error();$/;"	v	language:PHP
+sqlerr	bddb/donewlog.php	/^	$sqlerr = '';$/;"	v	language:PHP
+srcaddr	kwbimage.h	/^	uint32_t srcaddr;		\/*12-15 *\/$/;"	m	language:C++	struct:bhr_t	typeref:typename:uint32_t
+srctree	kernel-doc/docproc.c	/^static char *srctree, *kernsrctree;$/;"	v	language:C	typeref:typename:char *	file:
+start	imximage.h	/^	uint32_t start;$/;"	m	language:C++	struct:__anoncdd5fc4c0b08	typeref:typename:uint32_t
+statement_block_size	checkpatch.pl	/^sub statement_block_size {$/;"	s	language:Perl
+statement_lines	checkpatch.pl	/^sub statement_lines {$/;"	s	language:Perl
+statement_rawlines	checkpatch.pl	/^sub statement_rawlines {$/;"	s	language:Perl
+str	gdb/serial.c	/^    char *str;$/;"	m	language:C	struct:speedmap	typeref:typename:char *	file:
+str	patman/patman	/^        str = 'No commits found to process - please use -c flag'$/;"	v	language:Python
+str	patman/patman.py	/^        str = 'No commits found to process - please use -c flag'$/;"	v	language:Python
+strcat	updater/ppcstring.S	/^strcat:$/;"	l	language:Asm
+strcat	updater/string.c	/^char * strcat(char * dest, const char * src)$/;"	f	language:C	typeref:typename:char *	signature:(char * dest,const char * src)
+strchr	updater/string.c	/^char * strchr(const char * s, int c)$/;"	f	language:C	typeref:typename:char *	signature:(const char * s,int c)
+strcmp	updater/ppcstring.S	/^strcmp:$/;"	l	language:Asm
+strcmp	updater/string.c	/^int strcmp(const char * cs,const char * ct)$/;"	f	language:C	typeref:typename:int	signature:(const char * cs,const char * ct)
+strcpy	updater/ppcstring.S	/^strcpy:$/;"	l	language:Asm
+strcpy	updater/string.c	/^char * strcpy(char * dest,const char *src)$/;"	f	language:C	typeref:typename:char *	signature:(char * dest,const char * src)
+strdup	updater/string.c	/^char * strdup(const char *s)$/;"	f	language:C	typeref:typename:char *	signature:(const char * s)
+strlen	updater/ppcstring.S	/^strlen:$/;"	l	language:Asm
+strlen	updater/string.c	/^size_t strlen(const char * s)$/;"	f	language:C	typeref:typename:size_t	signature:(const char * s)
+strncat	updater/string.c	/^char * strncat(char *dest, const char *src, size_t count)$/;"	f	language:C	typeref:typename:char *	signature:(char * dest,const char * src,size_t count)
+strncmp	updater/string.c	/^int strncmp(const char * cs,const char * ct,size_t count)$/;"	f	language:C	typeref:typename:int	signature:(const char * cs,const char * ct,size_t count)
+strncpy	updater/ppcstring.S	/^strncpy:$/;"	l	language:Asm
+strncpy	updater/string.c	/^char * strncpy(char * dest,const char *src,size_t count)$/;"	f	language:C	typeref:typename:char *	signature:(char * dest,const char * src,size_t count)
+strnlen	updater/string.c	/^size_t strnlen(const char * s, size_t count)$/;"	f	language:C	typeref:typename:size_t	signature:(const char * s,size_t count)
+strpbrk	updater/string.c	/^char * strpbrk(const char * cs,const char * ct)$/;"	f	language:C	typeref:typename:char *	signature:(const char * cs,const char * ct)
+strrchr	updater/string.c	/^char * strrchr(const char * s, int c)$/;"	f	language:C	typeref:typename:char *	signature:(const char * s,int c)
+strspn	updater/string.c	/^size_t strspn(const char *s, const char *accept)$/;"	f	language:C	typeref:typename:size_t	signature:(const char * s,const char * accept)
+strstr	updater/string.c	/^char * strstr(const char * s1,const char * s2)$/;"	f	language:C	typeref:typename:char *	signature:(const char * s1,const char * s2)
+strtok	updater/string.c	/^char * strtok(char * s,const char * ct)$/;"	f	language:C	typeref:typename:char *	signature:(char * s,const char * ct)
+strtok_r	mingw_support.c	/^char *strtok_r(char *s, const char *delim, char **save_ptr)$/;"	f	language:C	typeref:typename:char *	signature:(char * s,const char * delim,char ** save_ptr)
+strwidth	cleanpatch	/^sub strwidth($) {$/;"	s	language:Perl
+subdirs	Makefile	/^subdirs:$/;"	t	language:Make
+submit	bddb/execute.php	/^	$submit=isset($_REQUEST['submit'])?$_REQUEST['submit']:"[NOT SET]";$/;"	v	language:PHP
+suite	patman/patman	/^    suite = doctest.DocTestSuite('gitutil')$/;"	v	language:Python
+suite	patman/patman	/^    suite = unittest.TestLoader().loadTestsFromTestCase(test.TestPatch)$/;"	v	language:Python
+suite	patman/patman.py	/^    suite = doctest.DocTestSuite('gitutil')$/;"	v	language:Python
+suite	patman/patman.py	/^    suite = unittest.TestLoader().loadTestsFromTestCase(test.TestPatch)$/;"	v	language:Python
+super_root_key	imximage.h	/^	uint32_t super_root_key;$/;"	m	language:C++	struct:__anoncdd5fc4c0408	typeref:typename:uint32_t
+symbolcnt	kernel-doc/docproc.c	/^	int symbolcnt;$/;"	m	language:C	struct:symfile	typeref:typename:int	file:
+symbollist	kernel-doc/docproc.c	/^	struct symbols *symbollist;$/;"	m	language:C	struct:symfile	typeref:struct:symbols *	file:
+symbols	kernel-doc/docproc.c	/^struct symbols$/;"	s	language:C	file:
+symbolsonly	kernel-doc/docproc.c	/^FILEONLY *symbolsonly;$/;"	v	language:C	typeref:typename:FILEONLY *
+symfile	kernel-doc/docproc.c	/^struct symfile$/;"	s	language:C	file:
+symfilecnt	kernel-doc/docproc.c	/^int symfilecnt = 0;$/;"	v	language:C	typeref:typename:int
+symfilelist	kernel-doc/docproc.c	/^struct symfile symfilelist[MAXFILES];$/;"	v	language:C	typeref:struct:symfile[]
+syscall_munge	kernel-doc/kernel-doc	/^sub syscall_munge() {$/;"	s	language:Perl
+tag	imximage.h	/^	uint8_t tag;$/;"	m	language:C++	struct:__anoncdd5fc4c0808	typeref:typename:uint8_t
+tag	imximage.h	/^	uint8_t tag;$/;"	m	language:C++	struct:__anoncdd5fc4c0908	typeref:typename:uint8_t
+tag	mxsboot.c	/^	uint32_t		tag;$/;"	m	language:C	struct:mx28_sd_drive_info	typeref:typename:uint32_t	file:
+target_mourn_inferior	gdb/remote.c	/^#define target_mourn_inferior(/;"	d	language:C	file:	signature:()
+testBasic	patman/test.py	/^    def testBasic(self):$/;"	m	language:Python	class:TestPatch	signature:(self)
+testCheckpatch	patman/test.py	/^    def testCheckpatch(self):$/;"	m	language:Python	class:TestPatch	signature:(self)
+text_filter	bddb/defs.php	/^	function text_filter($str) {$/;"	f	language:PHP	signature:($str)
+tga_header_t	easylogo/easylogo.c	/^} tga_header_t;$/;"	t	language:C	typeref:struct:__anon680cfb0b0108	file:
+timing	mxsboot.c	/^	}			timing;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:struct:mx28_nand_fcb::__anoncb0ebba20108	file:
+tios	gdb/serial.c	/^static struct termios tios = { BRKINT, 0, B115200|CS8|CREAD, 0,   0   };$/;"	v	language:C	typeref:struct:termios	file:
+tios	gdb/serial.c	/^static struct termios tios = { BRKINT, 0, B115200|CS8|CREAD, 0, { 0 } };$/;"	v	language:C	typeref:struct:termios	file:
+toc_offset	omapimage.c	/^static int toc_offset(void *hdr, void *member)$/;"	f	language:C	typeref:typename:int	file:	signature:(void * hdr,void * member)
+tohex	gdb/remote.c	/^tohex (int nib)$/;"	f	language:C	typeref:typename:int	file:	signature:(int nib)
+top_of_kernel_tree	checkpatch.pl	/^sub top_of_kernel_tree {$/;"	s	language:Perl
+total_internal_die	mxsboot.c	/^	uint32_t		total_internal_die;		\/* Ignored *\/$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+total_page_size	mxsboot.c	/^	uint32_t		total_page_size;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+tracepoint_munge	kernel-doc/kernel-doc	/^sub tracepoint_munge($) {$/;"	s	language:Perl
+type	bddb/doedit.php	/^		$type=$_REQUEST['type'];$/;"	v	language:PHP
+type	imximage.h	/^	uint32_t type; \/* Type of pointer (byte, halfword, word, wait\/read) *\/$/;"	m	language:C++	struct:__anoncdd5fc4c0108	typeref:typename:uint32_t
+type	mkimage.h	/^	int type;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+type_vals	bddb/defs.php	/^	$type_vals = array('IO','CLP','DSP','INPUT','ALT-INPUT','DISPLAY');$/;"	v	language:PHP
+u32	omap/clocks_get_m_n.c	/^typedef unsigned int u32;$/;"	t	language:C	typeref:typename:unsigned int	file:
+ubl_header	ublimage.h	/^struct ubl_header {$/;"	s	language:C++
+ublimage_bootops	ublimage.c	/^static table_entry_t ublimage_bootops[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+ublimage_check_image_types	ublimage.c	/^static int ublimage_check_image_types(uint8_t type)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint8_t type)
+ublimage_check_params	ublimage.c	/^int ublimage_check_params(struct mkimage_params *params)$/;"	f	language:C	typeref:typename:int	signature:(struct mkimage_params * params)
+ublimage_cmd	ublimage.h	/^enum ublimage_cmd {$/;"	g	language:C++
+ublimage_cmds	ublimage.c	/^static table_entry_t ublimage_cmds[] = {$/;"	v	language:C	typeref:typename:table_entry_t[]	file:
+ublimage_fld_types	ublimage.h	/^enum ublimage_fld_types {$/;"	g	language:C++
+ublimage_header	ublimage.c	/^static struct ubl_header ublimage_header;$/;"	v	language:C	typeref:struct:ubl_header	file:
+ublimage_params	ublimage.c	/^static struct image_type_params ublimage_params = {$/;"	v	language:C	typeref:struct:image_type_params	file:
+ublimage_print_header	ublimage.c	/^static void ublimage_print_header(const void *ptr)$/;"	f	language:C	typeref:typename:void	file:	signature:(const void * ptr)
+ublimage_set_header	ublimage.c	/^static void ublimage_set_header(void *ptr, struct stat *sbuf, int ifd,$/;"	f	language:C	typeref:typename:void	file:	signature:(void * ptr,struct stat * sbuf,int ifd,struct mkimage_params * params)
+ublimage_verify_header	ublimage.c	/^static int ublimage_verify_header(unsigned char *ptr, int image_size,$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned char * ptr,int image_size,struct mkimage_params * params)
+uint	mingw_support.h	/^typedef	UINT	uint;$/;"	t	language:C++	typeref:typename:UINT
+ulong	mingw_support.h	/^typedef	ULONG	ulong;$/;"	t	language:C++	typeref:typename:ULONG
+unused	omapimage.h	/^	uint8_t unused[12];$/;"	m	language:C++	struct:ch_toc	typeref:typename:uint8_t[12]
+usage	bmp_logo.c	/^void usage(const char *prog)$/;"	f	language:C	typeref:typename:void	signature:(const char * prog)
+usage	easylogo/easylogo.c	/^static void usage (int exit_status)$/;"	f	language:C	typeref:typename:void	file:	signature:(int exit_status)
+usage	env/fw_env_main.c	/^void usage(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+usage	imls/imls.c	/^void usage()$/;"	f	language:C	typeref:typename:void	signature:()
+usage	jtagconsole	/^usage() {$/;"	f	language:Sh
+usage	kernel-doc/docproc.c	/^static void usage (void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+usage	kernel-doc/kernel-doc	/^sub usage {$/;"	s	language:Perl
+usage	mkenvimage.c	/^static void usage(const char *exec_name)$/;"	f	language:C	typeref:typename:void	file:	signature:(const char * exec_name)
+usage	mkimage.c	/^usage ()$/;"	f	language:C	typeref:typename:void	signature:()
+usage	mxsboot.c	/^void usage(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+usage	netconsole	/^usage() {$/;"	f	language:Sh
+usage	setlocalversion	/^usage() {$/;"	f	language:Sh
+val	easylogo/easylogo.c	/^		unsigned short val;$/;"	m	language:C	union:le16_to_cpu::__anon680cfb0b060a	typeref:typename:unsigned short	file:
+val	gdb/serial.c	/^    speed_t val;$/;"	m	language:C	struct:speedmap	typeref:typename:speed_t	file:
+valid	omapimage.h	/^	uint8_t valid;$/;"	m	language:C++	struct:ch_settings	typeref:typename:uint8_t
+valid_gph_load_addr	omapimage.c	/^static int valid_gph_load_addr(uint32_t load_addr)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint32_t load_addr)
+valid_gph_size	omapimage.c	/^static int valid_gph_size(uint32_t size)$/;"	f	language:C	typeref:typename:int	file:	signature:(uint32_t size)
+valid_series	patman/series.py	/^valid_series = ['to', 'cc', 'version', 'changes', 'prefix', 'notes', 'name'];$/;"	v	language:Python
+value	imximage.h	/^	uint32_t value; \/* Data to write *\/$/;"	m	language:C++	struct:__anoncdd5fc4c0108	typeref:typename:uint32_t
+value	imximage.h	/^	uint32_t value;$/;"	m	language:C++	struct:__anoncdd5fc4c0708	typeref:typename:uint32_t
+verbose	bddb/browse.php	/^	$verbose=isset($_REQUEST['verbose'])?intval($_REQUEST['verbose']):0;$/;"	v	language:PHP
+verbose	gdb/gdbcont.c	/^int verbose = 0;$/;"	v	language:C	typeref:typename:int
+verbose	gdb/gdbsend.c	/^int verbose = 0, docont = 0;$/;"	v	language:C	typeref:typename:int
+verify_header	mkimage.h	/^	int (*verify_header) (unsigned char *, int, struct mkimage_params *);$/;"	m	language:C++	struct:image_type_params	typeref:typename:int (*)(unsigned char *,int,struct mkimage_params *)
+version	imximage.h	/^	uint8_t version;$/;"	m	language:C++	struct:__anoncdd5fc4c0808	typeref:typename:uint8_t
+version	mxsboot.c	/^	uint32_t		version;$/;"	m	language:C	struct:mx28_nand_dbbt	typeref:typename:uint32_t	file:
+version	mxsboot.c	/^	uint32_t		version;$/;"	m	language:C	struct:mx28_nand_fcb	typeref:typename:uint32_t	file:
+version	omapimage.h	/^	uint8_t version;$/;"	m	language:C++	struct:ch_settings	typeref:typename:uint8_t
+vflag	mkimage.h	/^	int vflag;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+vrec_header	mkimage.h	/^	int (*vrec_header) (struct mkimage_params *,$/;"	m	language:C++	struct:image_type_params	typeref:typename:int (*)(struct mkimage_params *,struct image_type_params *)
+watchdog	gdb/remote.c	/^static int remote_debug = 0, remote_register_buf_size = 0, watchdog = 0;$/;"	v	language:C	typeref:typename:int	file:
+which_conf	checkpatch.pl	/^sub which_conf {$/;"	s	language:Perl
+who	bddb/doedlog.php	/^		$who=$_REQUEST['who'];$/;"	v	language:PHP
+who	bddb/donewlog.php	/^		$who=$_REQUEST['who'];$/;"	v	language:PHP
+width	bmp_logo.c	/^	uint16_t width;$/;"	m	language:C	struct:bitmap_s	typeref:typename:uint16_t	file:
+width	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+write_buff	updater/flash_hw.c	/^int write_buff (flash_info_t *info, uchar *src, ulong addr, ulong cnt)$/;"	f	language:C	typeref:typename:int	signature:(flash_info_t * info,uchar * src,ulong addr,ulong cnt)
+write_dcd_command	imximage.h	/^	write_dcd_command_t write_dcd_command;$/;"	m	language:C++	struct:__anoncdd5fc4c0a08	typeref:typename:write_dcd_command_t
+write_dcd_command_t	imximage.h	/^} __attribute__((packed)) write_dcd_command_t;$/;"	t	language:C++	typeref:struct:__anoncdd5fc4c0908
+write_eeprom_cfg_file	bddb/defs.php	/^	function write_eeprom_cfg_file() {$/;"	f	language:PHP	signature:()
+write_word	updater/flash_hw.c	/^static int write_word (flash_info_t *info, ulong dest, ulong data)$/;"	f	language:C	typeref:typename:int	file:	signature:(flash_info_t * info,ulong dest,ulong data)
+xflag	mkimage.h	/^	int xflag;$/;"	m	language:C++	struct:mkimage_params	typeref:typename:int
+xlxgrd0	bddb/create_tables.sql	/^   xlxgrd0 enum('NORMAL','ENGSAMP'),$/;"	E	language:SQL	table:boards
+xlxgrd1	bddb/create_tables.sql	/^   xlxgrd1 enum('NORMAL','ENGSAMP'),$/;"	E	language:SQL	table:boards
+xlxgrd2	bddb/create_tables.sql	/^   xlxgrd2 enum('NORMAL','ENGSAMP'),$/;"	E	language:SQL	table:boards
+xlxgrd3	bddb/create_tables.sql	/^   xlxgrd3 enum('NORMAL','ENGSAMP'),$/;"	E	language:SQL	table:boards
+xlxgrd_vals	bddb/defs.php	/^	$xlxgrd_vals = array('','NORMAL','ENGSAMP');$/;"	v	language:PHP
+xlxspd0	bddb/create_tables.sql	/^   xlxspd0 enum('6','7','8','4','5','9','10','11','12'),$/;"	E	language:SQL	table:boards
+xlxspd1	bddb/create_tables.sql	/^   xlxspd1 enum('6','7','8','4','5','9','10','11','12'),$/;"	E	language:SQL	table:boards
+xlxspd2	bddb/create_tables.sql	/^   xlxspd2 enum('6','7','8','4','5','9','10','11','12'),$/;"	E	language:SQL	table:boards
+xlxspd3	bddb/create_tables.sql	/^   xlxspd3 enum('6','7','8','4','5','9','10','11','12'),$/;"	E	language:SQL	table:boards
+xlxspd_vals	bddb/defs.php	/^	$xlxspd_vals = array('','6','7','8','4','5','9','10','11','12');$/;"	v	language:PHP
+xlxtmp0	bddb/create_tables.sql	/^   xlxtmp0 enum('COM','IND'),$/;"	E	language:SQL	table:boards
+xlxtmp1	bddb/create_tables.sql	/^   xlxtmp1 enum('COM','IND'),$/;"	E	language:SQL	table:boards
+xlxtmp2	bddb/create_tables.sql	/^   xlxtmp2 enum('COM','IND'),$/;"	E	language:SQL	table:boards
+xlxtmp3	bddb/create_tables.sql	/^   xlxtmp3 enum('COM','IND'),$/;"	E	language:SQL	table:boards
+xlxtmp_vals	bddb/defs.php	/^	$xlxtmp_vals = array('','COM','IND');$/;"	v	language:PHP
+xlxtyp0	bddb/create_tables.sql	/^   xlxtyp0 enum('XCV300E','XCV400E','XCV600E','XC2V2000','XC2V3000','XC2V4000','XC2V6000','XC2VP/;"	E	language:SQL	table:boards
+xlxtyp1	bddb/create_tables.sql	/^   xlxtyp1 enum('XCV300E','XCV400E','XCV600E','XC2V2000','XC2V3000','XC2V4000','XC2V6000','XC2VP/;"	E	language:SQL	table:boards
+xlxtyp2	bddb/create_tables.sql	/^   xlxtyp2 enum('XCV300E','XCV400E','XCV600E','XC2V2000','XC2V3000','XC2V4000','XC2V6000','XC2VP/;"	E	language:SQL	table:boards
+xlxtyp3	bddb/create_tables.sql	/^   xlxtyp3 enum('XCV300E','XCV400E','XCV600E','XC2V2000','XC2V3000','XC2V4000','XC2V6000','XC2VP/;"	E	language:SQL	table:boards
+xlxtyp_vals	bddb/defs.php	/^	$xlxtyp_vals = array('','XCV300E','XCV400E','XCV600E','XC2V2000','XC2V3000','XC2V4000','XC2V600/;"	v	language:PHP
+xmalloc	easylogo/easylogo.c	/^void *xmalloc (size_t size)$/;"	f	language:C	typeref:typename:void *	signature:(size_t size)
+xml_escape	kernel-doc/kernel-doc	/^sub xml_escape($) {$/;"	s	language:Perl
+xstrtol	mkenvimage.c	/^long int xstrtol(const char *s)$/;"	f	language:C	typeref:typename:long int	signature:(const char * s)
+y1	easylogo/easylogo.c	/^	unsigned char Cb, y1, Cr, y2;$/;"	m	language:C	struct:__anon680cfb0b0408	typeref:typename:unsigned char	file:
+y2	easylogo/easylogo.c	/^	unsigned char Cb, y1, Cr, y2;$/;"	m	language:C	struct:__anon680cfb0b0408	typeref:typename:unsigned char	file:
+yuyv	easylogo/easylogo.c	/^	int width, height, pixels, bpp, pixel_size, size, palette_size, yuyv;$/;"	m	language:C	struct:__anon680cfb0b0508	typeref:typename:int	file:
+yuyv_t	easylogo/easylogo.c	/^} yuyv_t;$/;"	t	language:C	typeref:struct:__anon680cfb0b0408	file:
+zbt0	bddb/create_tables.sql	/^   zbt0 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt1	bddb/create_tables.sql	/^   zbt1 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt2	bddb/create_tables.sql	/^   zbt2 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt3	bddb/create_tables.sql	/^   zbt3 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt4	bddb/create_tables.sql	/^   zbt4 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt5	bddb/create_tables.sql	/^   zbt5 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt6	bddb/create_tables.sql	/^   zbt6 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt7	bddb/create_tables.sql	/^   zbt7 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt8	bddb/create_tables.sql	/^   zbt8 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt9	bddb/create_tables.sql	/^   zbt9 enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbt_nbits	bddb/defs.php	/^	$zbt_nbits = array(0,19,20,21,22,23,24);$/;"	v	language:PHP
+zbt_vals	bddb/defs.php	/^	$zbt_vals = array('','512K','1M','2M','4M','8M','16M');$/;"	v	language:PHP
+zbta	bddb/create_tables.sql	/^   zbta enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbtb	bddb/create_tables.sql	/^   zbtb enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbtc	bddb/create_tables.sql	/^   zbtc enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbtd	bddb/create_tables.sql	/^   zbtd enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbte	bddb/create_tables.sql	/^   zbte enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
+zbtf	bddb/create_tables.sql	/^   zbtf enum('512K','1M','2M','4M','8M','16M'),$/;"	E	language:SQL	table:boards
