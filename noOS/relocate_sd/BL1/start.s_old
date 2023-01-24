@@ -1,0 +1,38 @@
+.global _start
+.global IRQ_handle
+#define SVC_STACK	0xd0037d80
+_start:
+	// 关闭看门狗
+	ldr	r0, =0xE2700000			
+	mov	r1, #0
+	str	r1, [r0]
+
+	// 设置栈，以便调用c函数
+	//ldr	sp, =0x40000000		
+ ldr sp,=SVC_STACK
+	// 开中断
+	mov r0, #0x53			
+	msr CPSR_cxsf, r0	
+	
+        bl buzzer_init
+        bl buzzer_on
+	adr r0, _start  		  	
+	ldr r1, =_start       	
+	cmp r0, r1
+	beq run_on_dram     
+
+	// 汇编初始化时钟		
+	bl clock_init	
+	bl uart_init
+
+bl  mem_init
+
+bl Hsmmc_Init
+bl copy_code_to_dram
+
+run_on_dram:
+	ldr pc, =main
+	// 调用main函数
+	//bl main
+halt:
+ b halt

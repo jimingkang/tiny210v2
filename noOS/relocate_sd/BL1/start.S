@@ -38,20 +38,23 @@ _start:
 	
 
 	ldr	sp, =0xD0037D80       @ 设置栈，以便调用c函数						
-/*	
+
+	/**/	
 	adr r0, _start  		  @ 重定位	
                               @ _start当前所位于的地址
 	ldr r1, =_start           @ _start的链接地址:CONFIG_SYS_TEXT_BASE 	
 	cmp r0, r1
 	beq run_on_dram           @ 如果在是链接地址处，则直接运行
-*/
-	bl  system_clock_init	
+        bl buzzer_init
+	bl buzzer_on
+
+	bl  clock_init	
 	bl  uart_init             @ 初始化串口 
-	bl  nand_asm_init         @ NandFlash初始化 
+//	bl  nand_asm_init         @ NandFlash初始化 
 bl buzzer_init	
 bl buzzer_on
 	bl  mem_init              @ dram初始化
-//判断启动方式
+/*判断启动方式
 #define PRO_ID_BASE			0xE0000000
 #define PRO_ID_OFFSET			0x00
 #define OMR_OFFSET			0x04
@@ -69,7 +72,7 @@ bl buzzer_on
 	ldr	r1, [r0,#OMR_OFFSET]
 	bic	r2, r1, #0xffffffc1
 
-	/* NAND BOOT */
+	/ NAND BOOT /
 	cmp	r2, #0x0		@ 512B 4-cycle
 	moveq	r3, #BOOT_NAND
 
@@ -85,15 +88,15 @@ bl buzzer_on
 	cmp	r2, #0x8		@ OneNAND Mux
 	moveq	r3, #BOOT_ONENAND
 
-	/* SD/MMC BOOT */
+	// SD/MMC BOOT 
 	cmp     r2, #0xc
 	moveq   r3, #BOOT_MMCSD	
 
-	/* NOR BOOT */
+	// NOR BOOT /
 	cmp     r2, #0x14
 	moveq   r3, #BOOT_NOR	
 
-	/* Uart BOOTONG failed */
+	// Uart BOOTONG failed /
 	cmp     r2, #(0x1<<4)
 	moveq   r3, #BOOT_SEC_DEV
 
@@ -101,16 +104,16 @@ bl buzzer_on
 	str	r3, [r0, #INF_REG3_OFFSET]
 	
 	ldr	r1, [r0, #INF_REG3_OFFSET]
-	cmp	r1, #BOOT_NAND		/* 0x0 => boot device is nand */
+	cmp	r1, #BOOT_NAND		// 0x0 => boot device is nand /
 	beq	nand_boot_210
 	cmp     r1, #BOOT_MMCSD
 	beq     mmcsd_boot_210
 	
 nand_boot_210:
 	bl  board_init_f_nand     @ 拷贝bl2代码到dram中，并运行
-
+*/
 mmcsd_boot_210:
-	bl  board_init_f_mmc
+	bl  copy_code_to_dram //board_init_f_mmc
 run_on_dram:			 
 	bl  main                  @ 跳转		
 

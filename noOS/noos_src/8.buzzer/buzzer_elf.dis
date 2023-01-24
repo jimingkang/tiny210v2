@@ -1,0 +1,120 @@
+
+buzzer.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <_start>:
+   0:	e59f0010 	ldr	r0, [pc, #16]	; 18 <halt+0x4>
+   4:	e3a01000 	mov	r1, #0
+   8:	e5801000 	str	r1, [r0]
+   c:	e3a0d101 	mov	sp, #1073741824	; 0x40000000
+  10:	eb000012 	bl	60 <main>
+
+00000014 <halt>:
+  14:	eafffffe 	b	14 <halt>
+  18:	e2700000 	rsbs	r0, r0, #0
+
+0000001c <delay>:
+  1c:	e52db004 	push	{fp}		; (str fp, [sp, #-4]!)
+  20:	e28db000 	add	fp, sp, #0
+  24:	e24dd014 	sub	sp, sp, #20
+  28:	e50b0010 	str	r0, [fp, #-16]
+  2c:	e51b3010 	ldr	r3, [fp, #-16]
+  30:	e50b3008 	str	r3, [fp, #-8]
+  34:	e1a00000 	nop			; (mov r0, r0)
+  38:	e51b3008 	ldr	r3, [fp, #-8]
+  3c:	e2432001 	sub	r2, r3, #1
+  40:	e50b2008 	str	r2, [fp, #-8]
+  44:	e3530000 	cmp	r3, #0
+  48:	1afffffa 	bne	38 <delay+0x1c>
+  4c:	e1a00000 	nop			; (mov r0, r0)
+  50:	e1a00000 	nop			; (mov r0, r0)
+  54:	e28bd000 	add	sp, fp, #0
+  58:	e49db004 	pop	{fp}		; (ldr fp, [sp], #4)
+  5c:	e12fff1e 	bx	lr
+
+00000060 <main>:
+  60:	e92d4800 	push	{fp, lr}
+  64:	e28db004 	add	fp, sp, #4
+  68:	eb000006 	bl	88 <buzzer_init>
+  6c:	eb000011 	bl	b8 <buzzer_on>
+  70:	e3a00805 	mov	r0, #327680	; 0x50000
+  74:	ebffffe8 	bl	1c <delay>
+  78:	eb00001a 	bl	e8 <buzzer_off>
+  7c:	e3a00805 	mov	r0, #327680	; 0x50000
+  80:	ebffffe5 	bl	1c <delay>
+  84:	eafffff8 	b	6c <main+0xc>
+
+00000088 <buzzer_init>:
+  88:	e52db004 	push	{fp}		; (str fp, [sp, #-4]!)
+  8c:	e28db000 	add	fp, sp, #0
+  90:	e59f301c 	ldr	r3, [pc, #28]	; b4 <buzzer_init+0x2c>
+  94:	e5933000 	ldr	r3, [r3]
+  98:	e59f2014 	ldr	r2, [pc, #20]	; b4 <buzzer_init+0x2c>
+  9c:	e3833001 	orr	r3, r3, #1
+  a0:	e5823000 	str	r3, [r2]
+  a4:	e1a00000 	nop			; (mov r0, r0)
+  a8:	e28bd000 	add	sp, fp, #0
+  ac:	e49db004 	pop	{fp}		; (ldr fp, [sp], #4)
+  b0:	e12fff1e 	bx	lr
+  b4:	e02000a0 	eor	r0, r0, r0, lsr #1
+
+000000b8 <buzzer_on>:
+  b8:	e52db004 	push	{fp}		; (str fp, [sp, #-4]!)
+  bc:	e28db000 	add	fp, sp, #0
+  c0:	e59f301c 	ldr	r3, [pc, #28]	; e4 <buzzer_on+0x2c>
+  c4:	e5933000 	ldr	r3, [r3]
+  c8:	e59f2014 	ldr	r2, [pc, #20]	; e4 <buzzer_on+0x2c>
+  cc:	e3833001 	orr	r3, r3, #1
+  d0:	e5823000 	str	r3, [r2]
+  d4:	e1a00000 	nop			; (mov r0, r0)
+  d8:	e28bd000 	add	sp, fp, #0
+  dc:	e49db004 	pop	{fp}		; (ldr fp, [sp], #4)
+  e0:	e12fff1e 	bx	lr
+  e4:	e02000a4 	eor	r0, r0, r4, lsr #1
+
+000000e8 <buzzer_off>:
+  e8:	e52db004 	push	{fp}		; (str fp, [sp, #-4]!)
+  ec:	e28db000 	add	fp, sp, #0
+  f0:	e59f301c 	ldr	r3, [pc, #28]	; 114 <buzzer_off+0x2c>
+  f4:	e5933000 	ldr	r3, [r3]
+  f8:	e59f2014 	ldr	r2, [pc, #20]	; 114 <buzzer_off+0x2c>
+  fc:	e3c33001 	bic	r3, r3, #1
+ 100:	e5823000 	str	r3, [r2]
+ 104:	e1a00000 	nop			; (mov r0, r0)
+ 108:	e28bd000 	add	sp, fp, #0
+ 10c:	e49db004 	pop	{fp}		; (ldr fp, [sp], #4)
+ 110:	e12fff1e 	bx	lr
+ 114:	e02000a4 	eor	r0, r0, r4, lsr #1
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	3a434347 	bcc	10d0d24 <__bss_end__+0x10c0c0c>
+   4:	62552820 	subsvs	r2, r5, #32, 16	; 0x200000
+   8:	75746e75 	ldrbvc	r6, [r4, #-3701]!	; 0xfffff18b
+   c:	342e3920 	strtcc	r3, [lr], #-2336	; 0xfffff6e0
+  10:	312d302e 			; <UNDEFINED> instruction: 0x312d302e
+  14:	6e756275 	mrcvs	2, 3, r6, cr5, cr5, {3}
+  18:	7e317574 	mrcvc	5, 1, r7, cr1, cr4, {3}
+  1c:	302e3032 	eorcc	r3, lr, r2, lsr r0
+  20:	29312e34 	ldmdbcs	r1!, {r2, r4, r5, r9, sl, fp, sp}
+  24:	342e3920 	strtcc	r3, [lr], #-2336	; 0xfffff6e0
+  28:	Address 0x0000000000000028 is out of bounds.
+
+
+Disassembly of section .ARM.attributes:
+
+00000000 <.ARM.attributes>:
+   0:	00002541 	andeq	r2, r0, r1, asr #10
+   4:	61656100 	cmnvs	r5, r0, lsl #2
+   8:	01006962 	tsteq	r0, r2, ror #18
+   c:	0000001b 	andeq	r0, r0, fp, lsl r0
+  10:	00543505 	subseq	r3, r4, r5, lsl #10
+  14:	01080306 	tsteq	r8, r6, lsl #6
+  18:	04120109 	ldreq	r0, [r2], #-265	; 0xfffffef7
+  1c:	01150114 	tsteq	r5, r4, lsl r1
+  20:	01180317 	tsteq	r8, r7, lsl r3
+  24:	Address 0x0000000000000024 is out of bounds.
+
